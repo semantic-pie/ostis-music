@@ -12,5 +12,7 @@ if [ -e ostis-example-app ]; then
     echo "Moving music-kb to ostis-exemaple-app kb"
     cp -r $BASE_DIR/kb $BASE_DIR/ostis-example-app/kb/music-kb
 else
-    echo "Something wrong"
+    echo "ostis-example-app founded, moving kb "
+    rm -rf $BASE_DIR/ostis-example-app/music-kb
+    cp -r $BASE_DIR/kb $BASE_DIR/ostis-example-app/kb/music-kb
 fi
