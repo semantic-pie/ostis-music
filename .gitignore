@@ -1,0 +1,16 @@
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/__pycache__
+**/postgres-data
+
+.idea
+.vscode
+
+ostis-example-app
+
+cmake-build-debug
+cmake-build
+build
+target
+
