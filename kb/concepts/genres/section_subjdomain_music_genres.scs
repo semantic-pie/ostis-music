@@ -1,0 +1,28 @@
+section_subject_domain_of_music_genres
+
+<- sc_node_struct;
+=> nrel_main_idtf:
+    [Раздел. Предметная область жанров музыки](* <- lang_ru;; *);
+    [Section. Subject domain of music genres](* <- lang_en;; *);
+=> nrel_idtf:
+	[Раздел базы знаний IMS, описывающий жанры музыки](* <- lang_ru;; *);
+<- not_enough_formed_structure;
+<- non_atomic_section;;
+
+section_subject_domain_of_music_genres
+-> rrel_key_sc_element:
+    subject_domain_of_music_genres;
+    concept_rock;
+    concept_blues;
+    cocnept_classical_music;
+    concept_funk;
+    concept_indie;
+    concept_metal;
+    nrel_rhythm;
+    nrel_harmony;
+    nrel_melody;
+    nrel_instrumentation;
+    nrel_lyrics;
+    nrel_cultural_contex;
+    nrel_year_of_original;;
+
