@@ -1,0 +1,186 @@
+sc_node_struct -> section_subject_domain_of_music_genres;;
+sc_node_struct -> subject_domain_of_music_genres;;
+
+sc_node_struct -> section_subject_domain_of_rock;;
+sc_node_struct -> section_subject_domain_of_metal;;
+sc_node_struct -> section_subject_domain_of_classic;;
+sc_node_struct -> section_subject_domain_of_indie;;
+sc_node_struct -> section_subject_domain_of_fank;;
+sc_node_struct -> section_subject_domain_of_blues;;
+
+sc_node_class -> concept_rock;;
+sc_node_class -> concept_blues;;
+sc_node_class -> cocnept_classical_music;;
+sc_node_class -> concept_funk;;
+sc_node_class -> concept_indie;;
+sc_node_class -> concept_metal;;
+
+sc_node_class -> concept_music_genre;;
+sc_node_class -> concept_music_bands_in_genres;;
+
+sc_node_relation -> nrel_rhythm;;
+sc_node_relation -> nrel_harmony;;
+sc_node_relation -> nrel_melody;;
+sc_node_relation -> nrel_instrumentation;;
+sc_node_relation -> nrel_lyrics;;
+sc_node_relation -> nrel_cultural_contex;;
+sc_node_relation -> nrel_year_of_original;;
+
+concept_music_genre => nrel_main_idtf:
+    [жанр музыки](* <- lang_ru;; *);
+    [music genre](* <- lang_en;; *);;
+
+concept_music_bands_in_genres => nrel_main_idtf:
+    [музыкальные группы в жанрах](* <- lang_ru;; *);
+    [music bands in genres](* <- lang_en;; *);;
+
+section_subject_domain_of_music_genres => nrel_main_idtf:
+    [Раздел. Предметная область жанров музыки](* <- lang_ru;; *);
+    [Section. Subject domain of music genres](* <- lang_en;; *);;
+
+
+subject_domain_of_music_genres => nrel_main_idtf:
+    [Раздел. Предметная область жанров музыки](* <- lang_ru;; *);
+    [Section. Subject domain of music genres](* <- lang_en;; *);;
+
+
+section_subject_domain_of_rock  => nrel_main_idtf:
+    [Раздел. Предметная область жанра рок](* <- lang_ru;; *);
+    [Section. Subject domain of rock](* <- lang_en;; *);;
+
+
+section_subject_domain_of_metal  => nrel_main_idtf:
+    [Раздел. Предметная область жанра метал](* <- lang_ru;; *);
+    [Section. Subject domain of metal](* <- lang_en;; *);;
+
+
+section_subject_domain_of_classic  => nrel_main_idtf:
+    [Раздел. Предметная область жанра классика](* <- lang_ru;; *);
+    [Section. Subject domain of classic](* <- lang_en;; *);;
+
+
+section_subject_domain_of_indie  => nrel_main_idtf:
+    [Раздел. Предметная область жанра инди](* <- lang_ru;; *);
+    [Section. Subject domain of indie](* <- lang_en;; *);;
+
+
+section_subject_domain_of_fank  => nrel_main_idtf:
+    [Раздел. Предметная область жанра фанк](* <- lang_ru;; *);
+    [Section. Subject domain of fank](* <- lang_en;; *);;
+
+section_subject_domain_of_blues  => nrel_main_idtf:
+    [Раздел. Предметная область жанра блюз](* <- lang_ru;; *);
+    [Section. Subject domain of blues](* <- lang_en;; *);;
+
+
+concept_rock => nrel_main_idtf:
+    [рок](* <- lang_ru;; *);    
+	[rock](* <- lang_en;; *);;
+
+
+concept_blues => nrel_main_idtf:
+    [блюз](* <- lang_ru;; *);
+    [blues](* <- lang_en;; *);;
+
+
+cocnept_classical_music => nrel_main_idtf:
+    [классическая музыка](* <- lang_ru;; *);
+    [classical music](* <- lang_en;; *);;
+
+
+concept_funk => nrel_main_idtf:
+    [фанк](* <- lang_ru;; *);
+    [funk](* <- lang_en;; *);;
+
+
+concept_indie => nrel_main_idtf:
+    [инди](* <- lang_ru;; *);
+    [indie](* <- lang_en;; *);;
+
+
+concept_metal => nrel_main_idtf:
+    [метал](* <- lang_ru;; *);
+    [metal](* <- lang_en;; *);;
+
+
+nrel_rhythm => nrel_main_idtf:
+    [ритм](* <- lang_ru;; *);
+    [rhythm](* <- lang_en;; *);;
+
+nrel_harmony => nrel_main_idtf:
+    [гармония](* <- lang_ru;; *);
+    [harmony](* <- lang_en;; *);;
+
+nrel_melody => nrel_main_idtf:
+    [мелодичность](* <- lang_ru;; *);
+    [melody](* <- lang_en;; *);;
+
+
+nrel_instrumentation => nrel_main_idtf:
+    [инструментарий](* <- lang_ru;; *);
+    [instrumentation](* <- lang_en;; *);;
+
+
+nrel_lyrics => nrel_main_idtf:
+    [лирика](* <- lang_ru;; *);
+    [lyrics](* <- lang_en;; *);;
+
+
+nrel_cultural_contex => nrel_main_idtf:
+    [культурный контекст](* <- lang_ru;; *);
+    [cultural contex](* <- lang_en;; *);;
+
+nrel_year_of_original => nrel_main_idtf:
+    [год появления](* <- lang_ru;; *);
+    [year of original](* <- lang_en;; *);;
+
+genres=[*
+
+concept_music_genre<-rrel_maximum_studied_object_class:section_subject_domain_of_music_genres;;
+concept_music_bands_in_genres<-rrel_not_maximum_studied_object_class:section_subject_domain_of_music_genres;;
+
+section_subject_domain_of_music_genres 
+<= nrel_section_decomposition:
+    {
+        section_subject_domain_of_rock;
+        section_subject_domain_of_metal;
+        section_subject_domain_of_classic;
+        section_subject_domain_of_indie;
+        section_subject_domain_of_fank;
+        section_subject_domain_of_blues
+    };;
+
+
+section_subject_domain_of_music_genres 
+-> rrel_key_sc_element:
+		subject_domain_of_music_genres;
+		
+        concept_rock;
+	    concept_blues;
+	    cocnept_classical_music;
+	    concept_funk;
+	    concept_indie;
+	    concept_metal;
+
+	    nrel_rhythm;
+	    nrel_harmony;
+		nrel_melody;
+		nrel_instrumentation;
+		nrel_lyrics;
+		nrel_cultural_contex;
+	    nrel_year_of_original;;
+
+
+subject_domain_of_music_genres 
+-> rrel_explored_relation :
+		nrel_rhythm;
+		nrel_harmony;
+		nrel_melody;
+		nrel_instrumentation;
+		nrel_lyrics;
+		nrel_cultural_contex;;
+
+non_atomic_section->section_subject_domain_of_music_genres;;	 	
+
+*];;
+
