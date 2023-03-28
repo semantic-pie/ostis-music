@@ -2,11 +2,11 @@ instuments =[*
    sc_node_struct->section_subject_domain_of_music_instruments;;
 
    section_subject_domain_of_music_instruments=>nrel_main_idtf:
-        [Раздел.Предметная область музыкальных инструментов]
+        [Раздел. Предметная область музыкальных инструментов]
         (*<-lang_ru;;*);;
 
    section_subject_domain_of_music_instruments=>nrel_main_idtf:
-        [Section.Subject domain of music instruments]
+        [Section. Subject domain of music instruments]
         (*<-lang_en;;*);;
   
    subject_domain_of_music_instruments=>nrel_private_subject_domain:subject_domain_of_types_of_music_instruments(*<-sc_node_struct;;*);
@@ -30,27 +30,27 @@ instuments =[*
      
 
      section_subject_domain_of_string_instruments=>nrel_main_idtf:
-        [Раздел.Предметная область струнных инструментов]
+        [Раздел. Предметная область струнных инструментов]
         (*<-lang_ru;;*);;
 
      section_subject_domain_of_keyboard_instruments=>nrel_main_idtf:
-        [Раздел.Предметная область клавишных инструментов]
+        [Раздел. Предметная область клавишных инструментов]
         (*<-lang_ru;;*);;
 
      section_subject_domain_of_wind_instruments=>nrel_main_idtf:
-        [Раздел.Предметная область духовых инструментов]
+        [Раздел. Предметная область духовых инструментов]
         (*<-lang_ru;;*);;
      
      section_subject_domain_of_percussion_instruments=>nrel_main_idtf:
-        [Раздел.Предметная область ударных инструментов]
+        [Раздел. Предметная область ударных инструментов]
         (*<-lang_ru;;*);;
      
      section_subject_domain_of_tongue_tools=>nrel_main_idtf:
-        [Раздел.Предметная область язычковых инструментов]
+        [Раздел. Предметная область язычковых инструментов]
         (*<-lang_ru;;*);;
      
      section_subject_domain_of_mechanical_tools=>nrel_main_idtf:
-        [Раздел.Предметная область механических инструментов]
+        [Раздел. Предметная область механических инструментов]
         (*<-lang_ru;;*);;
 
 
