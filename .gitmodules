@@ -1,0 +1,3 @@
+[submodule "problem-solver"]
+	path = problem-solver
+	url = https://github.com/semantic-pie/problem-solver
