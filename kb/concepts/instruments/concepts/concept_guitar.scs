@@ -1,0 +1,4 @@
+concept_guitar=>nrel_main_idtf:
+       [Гитара]
+        (*<-lang_ru;;*);
+<-rrel_maximum_studied_object_class:subject_domain_of_guitar;;

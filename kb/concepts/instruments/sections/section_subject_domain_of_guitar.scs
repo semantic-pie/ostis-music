@@ -1,0 +1,4 @@
+ section_subject_domain_of_guitar<=nrel_section_decomposition:
+     {
+          subject_domain_of_guitar(*<-sc_node_struct;;*)
+     };;
