@@ -1,0 +1,7 @@
+concept_electroguitar
+=>nrel_main_idtf:
+       [Электрогитара]
+        (*<-lang_ru;;*);
+=>nrel_main_idtf:
+       [Electroguitar]
+        (*<-lang_en;;*);;

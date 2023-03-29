@@ -1,23 +1,16 @@
-instuments =[*
-   sc_node_struct->section_subject_domain_of_music_instruments;;
 
-   section_subject_domain_of_music_instruments=>nrel_main_idtf:
+   section_subject_domain_of_music_instruments
+   <-sc_node_struct;
+
+   =>nrel_main_idtf:
         [Раздел. Предметная область музыкальных инструментов]
-        (*<-lang_ru;;*);;
+        (*<-lang_ru;;*);
 
-   section_subject_domain_of_music_instruments=>nrel_main_idtf:
+   =>nrel_main_idtf:
         [Section. Subject domain of music instruments]
-        (*<-lang_en;;*);;
-  
-   subject_domain_of_music_instruments=>nrel_private_subject_domain:subject_domain_of_types_of_music_instruments(*<-sc_node_struct;;*);
-        subject_domain_of_string_instruments(*<-sc_node_struct;;*);
-        subject_domain_of_keyboard_instruments(*<-sc_node_struct;;*);
-        subject_domain_of_wind_instruments(*<-sc_node_struct;;*);
-        subject_domain_of_percussion_instruments(*<-sc_node_struct;;*);
-        subject_domain_of_tongue_tools(*<-sc_node_struct;;*);
-        subject_domain_of_mechanical_tools(*<-sc_node_struct;;*);;
+        (*<-lang_en;;*);
         
-   section_subject_domain_of_music_instruments<=nrel_section_decomposition:
+   <=nrel_section_decomposition:
    {
         section_subject_domain_of_string_instruments(*<-sc_node_struct;;*);
         section_subject_domain_of_keyboard_instruments(*<-sc_node_struct;;*);
@@ -25,40 +18,9 @@ instuments =[*
         section_subject_domain_of_percussion_instruments(*<-sc_node_struct;;*);
         section_subject_domain_of_tongue_tools(*<-sc_node_struct;;*);
         section_subject_domain_of_mechanical_tools(*<-sc_node_struct;;*)
-   };;
+   };
 
-     
-
-     section_subject_domain_of_string_instruments=>nrel_main_idtf:
-        [Раздел. Предметная область струнных инструментов]
-        (*<-lang_ru;;*);;
-
-     section_subject_domain_of_keyboard_instruments=>nrel_main_idtf:
-        [Раздел. Предметная область клавишных инструментов]
-        (*<-lang_ru;;*);;
-
-     section_subject_domain_of_wind_instruments=>nrel_main_idtf:
-        [Раздел. Предметная область духовых инструментов]
-        (*<-lang_ru;;*);;
-     
-     section_subject_domain_of_percussion_instruments=>nrel_main_idtf:
-        [Раздел. Предметная область ударных инструментов]
-        (*<-lang_ru;;*);;
-     
-     section_subject_domain_of_tongue_tools=>nrel_main_idtf:
-        [Раздел. Предметная область язычковых инструментов]
-        (*<-lang_ru;;*);;
-     
-     section_subject_domain_of_mechanical_tools=>nrel_main_idtf:
-        [Раздел. Предметная область механических инструментов]
-        (*<-lang_ru;;*);;
-
-
-
-    
-
-
-   section_subject_domain_of_music_instruments->rrel_key_sc_element:
+   ->rrel_key_sc_element:
          subject_domain_of_music_instruments(*<-sc_node_struct;;*);
 	    concept_guitar(*<-sc_node_class;;*);
 	    concept_piano(*<-sc_node_class;;*);
@@ -68,55 +30,7 @@ instuments =[*
 
 	    nrel_size(*<-sc_node_relation;;*);
 	    nrel_dynamics(*<-sc_node_relation;;*);
-	    nrel_range_of_octaves(*<-sc_node_relation;;*);;
-	    
-   subject_domain_of_music_instruments<-rrel_explored_relation:nrel_dynamics(*<-sc_node_relation;;*);;
+	    nrel_range_of_octaves(*<-sc_node_relation;;*);
    	
    	
-   non_atomic_section->section_subject_domain_of_music_instruments;;	 	
-   		 		   
-   		 	
-   subject_domain_of_music_instruments<=nrel_private_subject_domain:subject_domain_of_the_melody;; 
-  
-   
-   subject_domain_of_music_instruments=>nrel_main_idtf:
-       [Предметная область музыкальных инструментов]
-       (*<-lang_ru;;*);;
-        
-   subject_domain_of_music_instruments=>nrel_main_idtf:
-       [Subject domain of music instruments]
-       (*<-lang_en;;*);;
-
-
-     section_subject_domain_of_string_instruments<=nrel_section_decomposition:
-     {
-          section_subject_domain_of_guitar(*<-sc_node_struct;;*)
-     };;
-
-     section_subject_domain_of_guitar<=nrel_section_decomposition:
-     {
-          subject_domain_of_guitar(*<-sc_node_struct;;*)
-     };;
-     concept_music_instrument<-rrel_maximum_studied_object_class:subject_domain_of_music_instruments;;
-
-     concept_guitar<-rrel_maximum_studied_object_class:subject_domain_of_guitar;;
-     subject_domain_of_guitar->rrel_key_sc_element:
-           concept_guitar(*<-sc_node_class;;*);;
-
-
-     concept_guitar=>nrel_main_idtf:
-       [Гитара]
-        (*<-lang_ru;;*);;
-     
-     concept_electroguitar=>nrel_main_idtf:
-       [Электрогитара]
-        (*<-lang_ru;;*);;
-
-     concept_piano=>nrel_main_idtf:
-       [Пианино]
-        (*<-lang_ru;;*);;
-     
-     concept_electropiano=>nrel_main_idtf:
-       [Электропианино]
-        (*<-lang_ru;;*);;
-*];;
+   <-non_atomic_section;;	 	
