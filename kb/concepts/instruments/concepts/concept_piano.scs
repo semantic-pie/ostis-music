@@ -1,3 +1,7 @@
-concept_piano=>nrel_main_idtf:
+concept_piano
+=>nrel_main_idtf:
        [Пианино]
-        (*<-lang_ru;;*);;
+        (*<-lang_ru;;*);
+=>nrel_main_idtf:
+       [Piano]
+        (*<-lang_en;;*);;
