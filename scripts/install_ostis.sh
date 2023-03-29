@@ -26,6 +26,7 @@ include_kb()
 include_problem_solver()
 {
         cd "${APP_ROOT_PATH}"
+	git clone https://github.com/semantic-pie/problem-solver
         git submodule update --init --remote --merge
 	cd "${APP_ROOT_PATH}"/scripts
 	./build_problem_solver.sh
