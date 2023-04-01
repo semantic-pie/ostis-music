@@ -7,7 +7,12 @@
 .idea
 .vscode
 
-ostis-example-app
+ostis-web-platform
+problem-solver
+sc-server.log
+
+bin
+kb.bin
 
 cmake-build-debug
 cmake-build
