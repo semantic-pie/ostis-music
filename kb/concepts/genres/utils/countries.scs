@@ -1,0 +1,33 @@
+concept_country 
+<- sc_node_class;;
+
+
+united_states
+<- concept_country;
+=> nrel_main_idtf:
+    [cоединенные штаты америки](* <- lang_ru;; *);    
+	[united states of america](* <- lang_en;; *);;
+
+united_kingdom
+<- concept_country;
+=> nrel_main_idtf:
+    [великобритания](* <- lang_ru;; *);    
+	[great britain](* <- lang_en;; *);;
+
+canada
+<- concept_country;
+=> nrel_main_idtf:
+    [канада](* <- lang_ru;; *);    
+	[canada](* <- lang_en;; *);;
+
+australia
+<- concept_country;
+=> nrel_main_idtf:
+    [австралия](* <- lang_ru;; *);    
+	[australia](* <- lang_en;; *);;
+
+japan
+<- concept_country;
+=> nrel_main_idtf:
+    [япония](* <- lang_ru;; *);    
+	[japan](* <- lang_en;; *);;
