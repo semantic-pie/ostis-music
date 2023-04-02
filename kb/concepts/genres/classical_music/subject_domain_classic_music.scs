@@ -1,0 +1,51 @@
+subject_domain_of_classic_music 
+
+=> nrel_main_idtf:
+    [Предметная область классической музыки](* <- lang_ru;; *);
+    [Subject domain of classic music](* <- lang_en;; *);
+<- subject_domain;
+<- sc_node_struct;
+<- structure;
+-> rrel_maximum_studied_object_class:
+    concept_classic_music;
+-> rrel_not_maximum_studied_object_class:
+    concept_symphony;
+    concept_opera;
+    concept_cantata;
+-> rrel_explored_relation:
+    nrel_used_musical_instruments;;
+
+
+concept_classic_music 
+<- concept_music_genre;
+=> nrel_main_idtf:
+    [классическая музыка](* <- lang_ru;; *);
+    [classic music](* <- lang_en;; *);;
+
+concept_symphony 
+<- concept_music_genre;
+=> nrel_main_idtf:
+    [симфония](* <- lang_ru;; *);    
+	[symphony](* <- lang_en;; *);;
+
+
+concept_opera 
+<- concept_music_genre;
+=> nrel_main_idtf:
+    [опера](* <- lang_ru;; *);
+    [opera ](* <- lang_en;; *);;
+
+
+concept_cantata 
+<- concept_music_genre;
+=> nrel_main_idtf:
+    [сантата](* <- lang_ru;; *);
+    [cantata](* <- lang_en;; *);;
+
+
+
+nrel_used_musical_instruments
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [используемые музыкальные инструменты](* <- lang_ru;; *);
+    [used musical instruments](* <- lang_en;; *);;

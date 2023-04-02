@@ -9,20 +9,14 @@ subject_domain_of_music_genres
 -> rrel_maximum_studied_object_class:
     concept_music_genre;
 -> rrel_not_maximum_studied_object_class:
-    concept_rock;
-    concept_blues;
     cocnept_classical_music;
-    concept_funk;
-    concept_indie;
-    concept_metal;
+    concept_jazz;
+    concept_rock;
+    concept_pop_music;
+    concept_electronic_music;
 -> rrel_explored_relation:
-    nrel_rhythm;
-    nrel_harmony;
-    nrel_melody;
-    nrel_instrumentation;
-    nrel_lyrics;
-    nrel_cultural_contex;
-    nrel_year_of_original;;
+    nrel_blabla;;
+
 
 
 concept_music_genre 
@@ -31,6 +25,14 @@ concept_music_genre
     [жанр музыки](* <- lang_ru;; *);
     [music genre](* <- lang_en;; *);;
 
+
+concept_classic_music
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [классическая музыка](* <- lang_ru;; *);
+    [classic music](* <- lang_en;; *);;
+
+
 concept_rock 
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -38,82 +40,31 @@ concept_rock
 	[rock](* <- lang_en;; *);;
 
 
-concept_blues 
+cocnept_jazz 
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [блюз](* <- lang_ru;; *);
-    [blues](* <- lang_en;; *);;
+    [джаз](* <- lang_ru;; *);
+    [jazz](* <- lang_en;; *);;
 
 
-cocnept_classical_music 
+concept_pop_music
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [классическая музыка](* <- lang_ru;; *);
-    [classical music](* <- lang_en;; *);;
+    [поп музыка](* <- lang_ru;; *);
+    [pop music](* <- lang_en;; *);;
 
 
-concept_funk 
+concept_electronic_music
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [фанк](* <- lang_ru;; *);
-    [funk](* <- lang_en;; *);;
+    [электронная музыка](* <- lang_ru;; *);
+    [electronic music](* <- lang_en;; *);;
 
 
-concept_indie 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [инди](* <- lang_ru;; *);
-    [indie](* <- lang_en;; *);;
 
 
-concept_metal 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [метал](* <- lang_ru;; *);
-    [metal](* <- lang_en;; *);;
 
 
-nrel_rhythm 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [ритм](* <- lang_ru;; *);
-    [rhythm](* <- lang_en;; *);;
-
-nrel_harmony
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [гармония](* <- lang_ru;; *);
-    [harmony](* <- lang_en;; *);;
-
-nrel_melody 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [мелодичность](* <- lang_ru;; *);
-    [melody](* <- lang_en;; *);;
 
 
-nrel_instrumentation 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [инструментарий](* <- lang_ru;; *);
-    [instrumentation](* <- lang_en;; *);;
 
-
-nrel_lyrics 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [лирика](* <- lang_ru;; *);
-    [lyrics](* <- lang_en;; *);;
-
-
-nrel_cultural_contex 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [культурный контекст](* <- lang_ru;; *);
-    [cultural contex](* <- lang_en;; *);;
-
-nrel_year_of_original 
-<- sc_node_not_relation;
-=> nrel_main_idtf:
-    [год появления](* <- lang_ru;; *);
-    [year of original](* <- lang_en;; *);;

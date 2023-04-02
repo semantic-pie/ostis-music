@@ -12,17 +12,18 @@ section_subject_domain_of_music_genres
 section_subject_domain_of_music_genres
 -> rrel_key_sc_element:
     subject_domain_of_music_genres;
-    concept_rock;
-    concept_blues;
+    
     cocnept_classical_music;
-    concept_funk;
-    concept_indie;
-    concept_metal;
-    nrel_rhythm;
-    nrel_harmony;
-    nrel_melody;
-    nrel_instrumentation;
-    nrel_lyrics;
-    nrel_cultural_contex;
-    nrel_year_of_original;;
+    concept_jazz;
+    concept_rock;
+    concept_pop_music;
+    concept_electronic_music;
+    
+    nrel_blabla;;
 
+section_subject_domain_of_music_genres
+<= nrel_section_decomposition:
+    {
+        section_subject_domain_of_classic_music;
+        section_subject_domain_of_rock
+    };;
