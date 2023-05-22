@@ -1,8 +1,0 @@
-concept_electropiano
-=>nrel_main_idtf:
-       [Электропианино]
-        (*<-lang_ru;;*);
-
-=>nrel_main_idtf:
-       [Electropiano]
-        (*<-lang_en;;*);;

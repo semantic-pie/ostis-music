@@ -4,18 +4,12 @@
 **/__pycache__
 **/postgres-data
 
-.idea
 .vscode
 
-ostis-web-platform
-problem-solver
-sc-server.log
+sc-machine
+sc-web
 
-bin
-kb.bin
-
-cmake-build-debug
-cmake-build
-build
-target
+repo.path
+ims.ostis.kb
+music.ostis.kb
 

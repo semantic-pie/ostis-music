@@ -1,87 +1,123 @@
-## Version 0.7.0
+# Lightest Ostis Pancake
 
-This version allows communication with the knowledge base via [JSON-based Websocket protocol](http://ostis-dev.github.io/sc-machine/http/websocket/).
+## Installation
 
-The new version of web interface communicates with **sc-server** using two-way JSON protocol.
+Clone repository:
 
-## Install
-
-Linux:
 ```sh
-git clone https://github.com/ostis-apps/ostis-example-app.git
-cd ostis-example-app/scripts
-git checkout 0.7.0
-./install_ostis.sh
+git clone https://github.com/semantic-pie/lightest-ostis-pancake
 ```
 
-## Build knowledge base
-Linux:
-```sh
-cd ostis-example-app/scripts
-./build_kb.sh
+To install the necessary components (sc-web, sc-machine, kb), run the following command:
+
+```bash
+./pancake.sh install
 ```
 
-## Run
+This will clone (or pull updates) the necessary components (sc-web, sc-machine) and clone all specified knowledge bases.
 
-Run on Linux (both terminals or terminal tabs should work at the same time):
-```sh
-#Terminal 1
-cd ostis-example-app/scripts
-./run_sc_server.sh
+<br/>
 
-#Terminal 2
-cd ostis-example-app/scripts
-./run_scweb.sh
+## Adding a Local Knowledge Base
+
+To add a knowledge base from a local directory, run the following command:
+
+```bash
+./pancake.sh add repo_name
 ```
 
-Then open localhost:8000 in your browser.
-![](https://i.imgur.com/6SehI5s.png)
+Replace repo_name with the name of your local knowledge base directory. (in root dir)
 
-## Project Structure
+<br/>
 
-### kb
-The place for the knowledge base of your app. Put your **.scs** files here.
+## Adding a Remote Knowledge Base
 
-### problem-solver
-The place for the problem solver of your app. Put your agents here.
+To add a knowledge base from a remote git repository, run the following command:
 
-*Use **scp_stable** branch for the development of agents on SCP.*  
-*Use **0.5.0**, **0.6.0** or **0.7.0** branch for the development of agents on C++.*  
-
-
-#### Agents on C++
-Some tips:
-- Store your modules with C++ agents in *problem-solver/cxx*;
-- After updating your C++ code you need to rebuild problem-solver. Just run:  
-```
-cd ostis-example-app/scripts
-./build_problem_solver.sh
+```bash
+./pancake.sh add -u github_username/repo_name
 ```
 
-- To enable debug set vars in ostis-example-app.ini:
-    ```sh
-    log_type = Console
-    log_file = sc-memory.log
-    log_level = Debug
-    ```
-- You can see an example module with a C++ agent [here](problem-solver/cxx/exampleModule/README.md).
+Replace github_username/repo_name with the GitHub username and repository name of the knowledge base.
 
-### Interface
+You can use the following:
 
-The place for your interface modules.
+```bash
+./pancake.sh add -u <repo_url>:<repo_name> 
+```
 
-To learn more about creating web components for the new web interface version please follow this [link](https://github.com/MikhailSadovsky/sc-machine/tree/example/web/client)
+Replace <repo_url> with the URL of the git repository and <repo_name> with the desired name for the repository. If <repo_name> is not provided, it will default to the repository's base name.
 
-#### sc-web-extensions
-The place for your extensions using **IMS interface(sc-web)** standard. 
+<br/>
 
-*Your extensions are not applied to sc-web automatically for now, but you can do it by hand.*
+## Running OSTIS
 
-### scripts
-The place for scripts of your app.
+To run ostis, use following command:
 
-#### build_problem_solver.sh [-f, --full]
-Build the problem-solver of your app. Use an argument *-f* or *--full* for a complete rebuild of the problem-solver with the deleting of the *ostis-web-platform/sc-machine/bin* and *ostis-web-platform/sc-machine/build* folders.
+```bash
+./pancake.sh run
+```
 
-#### install_ostis.sh
-Install or update the OSTIS platform.
+Run in the background:
+
+```bash
+./pancake.sh run -d
+```
+
+Stop:
+
+```bash
+./pancake.sh stop
+```
+
+You can also:
+
+```bash
+./pancake.sh restart
+```
+
+<br/>
+
+## Unplug Knowledge Base
+
+To unplug a knowledge base, use following command:
+
+```bash
+./pancake.sh unplug knowledge_base_name
+```
+
+Replace knowledge_base_name with the name of the knowledge base you want to unplug.
+
+<br/>
+
+## Cleaning Knowledge Bases
+
+To remove all installed knowledge base folders, execute the following command:
+
+```bash
+./pancake.sh clean
+```
+
+(it doesn't remove git repos urls from config)
+
+<br/>
+
+## Displaying Knowledge Bases
+
+To display information about the knowledge bases in use, run the following command:
+
+```bash
+./pancake.sh info
+```
+
+This will show the list of local knowledge bases and synchronized git repositories.
+
+<br/>
+
+## Help
+
+To display the usage information and available options, run the following command:
+
+```bash
+./pancake.sh --help
+```
