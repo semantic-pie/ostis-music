@@ -70,6 +70,8 @@ function prepare_component() {
         git pull
     else
         git clone "$REPO" "$NAME"
+        cd "$NAME"
+        git checkout 0.7.0-Rebirth
     fi
     cd $WORKDIR
 }
@@ -86,6 +88,9 @@ function prepare_problem_solver() {
         cd sc-machine
         git clone https://github.com/semantic-pie/problem-solver
         echo 'add_subdirectory(${SC_MACHINE_ROOT}/problem-solver)' >> CMakeLists.txt
+        cd $WORKDIR
+        echo 'sc-machine/problem-solver/cxx/exampleModule/specifications/agent_of_isomorphic_search' >> repo.path
+        echo 'sc-machine/problem-solver/cxx/exampleModule/specifications/agent_of_subdividing_search' >> repo.path
     fi
     cd $WORKDIR
 }
