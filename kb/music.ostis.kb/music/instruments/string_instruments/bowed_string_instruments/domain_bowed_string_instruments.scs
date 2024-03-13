@@ -1,0 +1,46 @@
+section_subject_domain_of_bowed_string_instruments
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область струнных смычковых инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of bowed string instruments] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_bowed_string_instruments;
+	concept_bowed_string_instrument;
+	concept_string_instrument;
+	concept_violin;
+	concept_cello;
+	concept_viola;
+	concept_double_bass;;
+
+section_subject_domain_of_bowed_string_instruments=[*
+	subject_domain_of_bowed_string_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область струнных смычковых инструментов] (* <- lang_ru;; *);
+		[Subject Domain of bowed string instruments] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_bowed_string_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_string_instrument;
+		concept_violin;
+		concept_cello;
+		concept_viola;
+		concept_double_bass;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_string_instruments;;
+*];;
+
+sc_node_class ->
+	concept_bowed_string_instrument;
+	concept_string_instrument;
+	concept_violin;
+	concept_cello;
+	concept_viola;
+	concept_double_bass;;

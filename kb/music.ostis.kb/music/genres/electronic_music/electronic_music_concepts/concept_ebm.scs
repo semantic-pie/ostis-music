@@ -1,0 +1,28 @@
+concept_ebm
+=> nrel_main_idtf:
+	[ебм] (* <- lang_ru;; *);
+	[EBM] (* <- lang_en;; *);;
+
+definition -> definition_of_ebm (*
+	-> rrel_key_sc_element: concept_ebm;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Electronic Body Music это жанр электронной музыки, который характеризуется танцевальными ритмами, сильными басами и синтезаторными мелодиями, иногда с элементами индастриала и панка] (* <- lang_ru;; *);;
+		-> [Electronic Body Music is a genre of electronic music that is characterized by dance rhythms, strong basslines, and synthesizer melodies, sometimes with elements of industrial and punk music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ебм)] (* <- lang_ru;; *);
+		[Def. (EBM)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

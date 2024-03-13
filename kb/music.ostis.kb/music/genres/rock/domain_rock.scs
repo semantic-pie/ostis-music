@@ -1,0 +1,113 @@
+section_subject_domain_of_rock
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра рок] (* <- lang_ru;; *);
+	[Section. Subject domain of rock genre] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_rock;
+	concept_rock;
+	concept_garage_rock;
+	concept_hard_rock;
+	concept_punk_rock;
+	concept_grunge;
+	concept_psychedelic_rock;
+	concept_alternative_rock;
+	concept_post_rock;
+	concept_progressive_rock;
+	concept_math_rock;
+	concept_heavy_metal;
+	concept_thrash_metal;
+	concept_death_metal;
+	concept_black_metal;
+	concept_progressive_metal;
+	concept_doom_metal;
+	concept_power_metal;
+	concept_folk_metal;
+	concept_core_metal;
+	concept_nu_metal;
+	concept_post_metal;
+	concept_alternative_metal;
+	concept_speed_metal;
+	concept_indie_rock;
+	concept_indie;
+	concept_shoegaze;
+	concept_hardcore_punk;
+	concept_glam_metal;
+	concept_j_rock;
+	concept_blues_rock;;
+
+section_subject_domain_of_rock=[*
+	subject_domain_of_rock
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра рок] (* <- lang_ru;; *);
+		[Subject Domain of rock genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_rock;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_garage_rock;
+		concept_shoegaze;
+		concept_hard_rock;
+		concept_punk_rock;
+		concept_grunge;
+		concept_psychedelic_rock;
+		concept_alternative_rock;
+		concept_post_rock;
+		concept_progressive_rock;
+		concept_math_rock;
+		concept_heavy_metal;
+		concept_trash_metal;
+		concept_death_metal;
+		concept_black_metal;
+		concept_progressive_metal;
+		concept_doom_metal;
+		concept_power_metal;
+		concept_folk_metal;
+		concept_core_metal;
+		concept_nu_metal;
+		concept_post_metal;
+		concept_speed_metal;
+		concept_indie_rock;
+		concept_hardcore_punk;
+		concept_glam_metal;
+		concept_blues_rock;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;;
+*];;
+
+sc_node_class ->
+	concept_rock;
+	concept_garage_rock;
+	concept_hard_rock;
+	concept_punk_rock;
+	concept_hardcore_punk;
+	concept_grunge;
+	concept_psychedelic_rock;
+	concept_alternative_rock;
+	concept_post_rock;
+	concept_progressive_rock;
+	concept_math_rock;
+	concept_heavy_metal;
+	concept_trash_metal;
+	concept_death_metal;
+	concept_black_metal;
+	concept_progressive_metal;
+	concept_doom_metal;
+	concept_power_metal;
+	concept_folk_metal;
+	concept_core_metal;
+	concept_nu_metal;
+	concept_post_metal;
+	concept_speed_metal;
+	concept_indie_rock;
+	concept_j_rock;
+	concept_glam_metal;
+	concept_shoegaze;
+	concept_blues_rock;;

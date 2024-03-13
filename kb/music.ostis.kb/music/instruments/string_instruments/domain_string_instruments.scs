@@ -1,0 +1,46 @@
+section_subject_domain_of_string_instruments
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область струнных инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of string instruments] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_bowed_string_instruments;
+	section_subject_domain_of_plucking_string_instruments
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_string_instruments;
+	concept_string_instrument;
+	concept_bowed_string_instrument;
+	concept_plucking_string_instrument;;
+
+section_subject_domain_of_string_instruments=[*
+	subject_domain_of_string_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область струнных инструментов] (* <- lang_ru;; *);
+		[Subject Domain of string instruments] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_string_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_bowed_string_instrument;
+		concept_plucking_string_instrument;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_bowed_string_instruments;
+		subject_domain_of_plucking_string_instruments;;
+*];;
+
+sc_node_class ->
+	concept_string_instrument;
+	concept_bowed_string_instrument;
+	concept_plucking_string_instrument;;

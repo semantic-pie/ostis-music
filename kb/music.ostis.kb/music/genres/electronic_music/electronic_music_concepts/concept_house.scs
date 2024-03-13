@@ -1,0 +1,28 @@
+concept_house
+=> nrel_main_idtf:
+	[хаус] (* <- lang_ru;; *);
+	[house] (* <- lang_en;; *);;
+
+definition -> definition_of_house (*
+	-> rrel_key_sc_element: concept_house;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хаус жанр электронной танцевальной музыки. Хаус музыка характеризуется использованием электронных инструментов и сэмплов, а также присутствием ритмичной драм-секции] (* <- lang_ru;; *);;
+		-> [House is a genre of electronic dance music. House music is characterized by the use of electronic instruments and samples, as well as the presence of a rhythmic drum section] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хаус)] (* <- lang_ru;; *);
+		[Def. (house)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

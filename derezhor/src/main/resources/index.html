@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Простой аудиоплеер</title>
+    <style>
+        li {
+            cursor: pointer;
+        }
+        li:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<button onclick="playAudio()">Play</button>
+<button onclick="stopAudio()">Stop</button>
+
+<br>
+
+<audio id="audioPlayer" controls>
+    Your browser does not support the audio tag.
+</audio>
+
+<br>
+
+<div>
+    <h4>Tracks:</h4>
+    <ul id="track-list">
+    </ul>
+</div>
+
+<script>
+    fetch("http://localhost:8060/api/v1/derezhor/tracks?page=0&limit=100").then(
+        data => data.json()
+    ).then((tracks) => {
+        console.log("tracks: ", tracks)
+        const ul = document.getElementById("track-list")
+
+        for (const track of tracks) {
+            console.log("track: ", track)
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(track.title));
+            li.addEventListener("click", () => changeAudio(track.hash))
+            ul.appendChild(li);
+        }
+    })
+
+    function changeAudio(url) {
+        console.log("change to: ", url)
+        const audioPlayer = document.getElementById('audioPlayer');
+        audioPlayer.src = `http://localhost:8080/api/v1/loafloader/${url}`;
+
+    }
+
+    const audio = document.getElementById("audioPlayer")
+
+    function playAudio() {
+        audio.play();
+    }
+
+    function stopAudio() {
+        audio.pause();
+        audio.currentTime = 0;
+    }
+</script>
+</body>
+</html>

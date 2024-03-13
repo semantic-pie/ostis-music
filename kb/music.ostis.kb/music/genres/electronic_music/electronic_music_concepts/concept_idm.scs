@@ -1,0 +1,28 @@
+concept_idm
+=> nrel_main_idtf:
+	[идм] (* <- lang_ru;; *);
+	[idm] (* <- lang_en;; *);;
+
+definition -> definition_of_idm (*
+	-> rrel_key_sc_element: concept_idm;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интеллектуальный дэнс-музыка IDM это жанр электронной музыки, который характеризуется сложными ритмами, нестандартными мелодиями, интеллектуальным подходом к звуковому дизайну и использованием широкого спектра электронных инструментов и обработки звука] (* <- lang_ru;; *);;
+		-> [Intelligent dance music IDM is a genre of electronic music that is characterized by complex rhythms, unconventional melodies, an intellectual approach to sound design, and the use of a wide range of electronic instruments and sound processing techniques] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (идм)] (* <- lang_ru;; *);
+		[Def. (idm)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,13 @@
+ru: современная композиция
+en: modern composition
+definition:
+  ru: Современная композиция это жанр классической музыки, который характеризуется использованием новых технологий, нестандартных звуковых решений и экспериментов с формой и структурой произведения
+  en: Modern composition is a genre of classical music that is characterized by the use of new technologies, unconventional sound solutions, and experiments with the form and structure of the composition
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form

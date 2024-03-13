@@ -1,0 +1,28 @@
+concept_dixieland
+=> nrel_main_idtf:
+	[диксиленд] (* <- lang_ru;; *);
+	[dixieland] (* <- lang_en;; *);;
+
+definition -> definition_of_dixieland (*
+	-> rrel_key_sc_element: concept_dixieland;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Диксиленд это жанр джазовой музыки, возникший в Новом Орлеане. Он характеризуется использованием тромбона, кларнета, трубы, бас-барабана и банджо, а также свинговым ритмом и коллективной импровизацией] (* <- lang_ru;; *);;
+		-> [Dixieland is a genre of jazz music that originated in New Orleans. It is characterized by the use of trombone, clarinet, trumpet, bass drum, and banjo, as well as a swinging rhythm and collective improvisation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (диксиленд)] (* <- lang_ru;; *);
+		[Def. (dixieland)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

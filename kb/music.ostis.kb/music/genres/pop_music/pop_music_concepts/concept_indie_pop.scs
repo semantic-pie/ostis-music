@@ -1,0 +1,28 @@
+concept_indie_pop
+=> nrel_main_idtf:
+	[инди-поп] (* <- lang_ru;; *);
+	[indie pop] (* <- lang_en;; *);;
+
+definition -> definition_of_indie_pop (*
+	-> rrel_key_sc_element: concept_indie_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Инди-поп это жанр поп-музыки, который характеризуется использованием нестандартных композиций, интеллектуальными текстами, и альтернативными звуками. Жанр был создан независимыми исполнителями, которые не хотели быть связанными с большими музыкальными лейблами] (* <- lang_ru;; *);;
+		-> [Indie pop is a genre of pop music that is characterized by the use of unconventional compositions, intellectual lyrics, and alternative sounds. The genre was created by independent artists who did not want to be associated with major record labels] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (инди-поп)] (* <- lang_ru;; *);
+		[Def. (indie pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

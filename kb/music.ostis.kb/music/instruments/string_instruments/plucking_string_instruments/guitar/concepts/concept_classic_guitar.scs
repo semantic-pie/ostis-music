@@ -1,0 +1,31 @@
+concept_classic_guitar
+=> nrel_main_idtf:
+	[классическая гитара] (* <- lang_ru;; *);
+	[classic guitar] (* <- lang_en;; *);;
+
+definition -> definition_of_classic_guitar (*
+	-> rrel_key_sc_element: concept_classic_guitar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Струнный щипковый музыкальный инструмент. Основной представитель семейства гитар в целом. От обычной гитары отличается наличием нейлонных струн, а также отсутствием анкерного стержня] (* <- lang_ru;; *);;
+		-> [Stringed plucked musical instrument. The main representative of the family guitars in general. It differs from a conventional guitar by the presence of nylon strings, as well as the absence of an anchor rod] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (классическая гитара)] (* <- lang_ru;; *);
+		[Def. (classic guitar)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_plucking_string_instrument;
+		concept_guitar;
+		concept_string;
+		concept_anchor_rod
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_plucking_string_instrument;
+	concept_guitar;
+	concept_string;
+	concept_anchor_rod;;

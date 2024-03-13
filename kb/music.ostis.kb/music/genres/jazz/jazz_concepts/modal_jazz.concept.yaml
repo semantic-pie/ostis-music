@@ -1,0 +1,16 @@
+ru: модальный джаз
+en: modal jazz
+definition:
+  ru: 
+    Модальный джаз это жанр джазовой музыки, который характеризуется использованием модальных гармоний вместо традиционных аккордов. Это позволяет музыкантам создавать более свободные мелодии и импровизировать на основе модальных тем
+  en: 
+    Modal jazz is a genre of jazz music that is characterized by the use of modal harmonies instead of traditional chords. This allows musicians to create more free-flowing melodies and improvise based on modal themes
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

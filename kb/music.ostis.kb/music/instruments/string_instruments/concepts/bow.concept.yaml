@@ -1,0 +1,18 @@
+ru: смычок
+en: bow
+
+definition:
+  ru:
+    Приспособление для приведения струн смычковых музыкальных инструментов в
+    колебательное движение. В общем виде состоит из упругой деревянной основы, к
+    обоим концам которой присоединяют пучок конских волос, натираемых канифолью
+    для усиления трения со струной
+
+  en:
+    A device for bringing strings of bowed musical instruments into oscillatory
+    motion. In general, it consists of an elastic wooden base, to both ends of
+    which a bunch of horse hair rubbed with rosin is attached to increase the
+    friction with the string
+  using:
+    concepts: |
+      string

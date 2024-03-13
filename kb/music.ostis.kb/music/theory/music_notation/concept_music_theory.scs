@@ -1,0 +1,41 @@
+concept_music_theory
+=> nrel_main_idtf:
+	[теория музыки] (* <- lang_ru;; *);
+	[music theory] (* <- lang_en;; *);;
+
+definition -> definition_of_music_theory (*
+	-> rrel_key_sc_element: concept_music_theory;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Определенный комплекс учебных и научных дисциплин музыковедения, которые занимаются теоретическими аспектами музыки] (* <- lang_ru;; *);;
+		-> [A certain set of educational and scientific disciplines of musicology that deal with the theoretical aspects of music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (теория музыки)] (* <- lang_ru;; *);
+		[Def. (music theory)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_harmony;
+		concept_analysis;
+		concept_melody;
+		concept_performance;
+		concept_rhythm;
+		concept_music_notation;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_harmony;
+	concept_analysis;
+	concept_melody;
+	concept_performance;
+	concept_rhythm;
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

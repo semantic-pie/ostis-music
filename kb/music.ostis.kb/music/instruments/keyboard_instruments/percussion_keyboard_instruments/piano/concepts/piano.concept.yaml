@@ -1,0 +1,20 @@
+ru: фортепиано
+en: piano
+
+definition:
+  ru:
+    Клавишный музыкальный инструмент, в котором звуки производятся при помощи
+    молоточков, которые бьют по струнам внутри инструмента
+
+  en:
+    A keyboard musical instrument in which sounds are produced using hammers
+    that strike the strings inside the instrument
+  using:
+    concepts: |
+      music_instrument
+      hammer
+      string
+
+subclass:
+  - pianino
+  - grand_piano

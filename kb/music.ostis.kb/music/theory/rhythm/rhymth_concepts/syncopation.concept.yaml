@@ -1,0 +1,11 @@
+ru: синкопа
+en: syncopation
+definition:
+  ru: Cмещение акцента с сильной доли такта на слабую, вызывающее несовпадение ритмического акцента с метрическим
+  en: A shift in emphasis with the presence of a beat on a weak one, causing a discrepancy between the rhythmic accent and the metrical one
+  using:
+    concepts: |
+      rhythm
+      metronome
+    nrels: |
+      used_musical_instruments

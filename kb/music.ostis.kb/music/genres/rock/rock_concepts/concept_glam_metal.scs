@@ -1,0 +1,26 @@
+concept_glam_metal
+=> nrel_main_idtf:
+    [глэм-метал] (* <- lang_ru;; *);
+    [glam metal] (* <- lang_en;; *);;
+
+definition -> definition_of_glam_metal (*
+    -> rrel_key_sc_element: concept_glam_metal;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Глэм-метал это жанр метал-музыки, который развился в 1980-х годах. Характеризуется сочетанием хард-рока и глэм-рока, использованием театральных элементов, экстравагантным имиджем и мелодичными композициями] (* <- lang_ru;; *);;
+        -> [Glam metal is a genre of metal music that originated in the 1980s. It is characterized by a combination of hard rock and glam rock, the use of theatrical elements, extravagant image, and melodic compositions] (* <- lang_en;; *);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (глэм-метал)] (* <- lang_ru;; *);
+        [Def. (glam metal)] (* <- lang_en;; *);;
+
+    => nrel_using_constants: {
+        concept_music_genre;
+        nrel_stylistic_origin;
+        nrel_place_of_origin;
+        nrel_year_of_origin;
+        nrel_derivative_form;
+        nrel_used_musical_instruments
+    };;
+*);;

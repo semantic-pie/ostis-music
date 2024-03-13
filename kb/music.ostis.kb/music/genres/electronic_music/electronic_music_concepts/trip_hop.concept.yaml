@@ -1,0 +1,16 @@
+ru: трип-хоп
+en: trip-hop
+definition:
+  ru:
+    Трип-хоп это жанр электронной музыки, который характеризуется медленным темпом, глубоким басом и плавными мелодиями, обычно с элементами хип-хопа, соула, джаза и рока
+  en:
+    Trip-hop is a genre of electronic music that is characterized by a slow tempo, deep bass, and smooth melodies, usually with elements of hip-hop, soul, jazz, and rock
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

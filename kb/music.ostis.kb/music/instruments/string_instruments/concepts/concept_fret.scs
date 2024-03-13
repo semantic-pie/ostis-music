@@ -1,0 +1,27 @@
+concept_fret
+=> nrel_main_idtf:
+	[лад] (* <- lang_ru;; *);
+	[fret] (* <- lang_en;; *);;
+
+definition -> definition_of_fret (*
+	-> rrel_key_sc_element: concept_fret;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Деталь конструкции ряда струнных инструментов, представляющая собой выпуклую поперечную полоску на грифе и служащую для изменения тона звучащей струны] (* <- lang_ru;; *);;
+		-> [A detail of the construction of a number of stringed instruments, which is a convex transverse strip on the neck and serves to change the tone of the sounding string] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (лад)] (* <- lang_ru;; *);
+		[Def. (fret)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string;
+		concept_string_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string;
+	concept_string_instrument;;

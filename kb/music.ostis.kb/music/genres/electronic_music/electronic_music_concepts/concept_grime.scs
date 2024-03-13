@@ -1,0 +1,28 @@
+concept_grime
+=> nrel_main_idtf:
+	[грайм] (* <- lang_ru;; *);
+	[grime] (* <- lang_en;; *);;
+
+definition -> definition_of_grime (*
+	-> rrel_key_sc_element: concept_grime;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Грайм это жанр музыки, возникший в Великобритании, который характеризуется жесткими рифмами, грязным звуком и использованием электронных инструментов] (* <- lang_ru;; *);;
+		-> [Grime is a genre of music that originated in the UK and is characterized by hard-hitting rhymes, gritty sound, and the use of electronic instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (грайм)] (* <- lang_ru;; *);
+		[Def. (grime)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

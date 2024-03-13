@@ -1,0 +1,27 @@
+ru: кларнет
+en: clarinet
+
+definition:
+  ru:
+    Музыкальный инструмент
+
+  en:
+    A musical instrument
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+
+statement: 
+  oboe_structure:
+    title:
+      ru: структура кларнета
+      en: clarinet structure
+    ru: состоит из мундштука с лигатурой и тростью, бочонка, верхнего колена, нижнего колена и раструба
+    en: it consists of a mouthpiece with a ligature and a cane, a barrel, an upper knee, a lower knee and a bell
+    using:
+      concepts: |
+        ligature
+        cane
+        barrel
+        knee

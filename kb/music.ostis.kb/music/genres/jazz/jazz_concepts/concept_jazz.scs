@@ -1,0 +1,60 @@
+concept_jazz
+=> nrel_main_idtf:
+	[джаз] (* <- lang_ru;; *);
+	[jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_jazz (*
+	-> rrel_key_sc_element: concept_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Джаз это музыкальный жанр, возникший в Соединенных Штатах Америки, особенно у истоков в Новом Орлеане. Он объединяет различные музыкальные стили и техники исполнения, включая импровизацию, ритмическую свободу и характерные гармонические прогрессии] (* <- lang_ru;; *);;
+		-> [Jazz is a musical genre that originated in the United States of America, especially at its origins in New Orleans. It combines various musical styles and performance techniques, including improvisation, rhythmic freedom and characteristic harmonic progressions] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (джаз)] (* <- lang_ru;; *);
+		[Def. (jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+statement -> statement_of_statement_title (*
+	-> rrel_key_sc_element: concept_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Важной особенностью джаза является импровизация, где музыканты создают музыку на ходу, основываясь на основной мелодии и гармонии. Это позволяет каждому исполнителю придавать уникальность и свободу выражения своей музыкальной индивидуальности] (* <- lang_ru;; *);;
+		-> [An important feature of jazz is improvisation, where musicians create music on the go, based on the basic melody and harmony. This allows each performer to give uniqueness and freedom of expression to their musical individuality] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (импровизация в джазе)] (* <- lang_ru;; *);
+		[Stat. (improvisation in jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_improvisation;
+		concept_melody;
+		concept_harmony;
+		concept_performance
+	};;
+*);;
+
+sc_node_class ->
+	concept_music_genre;
+	concept_improvisation;
+	concept_melody;
+	concept_harmony;
+	concept_performance;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

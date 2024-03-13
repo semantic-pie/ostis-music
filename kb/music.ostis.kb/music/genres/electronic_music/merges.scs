@@ -1,0 +1,376 @@
+concept_electronic_music
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_avant_garde;
+concept_synthesizer;
+concept_dance_music;
+concept_electronic_instrument;
+concept_sampling;
+=> nrel_place_of_origin:
+1960s;
+=> nrel_place_of_origin:
+germany;
+united_states;;
+
+concept_house
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_disco;
+concept_funk;
+concept_soul;
+concept_techno;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_deep_house;
+concept_tech_house;
+concept_electro_house;
+concept_progressive_house;
+concept_tribal_house;;
+
+concept_techno
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electro;
+concept_detroit_techno;
+concept_german_techno;
+concept_chicago_house;
+concept_electronic_synthpop;
+=> nrel_place_of_origin:
+united_states;
+germany;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_minimal_techno;
+concept_industrial_techno;
+concept_acid_techno;
+concept_tech_house;
+concept_dub_techno;;
+
+concept_trance
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_ambient;
+concept_house;
+concept_techno;
+concept_eurodance;
+concept_progressive_house;
+=> nrel_place_of_origin:
+germany;
+=> nrel_year_of_origin:
+1990s;
+=> nrel_derivative_form:
+concept_progressive_trance;
+concept_uplifting_trance;
+concept_psytrance;
+concept_hard_trance;
+concept_goa_trance;;
+
+concept_breakbeat
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_funk;
+concept_disco;
+concept_hip_hop;
+concept_jungle;
+concept_drum_and_bass;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_big_beat;
+concept_nu_skool_breaks;
+concept_dubstep;
+concept_breakcore;
+concept_jungle;;
+
+concept_jungle
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_drum_and_bass;
+concept_breakbeat;
+concept_reggae;
+concept_hip_hop;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;;
+
+concept_drum_and_bass
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jungle;
+concept_techno;
+concept_breakbeat;
+concept_dub;
+concept_hip_hop;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;;
+
+concept_dubstep
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_dub;
+concept_2_step_garage;
+concept_drum_and_bass;
+concept_grime;
+concept_uk_garage;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;;
+
+concept_garage
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_disco;
+concept_funk;
+concept_soul;
+concept_house;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_grime
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_uk_garage;
+concept_drum_and_bass;
+concept_dubstep;
+concept_hip_hop;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+2000s;;
+
+concept_ambient
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_new_age;
+concept_minimalism;
+concept_drone;
+concept_noise;
+concept_downtempo;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_downtempo
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_ambient;
+concept_trip_hop;
+concept_chillout;
+concept_jazz;
+concept_lounge;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1990s;;
+
+
+concept_trip_hop
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_hip_hop;
+concept_electronic_music;
+concept_downtempo;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;
+=> nrel_derivative_form:
+concept_trip_rock;
+concept_chillout;
+concept_triphop_ambient;;
+
+concept_synthwave
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_new_wave;
+concept_italo_disco;
+concept_outrun;
+=> nrel_place_of_origin:
+united_states;
+france;
+=> nrel_year_of_origin:
+2000s;
+=> nrel_derivative_form:
+concept_dark_synth;
+concept_retrowave;
+concept_outrun;;
+
+concept_industrial
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_punk_rock;
+concept_noise;
+concept_electronic_music;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1970s;
+=> nrel_derivative_form:
+concept_industrial_rock;
+concept_industrial_metal;
+concept_ebm;;
+
+concept_ebm
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_industrial;
+concept_electronic_music;
+concept_electronic_synthpop;
+=> nrel_place_of_origin:
+belgium;
+germany;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_dark_electro;
+concept_futurepop;
+concept_agrotech;;
+
+concept_electronic_synthpop
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_new_wave;
+concept_post_punk;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1970s;
+=> nrel_derivative_form:
+concept_electropop;
+concept_futurepop;
+concept_darkwave;;
+
+concept_electro
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_hip_hop;
+concept_electronic_music;
+concept_funk;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1980s;
+=> nrel_derivative_form:
+concept_electroclash;
+concept_ghetto_electro;
+concept_techno_bass;;
+
+concept_nu_disco
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_disco;
+concept_electronic_music;
+=> nrel_place_of_origin:
+united_states;
+france;
+=> nrel_year_of_origin:
+2000s;
+=> nrel_derivative_form:
+concept_french_house;
+concept_indie_dance;
+concept_nudisco_italo;;
+
+concept_idm
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_ambient;
+concept_techno;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;
+=> nrel_derivative_form:
+concept_glitch;
+concept_ambient_techno;
+concept_drill_and_bass;;
+
+concept_glitch
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_idm;
+concept_electronic_music;
+concept_noise;
+=> nrel_place_of_origin:
+united_states;
+germany;
+=> nrel_year_of_origin:
+1990s;
+=> nrel_derivative_form:
+concept_glitch_hop;
+concept_wonky;
+concept_breakcore;;
+
+concept_vaporwave
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_chillwave;
+concept_electronic_synthpop;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+2010s;
+=> nrel_derivative_form:
+concept_future_funk;
+concept_seapunk;
+concept_vaportrap;;
+
+concept_hardstyle
+<- concept_electronic_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_techno;
+concept_trance;
+concept_hardcore;
+=> nrel_place_of_origin:
+netherlands;
+=> nrel_year_of_origin:
+1990s;
+=> nrel_derivative_form:
+concept_rawstyle;
+concept_jumstyle;
+concept_hard_dance;;

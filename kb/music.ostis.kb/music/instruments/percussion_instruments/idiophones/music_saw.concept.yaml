@@ -1,0 +1,18 @@
+ru: музыкальная пила
+en: musical saw
+
+definition:
+  ru:
+    Музыкальный инструмент, состоящий из стального лезвия, заставленное
+    вибрировать и которое при трении смычком издает музыкальный звук, который
+    может модулироваться скручиванием и кривизной пилы, полученной при нажатии
+    пальцев руки
+
+  en:
+    A musical instrument consisting of a steel blade made to vibrate and which,
+    when rubbed with a bow, emits a musical sound that it can be modulated by
+    the twisting and curvature of the saw obtained by pressing the fingers of
+    the hand
+  using:
+    concepts: |
+      music_instrument

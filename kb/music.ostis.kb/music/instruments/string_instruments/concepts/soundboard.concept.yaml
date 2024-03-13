@@ -1,0 +1,15 @@
+ru: дека
+en: soundboard
+
+definition:
+  ru:
+    Верхняя и нижняя доски струнного музыкального инструмента, служащие для
+    усиления звука
+
+  en:
+    The upper and lower boards of a stringed musical instrument, which serve to
+    enhance the sound
+  using:
+    concepts: |
+      sound
+      string_instrument

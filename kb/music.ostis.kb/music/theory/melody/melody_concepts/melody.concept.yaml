@@ -1,0 +1,13 @@
+ru: мелодика
+en: melody
+definition:
+  ru: Раздел теории музыки которая изучает создание и организацию мелодий. Она фокусируется на развитии и выражении музыкальных идей, образующих основную мелодическую линию композиции
+  en: A Part of music theory that studies the creation and organization of melodies. It focuses on the development and expression of musical ideas that form the main melodic line of the composition
+  using:
+    concepts: |
+      timbre
+      structure
+      string_instrument
+    nrels: |
+      used_musical_instruments
+      playing_techniques

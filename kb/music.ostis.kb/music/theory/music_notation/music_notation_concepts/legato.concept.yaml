@@ -1,0 +1,13 @@
+ru: легато
+en: legato
+definition:
+  ru: Легато это приём игры на музыкальном инструменте, или в пении, обозначающее связное исполнение звуков, при котором имеет место плавный переход одного звука в другой, пауза между звуками отсутствует
+  en: Legato is a technique of playing a musical instrument, or in singing, denoting a coherent performance of sounds, in which there is a smooth transition from one sound to another, there is no pause between sounds
+  using:
+    concepts: |
+      music_notation
+      music_instrument
+      guitar
+      sound
+    nrels: |
+      smooth_playing_of_sounds

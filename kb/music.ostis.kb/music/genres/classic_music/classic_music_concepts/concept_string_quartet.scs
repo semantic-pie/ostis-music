@@ -1,0 +1,37 @@
+concept_string_quartet
+=> nrel_main_idtf:
+	[струнный квартет] (* <- lang_ru;; *);
+	[string quartet] (* <- lang_en;; *);;
+
+definition -> definition_of_string_quartet (*
+	-> rrel_key_sc_element: concept_string_quartet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Струнный квартет это жанр классической музыки, представляющий собой музыкальное произведение, написанное для четырех струнных инструментов двух скрипок, альтовой и виолончели] (* <- lang_ru;; *);;
+		-> [String quartet is a genre of classical music that is a musical composition written for four string instruments two violins, viola and cello] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (струнный квартет)] (* <- lang_ru;; *);
+		[Def. (string quartet)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_subgenres;
+		nrel_notable_composers
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_subgenres;
+	nrel_notable_composers;;

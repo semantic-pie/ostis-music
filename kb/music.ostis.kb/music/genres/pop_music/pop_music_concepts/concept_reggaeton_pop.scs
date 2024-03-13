@@ -1,0 +1,28 @@
+concept_reggaeton_pop
+=> nrel_main_idtf:
+	[реггетон-поп] (* <- lang_ru;; *);
+	[reggaeton pop] (* <- lang_en;; *);;
+
+definition -> definition_of_reggaeton_pop (*
+	-> rrel_key_sc_element: concept_reggaeton_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Реггетон-поп это жанр музыки, сочетающий в себе элементы реггетона и поп-музыки. Характеризуется использованием быстрых ритмов и сильными басовыми линиями. Обычно исполняется на испанском языке] (* <- lang_ru;; *);;
+		-> [Reggaeton pop is a music genre that combines elements of reggaeton and pop music. It is characterized by the use of fast rhythms and strong bass lines. It is usually sung in Spanish] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (реггетон-поп)] (* <- lang_ru;; *);
+		[Def. (reggaeton pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

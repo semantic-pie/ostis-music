@@ -1,0 +1,16 @@
+ru: электрогитара
+en: electroguitar
+
+definition:
+  ru:
+    Разновидность гитары, имеющая электромагнитные звукосниматели, преобразующие
+    колебания металлических струн в колебания электрического тока
+
+  en:
+    A type of guitar that has electromagnetic pickups that convert vibrations of
+    metal strings into electric current vibrations
+  using:
+    concepts: |
+      string
+      pickups
+      vibration

@@ -1,0 +1,12 @@
+ru: нотная грамота
+en: music notation
+definition:
+  ru: Раздел теории музыки, изучающий символы и обозначения, используемые для записи музыкальных звуков на нотном стане. Она представляет собой систему нотных символов и правил, позволяющих музыкантам записывать и читать музыку
+  en: The branch of music theory that studies the symbols and notations used to record musical sounds on a musical staff. It is a system of musical notation symbols and rules that allow musicians to write and read music
+  using:
+    concepts: |
+      alto_clef
+      whole_rest
+    nrels: |
+      used_musical_instruments
+      playing_techniques

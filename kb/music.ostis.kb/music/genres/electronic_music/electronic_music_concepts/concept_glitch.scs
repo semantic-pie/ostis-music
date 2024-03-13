@@ -1,0 +1,28 @@
+concept_glitch
+=> nrel_main_idtf:
+	[глитч] (* <- lang_ru;; *);
+	[glitch] (* <- lang_en;; *);;
+
+definition -> definition_of_glitch (*
+	-> rrel_key_sc_element: concept_glitch;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Глитч это жанр электронной музыки, который характеризуется использованием ошибок и дефектов в электронной обработке звука, таких как щелчки, шумы и прерывания, для создания уникальных звуковых эффектов и ритмов] (* <- lang_ru;; *);;
+		-> [Glitch is a genre of electronic music that is characterized by the use of errors and defects in electronic sound processing, such as clicks, noise, and interruptions, to create unique sound effects and rhythms] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (глитч)] (* <- lang_ru;; *);
+		[Def. (glitch)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,33 @@
+concept_rhythmic_figures
+=> nrel_main_idtf:
+	[ритмические фигуры] (* <- lang_ru;; *);
+	[rhythmic figures] (* <- lang_en;; *);;
+
+definition -> definition_of_rhythmic_figures (*
+	-> rrel_key_sc_element: concept_rhythmic_figures;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Последовательность длительностей, часто повторяющаяся в произведении и в значительной степени определяющая характер музыки] (* <- lang_ru;; *);;
+		-> [A sequence of durations that is often repeated in a work and largely determines the nature of the music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ритмические фигуры)] (* <- lang_ru;; *);
+		[Def. (rhythmic figures)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		concept_syncopation;
+		concept_bar;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;
+	concept_syncopation;
+	concept_bar;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

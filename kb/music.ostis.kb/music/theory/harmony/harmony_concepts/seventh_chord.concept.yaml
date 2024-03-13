@@ -1,0 +1,12 @@
+ru: септаккорд
+en: seventh chord
+definition:
+  ru: Аккорд, состоящий из четырёх звуков, которые расположены или могут быть расположены по терциям
+  en: A chord consisting of four notes that are or can be arranged in thirds
+  using:
+    concepts: |
+      chord
+      minor_third
+      major_chord
+    nrels: |
+      used_musical_instruments

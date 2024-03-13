@@ -1,0 +1,274 @@
+concept_swing
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_blues;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1930s;
+=> nrel_used_musical_instruments:
+concept_drums;
+concept_saxophone;
+concept_bass_guitar;
+concept_electro_guitar;
+=> nrel_derivative_form:
+concept_latin_jazz;
+concept_cool_jazz;
+concept_bebop;
+concept_swing;;
+
+concept_bebop
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_swing;
+concept_jazz;
+concept_blues;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1940s;
+=> nrel_derivative_form:
+concept_hard_bop;;
+
+concept_cool_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_bebop;
+concept_jazz;
+concept_classical_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1940s;;
+
+concept_hard_bop
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_bebop;
+concept_jazz;
+concept_rhythm_and_blues;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_free_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_avantgarde_jazz;
+concept_jazz;
+concept_free_improvisation;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_modal_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_modality;
+concept_classical_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_jazz_fusion
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_funk;
+concept_rock_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_latin_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_afro_cuban_music;
+concept_bossa_nova;
+concept_salsa_music;
+=> nrel_place_of_origin:
+united_states;
+cuba;
+=> nrel_year_of_origin:
+1940s;;
+
+concept_afro_cuban_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_afro_cuban_music;
+concept_cuban_music;
+concept_salsa_music;
+=> nrel_place_of_origin:
+united_states;
+cuba;
+=> nrel_year_of_origin:
+1940s;;
+
+concept_bossa_nova
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_samba;
+=> nrel_place_of_origin:
+brazil;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_acid_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_funk;
+concept_soul_music;
+concept_electronic_music;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_smooth_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_rhythm_and_blues;
+concept_pop_music;
+concept_fusion;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_jazz_funk
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_funk;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+
+concept_funk
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_soul_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_soul_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_dixieland
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_march_music;
+concept_ragtime;
+concept_blues;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1910s;;
+
+concept_gypsy_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_gypsy_music;
+concept_swing;
+=> nrel_place_of_origin:
+france;
+=> nrel_year_of_origin:
+1930s;;
+
+concept_ethno_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_folk_music;
+concept_world_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_chamber_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_chamber_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_avantgarde_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_avant_garde;
+concept_free_jazz;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_jazz_rap
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_hip_hop_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_nu_jazz
+<- concept_jazz;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_jazz;
+concept_electronic_music;
+concept_fusion;
+=> nrel_place_of_origin:
+united_kingdom;
+=> nrel_year_of_origin:
+1990s;;

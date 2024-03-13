@@ -1,0 +1,14 @@
+ru: струнный инструмент
+en: string instrument
+
+definition:
+  ru:
+    Музыкальный инструмент, в котором источником звука являются колебания струн
+
+  en:
+    A musical instrument in which the sound source is the vibrations of the
+    strings
+  using:
+    concepts: |
+      music_instrument
+      string

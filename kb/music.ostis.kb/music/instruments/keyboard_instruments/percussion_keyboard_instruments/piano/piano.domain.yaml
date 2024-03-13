@@ -1,0 +1,14 @@
+en: piano
+ru: фортепиано
+
+parent: percussion_keyboard_instruments
+
+children: |
+  pianino
+  grand_piano
+max: |
+  piano
+
+concepts: |
+  pianino
+  grand_piano

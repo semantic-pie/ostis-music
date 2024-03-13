@@ -1,0 +1,31 @@
+concept_music_interval
+=> nrel_main_idtf:
+	[музыкальный интервал] (* <- lang_ru;; *);
+	[music interval] (* <- lang_en;; *);;
+
+definition -> definition_of_music_interval (*
+	-> rrel_key_sc_element: concept_music_interval;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Соотношение двух музыкальных звуков по их высоте] (* <- lang_ru;; *);;
+		-> [Ratio of two musical sounds according to their pitch] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (музыкальный интервал)] (* <- lang_ru;; *);
+		[Def. (music interval)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_octave;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_octave;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

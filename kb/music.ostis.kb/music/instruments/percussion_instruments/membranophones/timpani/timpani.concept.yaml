@@ -1,0 +1,15 @@
+ru: литавры
+en: timpani
+
+definition:
+  ru:
+    представляют собой систему от двух до семи металлических котлообразных чаш,
+    открытая сторона которых затянута кожей или пластиком, а нижняя часть может
+    иметь отверстие
+  en:
+    they are a system of two to seven metal cauldron-shaped bowls, the open side
+    of which is covered with leather or plastic, and the lower part may have a
+    hole
+  using:
+    concepts: |
+      percussion_instruments

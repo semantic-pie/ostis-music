@@ -1,0 +1,26 @@
+concept_alternative_metal
+=> nrel_main_idtf:
+	[альтернативный метал] (* <- lang_ru;; *);
+	[alternative metal] (* <- lang_en;; *);;
+
+definition -> definition_of_alternative_metal (*
+	-> rrel_key_sc_element: concept_alternative_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Альтернативный метал это субжанр метал-музыки, который объединяет элементы хэви-метала, гранжа, альтернативного рока и других стилей. Характеризуется смешением тяжелых гитарных риффов с мелодичными вокальными партиями и экспериментами в звуковом оформлении] (* <- lang_ru;; *);;
+		-> [Alternative metal is a subgenre of heavy metal music that combines elements of heavy metal, grunge, alternative rock, and other styles. It is characterized by the fusion of heavy guitar riffs with melodic vocals and sound experimentation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (альтернативный метал)] (* <- lang_ru;; *);
+		[Def. (alternative metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

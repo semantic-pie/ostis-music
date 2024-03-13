@@ -1,0 +1,37 @@
+en: music theory
+ru: музыкальной теории
+
+parent: music
+
+children: |
+  harmony
+  melody
+  rhythm
+  performance
+  analysis
+  music_notation
+
+max: |
+  music_theory
+
+concepts: |
+  harmony
+  melody
+  rhythm
+  performance
+  analysis
+  music_notation
+  music_interval
+  chord
+  musical_symbols
+  tonality
+  triad
+
+nrels: |
+  musical_size
+  playing_solo
+  dinamics
+  mode
+  playing_in_unison
+  
+

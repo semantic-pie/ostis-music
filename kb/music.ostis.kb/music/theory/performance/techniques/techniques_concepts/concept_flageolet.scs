@@ -1,0 +1,41 @@
+concept_flageolet
+=> nrel_main_idtf:
+	[флажолет] (* <- lang_ru;; *);
+	[flageolet] (* <- lang_en;; *);;
+
+definition -> definition_of_flageolet (*
+	-> rrel_key_sc_element: concept_flageolet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Флажолет это техника струнного инструмента, которая использует узлы естественных гармоник музыкальной струны для выделения обертонов. Палец слегка касается струны] (* <- lang_ru;; *);;
+		-> [Flageolet is a string instrument technique that uses the nodes of natural harmonics of a musical string to isolate overtones. Finger slightly touches the string] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (флажолет)] (* <- lang_ru;; *);
+		[Def. (flageolet)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_violin;
+		concept_cello;
+		concept_electro_guitar;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_violin;
+	concept_cello;
+	concept_electro_guitar;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

@@ -1,0 +1,33 @@
+concept_seventh_chord
+=> nrel_main_idtf:
+	[септаккорд] (* <- lang_ru;; *);
+	[seventh chord] (* <- lang_en;; *);;
+
+definition -> definition_of_seventh_chord (*
+	-> rrel_key_sc_element: concept_seventh_chord;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Аккорд, состоящий из четырёх звуков, которые расположены или могут быть расположены по терциям] (* <- lang_ru;; *);;
+		-> [A chord consisting of four notes that are or can be arranged in thirds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (септаккорд)] (* <- lang_ru;; *);
+		[Def. (seventh chord)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_chord;
+		concept_minor_third;
+		concept_major_chord;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_chord;
+	concept_minor_third;
+	concept_major_chord;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

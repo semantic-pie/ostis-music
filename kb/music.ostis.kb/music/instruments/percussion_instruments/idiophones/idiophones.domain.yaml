@@ -1,0 +1,22 @@
+en: idiophones percussion instrument
+ru: идиофонных ударных инструментов
+
+parent: percussion_instruments
+
+max: |
+  idiophones_percussion_instrument
+
+concepts: |
+  castanets
+  xylophone
+  rainstick
+  teponaztl
+  triangle
+  glucophone
+  hang
+  music_saw
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

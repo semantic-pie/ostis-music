@@ -1,0 +1,28 @@
+concept_power_pop
+=> nrel_main_idtf:
+	[пауэр-поп] (* <- lang_ru;; *);
+	[power pop] (* <- lang_en;; *);;
+
+definition -> definition_of_power_pop (*
+	-> rrel_key_sc_element: concept_power_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пауэр-поп это жанр рок-музыки, который характеризуется яркими мелодиями, хоромами, гитарными соло и быстрым темпом, что делает его более танцевальным, чем традиционный рок] (* <- lang_ru;; *);;
+		-> [Power pop is a genre of rock music that is characterized by bright melodies, harmonies, guitar solos, and a fast tempo, making it more danceable than traditional rock] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пауэр-поп)] (* <- lang_ru;; *);
+		[Def. (power pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

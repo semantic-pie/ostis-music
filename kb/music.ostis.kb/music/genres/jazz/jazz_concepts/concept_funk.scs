@@ -1,0 +1,26 @@
+concept_funk
+=> nrel_main_idtf:
+    [фанк] (* <- lang_ru;; *);
+    [funk] (* <- lang_en;; *);;
+
+definition -> definition_of_funk (*
+    -> rrel_key_sc_element: concept_funk;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Фанк это жанр музыки, который развился в США в 1960-х годах. Характеризуется ритмичными грувами, танцевальными ритмами, использованием фанковых аккордов и характерными инструментальными соло] (* <- lang_ru;; *);;
+        -> [Funk is a genre of music that originated in the United States in the 1960s. It is characterized by rhythmic grooves, danceable rhythms, the use of funk chords, and distinctive instrumental solos] (* <- lang_en;; *);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (фанк)] (* <- lang_ru;; *);
+        [Def. (funk)] (* <- lang_en;; *);;
+
+    => nrel_using_constants: {
+        concept_music_genre;
+        nrel_stylistic_origin;
+        nrel_place_of_origin;
+        nrel_year_of_origin;
+        nrel_derivative_form;
+        nrel_used_musical_instruments
+    };;
+*);;

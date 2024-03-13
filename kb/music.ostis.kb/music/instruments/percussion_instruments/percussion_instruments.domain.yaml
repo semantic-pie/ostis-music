@@ -1,0 +1,20 @@
+en: percussion instrument
+ru: ударных инструментов
+
+parent: music_instruments
+
+children: |
+  membranophones
+  idiophones
+
+max: |
+  percussion_instrument
+
+concepts: |
+  membranophones
+  idiophones
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

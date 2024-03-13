@@ -1,0 +1,11 @@
+en: labial wood wind instruments
+ru: лабиальных деревянных духовых инструментов
+
+parent: wood_wind_instruments
+
+max: |
+  flute
+
+concepts: |
+  music_instrument
+  

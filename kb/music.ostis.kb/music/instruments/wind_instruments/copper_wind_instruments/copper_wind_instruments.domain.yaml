@@ -1,0 +1,22 @@
+en: copper wind instruments
+ru: медных духовых инструментов
+
+parent: wind_instruments
+
+children: |
+  copper_wind_natural_instruments
+  copper_wind_slide_instruments
+  copper_wind_valved_instruments
+  copper_wind_keyed_instruments
+  
+
+max: |
+  copper_wind_instrument
+  
+
+concepts: |
+  wind_instrument
+  copper_wind_natural_instrument
+  copper_wind_slide_instrument
+  copper_wind_valved_instrument
+  copper_wind_keyed_instrument

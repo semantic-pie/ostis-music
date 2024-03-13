@@ -1,0 +1,16 @@
+ru: кантата
+en: cantata
+definition:
+  ru:
+    Кантата это жанр вокальной классической музыки, состоящий из музыкальных частей, включающий вокальную сольную и хоровую партии с оркестром, обычно соответствующий религиозным или мирским темам
+  en:
+    Cantata is a genre of classical vocal music consisting of musical parts including solo and choral vocal parts with orchestra, usually corresponding to religious or secular themes
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

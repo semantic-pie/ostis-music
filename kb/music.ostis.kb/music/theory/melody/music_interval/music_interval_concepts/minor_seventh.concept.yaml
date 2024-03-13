@@ -1,0 +1,11 @@
+ru: малая септима
+en: minor seventh
+definition:
+  ru: Интервал, состоящий из десяти полутонов
+  en: Interval of a minor seventh, consisting of ten semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

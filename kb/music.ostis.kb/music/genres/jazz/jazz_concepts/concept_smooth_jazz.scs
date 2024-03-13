@@ -1,0 +1,28 @@
+concept_smooth_jazz
+=> nrel_main_idtf:
+	[смуз-джаз] (* <- lang_ru;; *);
+	[smooth jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_smooth_jazz (*
+	-> rrel_key_sc_element: concept_smooth_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Смуз-джаз это жанр джазовой музыки, характеризующийся мягким, расслабляющим звучанием и использованием электронных инструментов, а также элементов фанка, ритм-энд-блюза и соула] (* <- lang_ru;; *);;
+		-> [Smooth jazz is a genre of jazz music characterized by its smooth, relaxing sound and the use of electronic instruments, as well as elements of funk, rhythm and blues, and soul] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (смуз-джаз)] (* <- lang_ru;; *);
+		[Def. (smooth jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

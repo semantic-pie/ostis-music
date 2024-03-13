@@ -1,0 +1,18 @@
+ru: ханг
+en: hang
+
+definition:
+  ru:
+    Ударный музыкальный инструмент, cостоящий из двух соединенных между собой
+    металлических тарелообразных частей (нижней GU и верхней DING). На верхней
+    стороне по кругу расположены 7-8 зон ударов с различной высотой звучания. В
+    центре этого круга, на вершине, находится шишкообразный выступ
+
+  en:
+    A percussive musical instrument consisting of two interconnected metal
+    plate-shaped parts (lower GU and upper DING). On the top on the side of the
+    circle there are 7-8 shock zones with different sound heights. In the center
+    of this circle, at the top, there is a cone-shaped protrusion
+  using:
+    concepts: |
+      percussion_instrument

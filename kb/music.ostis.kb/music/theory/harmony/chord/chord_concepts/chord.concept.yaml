@@ -1,0 +1,12 @@
+ru: трезвучие
+en: chord
+definition:
+  ru: Аккорд, состоящих из 3-х звуков, которые размещаются по терциям
+  en: Chord, consisting of 3 sounds, which are placed in thirds
+
+  using:
+    concepts: |
+      electro_guitar
+      string_instruments
+    nrels: |
+      used_musical_instruments

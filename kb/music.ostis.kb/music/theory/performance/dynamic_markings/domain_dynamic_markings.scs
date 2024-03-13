@@ -1,0 +1,37 @@
+section_subject_domain_of_dynamic_markings
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область динамика] (* <- lang_ru;; *);
+	[Section. Subject domain of dynamic markings] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_dynamic_markings;
+	concept_dynamic_markings;
+	concept_forte;
+	concept_mezzo_piano;;
+
+section_subject_domain_of_dynamic_markings=[*
+	subject_domain_of_dynamic_markings
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область динамика] (* <- lang_ru;; *);
+		[Subject Domain of dynamic markings] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_dynamic_markings;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_forte;
+		concept_mezzo_piano;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_performance;;
+*];;
+
+sc_node_class ->
+	concept_dynamic_markings;
+	concept_forte;
+	concept_mezzo_piano;;

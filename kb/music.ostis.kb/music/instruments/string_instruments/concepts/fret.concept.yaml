@@ -1,0 +1,17 @@
+ru: лад
+en: fret
+
+definition:
+  ru:
+    Деталь конструкции ряда струнных инструментов,
+    представляющая собой выпуклую поперечную полоску на грифе и
+    служащую для изменения тона звучащей струны
+
+  en:
+    A detail of the construction of a number of stringed instruments,
+    which is a convex transverse strip on the neck
+    and serves to change the tone of the sounding string
+  using:
+    concepts: |
+      string
+      string_instrument

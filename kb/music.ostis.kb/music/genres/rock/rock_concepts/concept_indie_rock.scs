@@ -1,0 +1,28 @@
+concept_indie_rock
+=> nrel_main_idtf:
+	[инди-рок] (* <- lang_ru;; *);
+	[indie rock] (* <- lang_en;; *);;
+
+definition -> definition_of_indie_rock (*
+	-> rrel_key_sc_element: concept_indie_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Инди-рок это жанр рок-музыки, который характеризуется использованием элементов альтернативного рока и панка, независимым производством и дистрибуцией музыки, а также уникальным стилем исполнения и звучанием] (* <- lang_ru;; *);;
+		-> [Indie rock is a genre of rock music that is characterized by the use of elements of alternative rock and punk, independent production and distribution of music, as well as a unique style of performance and sound] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (инди-рок)] (* <- lang_ru;; *);
+		[Def. (indie rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

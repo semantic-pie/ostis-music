@@ -1,0 +1,27 @@
+concept_bass_guitar
+=> nrel_main_idtf:
+	[бас гитара] (* <- lang_ru;; *);
+	[bass guitar] (* <- lang_en;; *);;
+
+definition -> definition_of_bass_guitar (*
+	-> rrel_key_sc_element: concept_bass_guitar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Разновидность электрогитары с низким звучанием, обычно с четырьмя струнами, предназначенная для создания ритмической и гармонической основы в музыке] (* <- lang_ru;; *);;
+		-> [A kind of low-sounding electroguitar, usually with four strings, designed to create a rhythmic and harmonic basis in music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (бас гитара)] (* <- lang_ru;; *);
+		[Def. (bass guitar)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_electroguitar;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_electroguitar;
+	concept_string;;

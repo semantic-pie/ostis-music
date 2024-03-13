@@ -1,0 +1,20 @@
+en: membranophones percussion instrument
+ru: мембранофонных ударных инструментов
+
+parent: percussion_instruments
+
+max: |
+  membranophones_percussion_instrument
+
+children: |
+  drums
+  timpani
+  tambourine
+
+concepts: |
+  membranophones
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

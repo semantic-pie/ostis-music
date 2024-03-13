@@ -1,0 +1,16 @@
+ru: джаз-фанк
+en: jazz funk
+definition:
+  ru:
+    Джаз-фанк это жанр джазовой музыки, характеризующийся использованием элементов фанка, соула и ритм-энд-блюза, а также упором на ритмическую секцию и импровизацию
+  en:
+    Jazz funk is a genre of jazz music characterized by its use of funk, soul, and rhythm and blues elements, as well as its emphasis on the rhythm section and improvisation
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

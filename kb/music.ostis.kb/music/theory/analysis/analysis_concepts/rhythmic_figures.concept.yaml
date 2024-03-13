@@ -1,0 +1,12 @@
+ru: ритмические фигуры
+en: rhythmic figures
+definition:
+  ru: Последовательность длительностей, часто повторяющаяся в произведении и в значительной степени определяющая характер музыки
+  en: A sequence of durations that is often repeated in a work and largely determines the nature of the music
+  using:
+    concepts: |
+      rhythm
+      syncopation
+      bar
+    nrels: |
+      used_musical_instruments

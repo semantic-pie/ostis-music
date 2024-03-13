@@ -1,0 +1,39 @@
+concept_oratorio
+=> nrel_main_idtf:
+	[оратория] (* <- lang_ru;; *);
+	[oratorio] (* <- lang_en;; *);;
+
+definition -> definition_of_oratorio (*
+	-> rrel_key_sc_element: concept_oratorio;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Оратория это музыкально-театральный жанр, в котором музыка используется для рассказа о религиозных или исторических событиях. Оратория обычно включает сольные вокальные партии, хор, оркестр и некоторые диалоги] (* <- lang_ru;; *);;
+		-> [Oratorio is a musical-theatrical genre in which music is used to tell stories about religious or historical events. Oratorio usually includes solo vocal parts, choir, orchestra, and some dialogues] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (оратория)] (* <- lang_ru;; *);
+		[Def. (oratorio)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		concept_theatrical_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;
+	concept_theatrical_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

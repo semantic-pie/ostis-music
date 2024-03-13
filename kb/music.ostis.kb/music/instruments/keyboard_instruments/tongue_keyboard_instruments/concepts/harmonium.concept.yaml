@@ -1,0 +1,15 @@
+ru: фисгармония
+en: harmonium
+
+definition:
+  ru:
+    музыкальный инструмент по концепции схожий с аккордеоном, отличающийся
+    наличием фортепианной клавиатуры и напольным или настольным расположением
+
+  en:
+    a musical instrument similar in concept to an accordion, characterized by
+    the presence of a piano keyboard and a floor or table arrangement
+  using:
+    concepts: |
+      accordion
+      piano

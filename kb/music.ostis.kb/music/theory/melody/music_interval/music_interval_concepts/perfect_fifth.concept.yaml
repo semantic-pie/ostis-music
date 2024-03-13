@@ -1,0 +1,11 @@
+ru: чистая квинта
+en: perfect fifth
+definition:
+  ru: Интервал, состоящий из семи полутонов
+  en: Interval of a perfect fifth, consisting of seven semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

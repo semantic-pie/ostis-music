@@ -1,0 +1,29 @@
+concept_rock
+=> nrel_main_idtf:
+	[рок] (* <- lang_ru;; *);
+	[rock] (* <- lang_en;; *);;
+
+definition -> definition_of_rock (*
+	-> rrel_key_sc_element: 
+		concept_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Рок это жанр популярной музыки, характеризующийся громкими гитарными звуками, мощными ударными ритмами и выразительным вокалом] (* <- lang_ru;; *);;
+		-> [Rock is a genre of popular music characterized by loud guitar sounds, powerful percussive rhythms and expressive vocals] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (рок)] (* <- lang_ru;; *);
+		[Def. (rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

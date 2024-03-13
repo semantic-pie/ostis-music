@@ -1,0 +1,13 @@
+
+name: SCs Automation
+
+on:
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: qaip/scs-action@v4

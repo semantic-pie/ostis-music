@@ -1,0 +1,27 @@
+concept_accordion
+=> nrel_main_idtf:
+	[аккордеон] (* <- lang_ru;; *);
+	[accordion] (* <- lang_en;; *);;
+
+definition -> definition_of_accordion (*
+	-> rrel_key_sc_element: concept_accordion;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [клавишный музыкальный инструмент, состоящий из клавишной части и гармонического блока] (* <- lang_ru;; *);;
+		-> [a keyboard musical instrument consisting of a keyboard part and a harmonic block] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (аккордеон)] (* <- lang_ru;; *);
+		[Def. (accordion)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_keyboard;
+		concept_harmonic
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_keyboard;
+	concept_harmonic;;

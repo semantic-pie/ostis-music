@@ -1,0 +1,31 @@
+concept_perfect_fifth
+=> nrel_main_idtf:
+	[чистая квинта] (* <- lang_ru;; *);
+	[perfect fifth] (* <- lang_en;; *);;
+
+definition -> definition_of_perfect_fifth (*
+	-> rrel_key_sc_element: concept_perfect_fifth;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интервал, состоящий из семи полутонов] (* <- lang_ru;; *);;
+		-> [Interval of a perfect fifth, consisting of seven semitones] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (чистая квинта)] (* <- lang_ru;; *);
+		[Def. (perfect fifth)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_interval;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_interval;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

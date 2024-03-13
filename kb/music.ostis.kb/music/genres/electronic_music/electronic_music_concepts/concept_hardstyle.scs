@@ -1,0 +1,28 @@
+concept_hardstyle
+=> nrel_main_idtf:
+	[хардстайл] (* <- lang_ru;; *);
+	[hardstyle] (* <- lang_en;; *);;
+
+definition -> definition_of_hardstyle (*
+	-> rrel_key_sc_element: concept_hardstyle;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хардстайл жанр электронной танцевальной музыки, развившийся из хард-транса и техно. Характеризуется жёсткими и пронзительными синтезаторными звуками, мелодичными линиями, быстрым темпом и использованием бочечных ударных в ритме, напоминающим звук марширующей армии] (* <- lang_ru;; *);;
+		-> [Hardstyle is a genre of electronic dance music that originated from hard trance and techno. It is characterized by its hard and piercing synth sounds, melodic lines, fast tempo, and the use of kick drums in a rhythm reminiscent of a marching army] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хардстайл)] (* <- lang_ru;; *);
+		[Def. (hardstyle)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

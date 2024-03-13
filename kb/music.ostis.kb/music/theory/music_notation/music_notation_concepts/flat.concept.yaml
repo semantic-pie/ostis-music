@@ -1,0 +1,14 @@
+ru: бемоль
+en: flat
+definition:
+  ru: Бемоль это знак альтерации, обозначающий понижение стоящих справа от него нот на один хроматический полутон. Ставится либо после ключа, либо перед отдельными нотами. В первом случае действует до следующего ключа, во втором до конца такта или явной отмены знаком бекар
+  en: A flat is an accidental, which means that the notes to its right are lowered by one chromatic semitone. Placed either after the key, or before individual notes. In the first case, it is valid until the next key, in the second, until the end of the bar or explicit cancellation by the natural sign
+  using:
+    concepts: |
+      music_notation
+      clef
+      sound
+      semitone
+      natural
+    nrels: |
+      lowered

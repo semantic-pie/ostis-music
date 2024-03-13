@@ -1,0 +1,19 @@
+en: reed wood wind instruments
+ru: язычковых деревянных духовых инструментов
+
+parent: wood_wind_instruments
+
+max: |
+  reed_wind_instrument
+
+concepts: |
+  music_instrument
+  wood_wind_instrument
+  oboe
+  clarinet
+  saxophone
+  bassoon
+  zurna
+  balaban
+
+  

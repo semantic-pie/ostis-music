@@ -1,0 +1,19 @@
+en: plucking string instruments
+ru: струнных щипковых инструментов
+
+parent: string_instruments
+
+children: |
+  guitar
+  psaltery
+  banjo
+  domra
+
+max: |
+  plucking_string_instrument
+
+concepts: |
+  guitar
+  psaltery
+  banjo
+  domra

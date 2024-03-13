@@ -1,0 +1,31 @@
+concept_eighth_note
+=> nrel_main_idtf:
+	[восьмая нота] (* <- lang_ru;; *);
+	[eighth note] (* <- lang_en;; *);;
+
+definition -> definition_of_eighth_note (*
+	-> rrel_key_sc_element: concept_eighth_note;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Восьмая нота это музыкальный символ, играемая в течении одной восьмой от продолжительности целой доли. Нота представляет собой вытянутый закрашеный овал, с добавленным стержнем, направленным вниз или верх и одним флажком на конце стержня] (* <- lang_ru;; *);;
+		-> [An eighth note is a musical note played for one eighth of the duration of a whole note. It looks like an elongated, filled-in oval with a stem pointing up or down and one flag on the end of the stem] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (восьмая нота)] (* <- lang_ru;; *);
+		[Def. (eighth note)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_note_name;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_note_name;
+	nrel_duration;;

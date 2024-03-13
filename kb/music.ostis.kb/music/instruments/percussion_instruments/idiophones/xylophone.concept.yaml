@@ -1,0 +1,19 @@
+ru: ксилофон
+en: xylophone
+
+definition:
+  ru:
+    ударный музыкальный инструмент с фиксированной высотой звучания.
+    Представляет собой ряд деревянных брусков разной величины, настроенных на
+    определённые ноты. По брускам ударяют палочками с шарообразными
+    наконечниками (малетами) или специальными молоточками, похожими на небольшие
+    ложки
+
+  en:
+    a percussive musical instrument with a fixed pitch. It is a series of wooden
+    bars of different sizes, tuned to certain notes. The bars are hit with
+    sticks with spherical tips (mockups) or special hammers, similar to small
+    spoons
+  using:
+    concepts: |
+      percussion_instrument

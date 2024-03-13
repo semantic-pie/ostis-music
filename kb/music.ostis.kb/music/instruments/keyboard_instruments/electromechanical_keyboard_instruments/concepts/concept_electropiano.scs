@@ -1,0 +1,25 @@
+concept_electropiano
+=> nrel_main_idtf:
+	[электропиано] (* <- lang_ru;; *);
+	[electropiano] (* <- lang_en;; *);;
+
+definition -> definition_of_electropiano (*
+	-> rrel_key_sc_element: concept_electropiano;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [электронный музыкальный инструмент, созданный для имитации звучания и игрового ощущения акустического пианино] (* <- lang_ru;; *);;
+		-> [an electronic musical instrument designed to simulate the sound and playing sensation of an acoustic piano] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электропиано)] (* <- lang_ru;; *);
+		[Def. (electropiano)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_piano
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_piano;;

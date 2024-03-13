@@ -1,0 +1,14 @@
+en: bowed string instruments
+ru: струнных смычковых инструментов
+
+parent: string_instruments
+
+max: |
+  bowed_string_instrument
+
+concepts: |
+  string_instrument
+  violin
+  cello
+  viola
+  double_bass

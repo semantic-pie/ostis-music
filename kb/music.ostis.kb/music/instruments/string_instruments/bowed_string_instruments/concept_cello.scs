@@ -1,0 +1,27 @@
+concept_cello
+=> nrel_main_idtf:
+	[виолончель] (* <- lang_ru;; *);
+	[cello] (* <- lang_en;; *);;
+
+definition -> definition_of_cello (*
+	-> rrel_key_sc_element: concept_cello;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Смычковый музыкальный инструмент с 4-мя струнами. По форме схожа со скрипкой и альтом, но гораздо большая по размеру] (* <- lang_ru;; *);;
+		-> [A bowed musical instrument with 4 strings. It is similar in shape to a violin and viola, but much larger in size] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (виолончель)] (* <- lang_ru;; *);
+		[Def. (cello)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;;

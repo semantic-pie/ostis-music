@@ -1,0 +1,26 @@
+concept_j_rock
+=> nrel_main_idtf:
+	[японский рок] (* <- lang_ru;; *);
+	[j-rock] (* <- lang_en;; *);;
+
+definition -> definition_of_j_rock (*
+	-> rrel_key_sc_element: concept_j_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Японский рок, также известный как j-rock, это жанр рок-музыки, развившийся в Японии. Характеризуется использованием японского языка в текстах песен, уникальным стилем исполнения и влиянием западных рок-жанров] (* <- lang_ru;; *);;
+		-> [Japanese rock, also known as j-rock, is a genre of rock music that originated in Japan. It is characterized by the use of the Japanese language in song lyrics, a unique style of performance, and influences from Western rock genres] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (японский рок)] (* <- lang_ru;; *);
+		[Def. (j-rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

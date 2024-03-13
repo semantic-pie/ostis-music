@@ -1,0 +1,33 @@
+concept_d_minor
+=> nrel_main_idtf:
+	[ре минор] (* <- lang_ru;; *);
+	[D minor] (* <- lang_en;; *);;
+
+definition -> definition_of_d_minor (*
+	-> rrel_key_sc_element: concept_d_minor;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Минорная тональность с тоникой ре. Имеет один бемоль при ключе] (* <- lang_ru;; *);;
+		-> [Minor tonality with D tonic. It has one flat at the key] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ре минор)] (* <- lang_ru;; *);
+		[Def. (D minor)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_flat;
+		concept_seventh_chord;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_flat;
+	concept_seventh_chord;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

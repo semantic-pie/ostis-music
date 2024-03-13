@@ -1,0 +1,16 @@
+ru: ню-джаз
+en: nu jazz
+definition:
+  ru: 
+    Ню-джаз это жанр, который сочетает в себе элементы джаза, электронной музыки, фанка и соула, и в котором используются как традиционные, так и современные музыкальные инструменты и технологии
+  en: 
+    Nu jazz is a genre that combines elements of jazz, electronic music, funk, and soul, and uses both traditional and modern musical instruments and technologies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

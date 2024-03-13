@@ -1,0 +1,17 @@
+en: techniques
+ru: техник исполнения
+
+parent: performance
+
+max: |
+  techniques
+
+concepts: |
+  vibrato
+  flageolet
+  pizzicato
+  staccato
+  hammer_on
+  pull_off
+  slide
+  bend

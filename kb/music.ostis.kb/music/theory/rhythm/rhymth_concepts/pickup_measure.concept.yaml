@@ -1,0 +1,12 @@
+ru: затакт
+en: pickup measure
+definition:
+  ru: Неполный такт, предшествующий сильной доле первого полного такта. Поскольку такт не является завершенным, то в конце музыкального произведения должен присутствавать еще один неполный такт
+  en: An incomplete measure preceding the downbeat of the first full bar. Since the bar is not complete, then at the end of the piece of music there must be another incomplete bar
+  using:
+    concepts: |
+      rhythm
+      bar
+    nrels: |
+      used_musical_instruments
+      playing_techniques

@@ -1,0 +1,16 @@
+ru: даунтемпо
+en: downtempo
+definition:
+  ru:
+    Даунтемпо это жанр электронной музыки, который характеризуется медленным темпом и расслабленной атмосферой, сочетает в себе элементы джаза, фанка, соула, хип-хопа и других жанров
+  en:
+    Downtempo is a genre of electronic music that is characterized by a slow tempo and relaxed atmosphere, combining elements of jazz, funk, soul, hip-hop, and other genres
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

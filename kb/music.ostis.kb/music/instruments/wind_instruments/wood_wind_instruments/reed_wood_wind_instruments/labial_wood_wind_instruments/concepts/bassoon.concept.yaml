@@ -1,0 +1,25 @@
+ru: фагот
+en: bassoon
+
+definition:
+  ru:
+    Музыкальный инструмент
+
+  en:
+    A musical instrument
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+
+statement: 
+  oboe_structure:
+    title:
+      ru: структура фагота
+      en: bassoon structure
+    ru: состоит из нижнего колена, малого колена, большого колена и раструба
+    en: it consists of a lower knee, a small knee, a large knee and a bell
+    using:
+      concepts: |
+        bell
+        knee

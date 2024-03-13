@@ -1,0 +1,11 @@
+ru: малая секунда
+en: minor second
+definition:
+  ru: Интервал между двумя соседними нотами
+  en: Interval of a half step (1 semitone) between two adjacent notes
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

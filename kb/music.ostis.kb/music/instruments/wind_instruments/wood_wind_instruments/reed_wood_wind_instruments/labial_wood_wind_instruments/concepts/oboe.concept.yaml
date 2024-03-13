@@ -1,0 +1,27 @@
+ru: гобой
+en: oboe
+
+definition:
+  ru:
+    Музыкальный инструмент
+
+  en:
+    A musical instrument
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+
+statement: 
+  oboe_structure:
+    title:
+      ru: структура гобоя
+      en: oboe structure
+    ru: состоит из трубки конической формы с системой клапанов и двойной тростью
+    en: it consists of a conical tube with a valve system and a double cane
+    using:
+      concepts: |
+        tube
+
+      
+      

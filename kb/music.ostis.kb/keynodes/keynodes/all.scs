@@ -1,0 +1,84 @@
+concept_artist
+<- sc_node_class;
+=> nrel_main_idtf:
+	[исполнитель] (* <- lang_ru;; *);
+	[artist] (* <- lang_en;; *);;
+
+nrel_artis
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[исполняет*] (* <- lang_ru;; *);
+	[artist*] (* <- lang_en;; *);;
+
+concept_track
+<- sc_node_class;
+=> nrel_main_idtf:
+	[композиция] (* <- lang_ru;; *);
+	[track] (* <- lang_en;; *);;
+
+music_controls
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[music controls] (* <- lang_en;; *);
+    [управление] (* <- lang_ru;; *);;
+
+user_genres
+<- sc_node_tuple;
+=> nrel_main_idtf:
+	[user's genres] (* <- lang_en;; *);
+    [жанры пользователя] (* <- lang_ru;; *);;
+
+nrel_weight
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[weight*] (* <- lang_en;; *);
+    [вес*] (* <- lang_ru;; *);;
+
+concept_user
+<- sc_node_class;
+=> nrel_main_idtf:
+	[users] (* <- lang_en;; *);
+    [пользователи] (* <- lang_ru;; *);;
+
+nrel_user_role
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[user's role*] (* <- lang_en;; *);
+    [роль пользователя*] (* <- lang_ru;; *);;
+
+nrel_username
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[username*] (* <- lang_en;; *);
+    [никнейм*] (* <- lang_ru;; *);;
+
+nrel_password
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[password*] (* <- lang_en;; *);
+    [пароль*] (* <- lang_ru;; *);;
+
+nrel_genre
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[жанр*] (* <- lang_ru;; *);
+	[genre*] (* <- lang_en;; *);;
+
+
+nrel_likes
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[нравится*] (* <- lang_ru;; *);
+	[likes*] (* <- lang_en;; *);;
+
+unlike
+<- sc_node_class;
+=> nrel_main_idtf:
+	[удалить со списка понравившихся] (* <- lang_ru;; *);
+	[delete from likes] (* <- lang_en;; *);;
+
+rrel_input_form
+<- sc_node_role_relation;
+=> nrel_main_idtf:
+	[форма ввода] (* <- lang_ru;; *);
+	[input form] (* <- lang_en;; *);;

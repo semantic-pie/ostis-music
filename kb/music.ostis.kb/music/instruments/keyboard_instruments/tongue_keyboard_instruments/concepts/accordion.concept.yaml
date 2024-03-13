@@ -1,0 +1,15 @@
+ru: аккордеон
+en: accordion
+
+definition:
+  ru:
+    клавишный музыкальный инструмент, состоящий из клавишной части и
+    гармонического блока
+
+  en:
+    a keyboard musical instrument consisting of a keyboard part and a harmonic
+    block
+  using:
+    concepts: |
+      keyboard
+      harmonic

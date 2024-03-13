@@ -1,0 +1,11 @@
+ru: октава
+en: octave
+definition:
+  ru: Интервал, состоящий из двенадцати полутонов
+  en: Interval of a perfect octave, consisting of twelve semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

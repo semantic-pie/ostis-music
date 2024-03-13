@@ -1,0 +1,10 @@
+en: banjo
+ru: банжо
+
+parent: plucking_string_instruments
+
+max: |
+  banjo
+
+concepts: |
+  none

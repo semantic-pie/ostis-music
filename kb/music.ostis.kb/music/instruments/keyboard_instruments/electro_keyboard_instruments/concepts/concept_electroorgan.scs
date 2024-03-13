@@ -1,0 +1,25 @@
+concept_electroorgan
+=> nrel_main_idtf:
+	[электроорган] (* <- lang_ru;; *);
+	[electroorgan] (* <- lang_en;; *);;
+
+definition -> definition_of_electroorgan (*
+	-> rrel_key_sc_element: concept_electroorgan;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [электронный музыкальный инструмент, схожий с синтезатором, но имеющий несколько рядов клавиатур] (* <- lang_ru;; *);;
+		-> [an electronic musical instrument similar to a synthesizer, but having several rows of keyboards] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электроорган)] (* <- lang_ru;; *);
+		[Def. (electroorgan)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_keyboard
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_keyboard;;

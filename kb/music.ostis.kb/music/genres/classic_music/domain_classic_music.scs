@@ -1,0 +1,91 @@
+section_subject_domain_of_classic_music
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра классической музыки] (* <- lang_ru;; *);
+	[Section. Subject domain of classic music genre] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_classic_music;
+	concept_classic_music;
+	concept_ballet;
+	concept_baroque;
+	concept_cantata;
+	concept_chamber_music;
+	concept_string_quartet;
+	concept_chorus;
+	concept_concert;
+	concept_modern_classics;
+	concept_expressionism;
+	concept_high_classics;
+	concept_mass_requiem;
+	concept_modern_composition;
+	concept_modern_classics;
+	concept_opera;
+	concept_oratorio;
+	concept_orchestral;
+	concept_organum;
+	concept_sonata;
+	concept_symphony;
+	concept_wedding_music;;
+
+section_subject_domain_of_classic_music=[*
+	subject_domain_of_classic_music
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра классической музыки] (* <- lang_ru;; *);
+		[Subject Domain of classic music genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_classic_music;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_ballet;
+		concept_baroque;
+		concept_cantata;
+		concept_chamber_music;
+		concept_string_quartet;
+		concept_chorus;
+		concept_concert;
+		concept_modern_classics;
+		concept_expressionism;
+		concept_high_classics;
+		concept_mass_requiem;
+		concept_modern_composition;
+		concept_modern_classics;
+		concept_opera;
+		concept_oratorio;
+		concept_orchestral;
+		concept_organum;
+		concept_sonata;
+		concept_symphony;
+		concept_wedding_music;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;;
+*];;
+
+sc_node_class ->
+	concept_classic_music;
+	concept_ballet;
+	concept_baroque;
+	concept_cantata;
+	concept_chamber_music;
+	concept_string_quartet;
+	concept_chorus;
+	concept_concert;
+	concept_modern_classics;
+	concept_expressionism;
+	concept_high_classics;
+	concept_mass_requiem;
+	concept_modern_composition;
+	concept_modern_classics;
+	concept_opera;
+	concept_oratorio;
+	concept_orchestral;
+	concept_organum;
+	concept_sonata;
+	concept_symphony;
+	concept_wedding_music;;

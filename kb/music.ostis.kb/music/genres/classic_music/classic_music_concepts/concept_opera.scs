@@ -1,0 +1,39 @@
+concept_opera
+=> nrel_main_idtf:
+	[опера] (* <- lang_ru;; *);
+	[opera] (* <- lang_en;; *);;
+
+definition -> definition_of_opera (*
+	-> rrel_key_sc_element: concept_opera;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Опера это музыкально-театральный жанр, в котором музыка используется для передачи драматической истории, обычно в вокальной форме. Опера сочетает музыку с декорациями, костюмами, хореографией и драматургией] (* <- lang_ru;; *);;
+		-> [Opera is a musical-theatrical genre in which music is used to convey a dramatic story, usually in vocal form. Opera combines music with sets, costumes, choreography, and dramaturgy] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (опера)] (* <- lang_ru;; *);
+		[Def. (opera)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		concept_theatrical_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;
+	concept_theatrical_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

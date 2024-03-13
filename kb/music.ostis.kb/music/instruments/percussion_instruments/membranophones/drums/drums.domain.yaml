@@ -1,0 +1,10 @@
+en: drums
+ru: барабанов
+
+parent: membranophones
+
+max: |
+  drum
+concepts: |
+  electro_drums
+  drums

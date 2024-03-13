@@ -1,0 +1,16 @@
+en: harmony
+ru: гармоники
+
+parent: music_theory
+
+children: |
+  chord
+  tonality
+
+max: |
+  harmony
+
+concepts: |
+  seventh_chord
+
+  

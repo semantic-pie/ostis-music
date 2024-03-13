@@ -1,0 +1,14 @@
+ru: грайм
+en: grime
+definition:
+  ru: Грайм это жанр музыки, возникший в Великобритании, который характеризуется жесткими рифмами, грязным звуком и использованием электронных инструментов
+  en: Grime is a genre of music that originated in the UK and is characterized by hard-hitting rhymes, gritty sound, and the use of electronic instruments
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

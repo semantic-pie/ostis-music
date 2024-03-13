@@ -1,0 +1,28 @@
+concept_dream_pop
+=> nrel_main_idtf:
+	[дрим-поп] (* <- lang_ru;; *);
+	[dream pop] (* <- lang_en;; *);;
+
+definition -> definition_of_dream_pop (*
+	-> rrel_key_sc_element: concept_dream_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Дрим-поп это жанр популярной музыки, который характеризуется атмосферными звуками, плавными мелодиями и использованием эффектов реверберации и эхо. Тексты обычно имеют мечтательный и нереальный характер] (* <- lang_ru;; *);;
+		-> [Dream pop is a genre of popular music that is characterized by atmospheric sounds, smooth melodies, and the use of reverb and echo effects. Lyrics typically have a dreamy and surreal character] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (дрим-поп)] (* <- lang_ru;; *);
+		[Def. (dream pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

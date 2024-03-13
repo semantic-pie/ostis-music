@@ -1,0 +1,21 @@
+ru: саксофон
+en: saxophone
+
+definition:
+  ru:
+    Музыкальный инструмент, 
+    который состоит из конической трубки 
+    с отверстием для губ на верхнем конце и набором клапанов на нижней части, 
+    которые позволяют музыканту изменять высоту звука
+
+  en:
+    A musical instrument
+    that consists of a conical tube 
+    with a lip hole on the upper end and a set of valves on the lower part
+    that allow the musician to change the pitch of the sound
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+      
+      

@@ -1,0 +1,28 @@
+concept_mandopop
+=> nrel_main_idtf:
+	[мандопоп] (* <- lang_ru;; *);
+	[mandopop] (* <- lang_en;; *);;
+
+definition -> definition_of_mandopop (*
+	-> rrel_key_sc_element: concept_mandopop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Мандопоп это поп-музыка, исполняемая на мандаринском языке и широко распространенная в Китае, Тайване и Сингапуре. Характеризуется использованием электронных инструментов и традиционных музыкальных элементов] (* <- lang_ru;; *);;
+		-> [Mandopop is a type of popular music sung in Mandarin Chinese and widely popular in China, Taiwan, and Singapore. It is characterized by the use of electronic instruments and traditional musical elements] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (мандопоп)] (* <- lang_ru;; *);
+		[Def. (mandopop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

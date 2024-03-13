@@ -1,0 +1,28 @@
+concept_chamber_pop
+=> nrel_main_idtf:
+	[камерный поп] (* <- lang_ru;; *);
+	[chamber pop] (* <- lang_en;; *);;
+
+definition -> definition_of_chamber_pop (*
+	-> rrel_key_sc_element: concept_chamber_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Камерный поп это жанр поп-музыки, который характеризуется использованием элементов классической музыки, таких как струнные и духовые инструменты, и наличием хоровых аранжировок. Он отличается от других жанров поп-музыки более комплексными композициями и музыкальными аранжировками] (* <- lang_ru;; *);;
+		-> [Chamber pop is a genre of pop music that is characterized by the use of classical music elements, such as string and wind instruments, and choral arrangements. It differs from other genres of pop music with more complex compositions and musical arrangements] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (камерный поп)] (* <- lang_ru;; *);
+		[Def. (chamber pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,16 @@
+ru: джаз мануш
+en: gypsy jazz
+definition:
+  ru:
+    Джаз мануш свинг-джаз, цыганский джаз это жанр джазовой музыки, созданный в Европе. Он характеризуется живой игрой на гитаре, скрипке и контрабасе, а также импровизацией в духе джаза и использованием цыганской музыкальной традиции
+  en:
+    Gypsy jazz swing jazz, gypsy swing is a genre of jazz music that was created in Europe. It is characterized by lively guitar, violin, and bass playing, as well as improvisation in the spirit of jazz and the use of Gypsy musical tradition
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

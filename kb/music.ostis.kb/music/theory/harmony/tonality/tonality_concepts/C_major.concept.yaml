@@ -1,0 +1,12 @@
+ru: До мажор
+en: D minor
+definition:
+  ru: Мажорная тональность с тоникой до. Не имеет диезов при ключе
+  en: Major tonality with C tonic. It has no sharps at the key
+  using:
+    concepts: |
+      sharp
+      seventh_chord
+      tonality
+    nrels: |
+      used_musical_instruments

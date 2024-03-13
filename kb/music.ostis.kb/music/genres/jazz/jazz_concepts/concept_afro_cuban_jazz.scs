@@ -1,0 +1,28 @@
+concept_afro_cuban_jazz
+=> nrel_main_idtf:
+	[афро-кубинский джаз] (* <- lang_ru;; *);
+	[afro-cuban jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_afro_cuban_jazz (*
+	-> rrel_key_sc_element: concept_afro_cuban_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Афро-кубинский джаз это жанр джазовой музыки, который комбинирует элементы африканской и кубинской музыки. Он характеризуется использованием клавеса, тимбалей, бонго, конгов и других латиноамериканских перкуссионных инструментов, а также африканских ритмов и мелодий в джазовых композициях] (* <- lang_ru;; *);;
+		-> [Afro-Cuban jazz is a genre of jazz music that combines elements of African and Cuban music. It is characterized by the use of clave, timbales, bongos, congas, and other Latin American percussion instruments, as well as African rhythms and melodies in jazz compositions] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (афро-кубинский джаз)] (* <- lang_ru;; *);
+		[Def. (afro-cuban jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

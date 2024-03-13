@@ -1,0 +1,27 @@
+concept_castanets
+=> nrel_main_idtf:
+	[кастаньеты] (* <- lang_ru;; *);
+	[castanets] (* <- lang_en;; *);;
+
+definition -> definition_of_castanets (*
+	-> rrel_key_sc_element: concept_castanets;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [парный ударный музыкальный инструмент, каждая часть которого состоит из двух пластинок-ракушек, соединённых шнурком] (* <- lang_ru;; *);;
+		-> [a paired percussion musical instrument, each part of which consists of two shell plates connected by a string] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кастаньеты)] (* <- lang_ru;; *);
+		[Def. (castanets)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;
+	concept_string;;

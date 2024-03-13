@@ -1,0 +1,28 @@
+concept_doom_metal
+=> nrel_main_idtf:
+	[дум-метал] (* <- lang_ru;; *);
+	[doom metal] (* <- lang_en;; *);;
+
+definition -> definition_of_doom_metal (*
+	-> rrel_key_sc_element: concept_doom_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Дум-метал это жанр метал-музыки, который характеризуется медленными темпами, глубокими громкими гитарными звуками, густым звуковым оформлением и мрачными текстами] (* <- lang_ru;; *);;
+		-> [Doom metal is a subgenre of heavy metal music that is characterized by slow tempos, deep and heavy guitar sounds, dense soundscapes, and often dark lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (дум-метал)] (* <- lang_ru;; *);
+		[Def. (doom metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

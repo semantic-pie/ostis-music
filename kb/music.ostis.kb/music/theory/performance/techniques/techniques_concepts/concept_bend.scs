@@ -1,0 +1,37 @@
+concept_bend
+=> nrel_main_idtf:
+	[бенд] (* <- lang_ru;; *);
+	[bend] (* <- lang_en;; *);;
+
+definition -> definition_of_bend (*
+	-> rrel_key_sc_element: concept_bend;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Бенд это техника, используемая для манипулирования высотой одной ноты на одной струне. Бенд возникает, когда играется нота, а затем натягивается струна, делая ноту выше по высоте, чем первая сыгранная нота] (* <- lang_ru;; *);;
+		-> [The guitar bend is a technique used to manipulate single-note lines on a single string. A bend occurs when a note is played, and then the string is pulled, tightening the string and making the note higher in pitch than the first note played] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (бенд)] (* <- lang_ru;; *);
+		[Def. (bend)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_electro_guitar;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_electro_guitar;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

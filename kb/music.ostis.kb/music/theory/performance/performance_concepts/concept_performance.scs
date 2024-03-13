@@ -1,0 +1,39 @@
+concept_performance
+=> nrel_main_idtf:
+	[исполнение] (* <- lang_ru;; *);
+	[performance] (* <- lang_en;; *);;
+
+definition -> definition_of_performance (*
+	-> rrel_key_sc_element: concept_performance;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальное исполнение, этап музыкального процесса, в ходе которого музыкальные идеи реализуются и передаются слушателю] (* <- lang_ru;; *);;
+		-> [Musical performance, step in the musical process during which musical ideas are realized and transmitted to a listener] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (исполнение)] (* <- lang_ru;; *);
+		[Def. (performance)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin;
+		concept_guitar;
+		concept_cello;
+		concept_trombone;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;
+	concept_guitar;
+	concept_cello;
+	concept_trombone;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

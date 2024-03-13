@@ -1,0 +1,12 @@
+ru: тональность
+en: tonality
+definition:
+  ru: Закрепление положения музыкального лада за определёнными по высоте звучания музыкальными тонами
+  en: Fixing the position of the musical fret for musical tones determined by the pitch
+  using:
+    concepts: |
+      chord
+      seventh_chord
+      tonality
+    nrels: |
+      used_musical_instruments

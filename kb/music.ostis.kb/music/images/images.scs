@@ -1,0 +1,109 @@
+section_subject_domain_of_rock
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области рок]
+  (* <- lang_ru;; *);
+  [illustration of the rock subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://rock_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+section_subject_domain_of_jazz
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области джаза]
+  (* <- lang_ru;; *);
+  [illustration of the jazz subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://jazz_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+section_subject_domain_of_pop_music
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области популярной музыки]
+  (* <- lang_ru;; *);
+  [illustration of the pop music subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://pop_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+section_subject_domain_of_electronic_music
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области электронной музыки]
+  (* <- lang_ru;; *);
+  [illustration of the electric muisic subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://electro_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+
+section_subject_domain_of_classic_music
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области классической музыки]
+  (* <- lang_ru;; *);
+  [illustration of the classic music subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://classic_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;
+
+
+section_subject_domain_of_music_genres
+<- rrel_key_sc_element: ...
+(*
+ <- illustration;;
+ => nrel_main_idtf:
+  [илюстрация к предметной области классической музыки]
+  (* <- lang_ru;; *);
+  [illustration of the classic music subject domain]
+  (* <- lang_en;; *);;
+ <= nrel_sc_text_translation: ...
+ (*
+  -> rrel_example: "file://music_genre_domain.png"
+  (*
+   => nrel_format: format_png;;
+  *);;
+ *);;
+*);;

@@ -1,0 +1,10 @@
+en: electrokeyboard instruments
+ru: электроклавишных инструментов
+
+parent: keyboard_instruments
+
+max: |
+  synthesizer
+
+concepts: |
+  electroorgan

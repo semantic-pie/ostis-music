@@ -1,0 +1,16 @@
+ru: бибоп
+en: bebop
+definition:
+  ru: 
+    Бибоп жанр джазовой музыки, возникший в США. Он характеризуется быстрым темпом, сложными гармониями и импровизацией. Бибоп является продуктом эволюции джаза, который стал более сложным и интеллектуальным
+  en: 
+    Bebop is a genre of jazz music that originated in the United States. It is characterized by a fast tempo, complex harmonies, and improvisation. Bebop is a product of the evolution of jazz, which became more complex and intellectual
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

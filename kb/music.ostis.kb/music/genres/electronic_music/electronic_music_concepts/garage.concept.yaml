@@ -1,0 +1,14 @@
+ru: гэридж
+en: garage
+definition:
+  ru: Гэридж это жанр электронной танцевальной музыки, который возник в Великобритании и характеризуется использованием сэмплов и эффектов, а также ускоренными темпами
+  en: Garage is a genre of electronic dance music that originated in the UK and is characterized by the use of samples and effects, as well as fast tempos
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

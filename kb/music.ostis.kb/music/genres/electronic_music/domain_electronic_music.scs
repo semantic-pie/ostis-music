@@ -1,0 +1,97 @@
+section_subject_domain_of_electronic_music
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра электронной музыки] (* <- lang_ru;; *);
+	[Section. Subject domain of electronic music genre] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_electronic_music;
+	concept_electronic_music;
+	concept_house;
+	concept_techno;
+	concept_trance;
+	concept_breakbeat;
+	concept_jungle;
+	concept_drum_and_bass;
+	concept_dubstep;
+	concept_garage;
+	concept_grime;
+	concept_ambient;
+	concept_downtempo;
+	concept_trip_hop;
+	concept_synthwave;
+	concept_industrial;
+	concept_ebm;
+	concept_electronic_synthpop;
+	concept_electro;
+	concept_nu_disco;
+	concept_idm;
+	concept_glitch;
+	concept_vaporwave;
+	concept_hardstyle;;
+
+section_subject_domain_of_electronic_music=[*
+	subject_domain_of_electronic_music
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра электронной музыки] (* <- lang_ru;; *);
+		[Subject Domain of electronic music genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_electronic_music;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_house;
+		concept_techno;
+		concept_trance;
+		concept_breakbeat;
+		concept_jungle;
+		concept_drum_and_bass;
+		concept_dubstep;
+		concept_garage;
+		concept_grime;
+		concept_ambient;
+		concept_downtempo;
+		concept_trip_hop;
+		concept_synthwave;
+		concept_industrial;
+		concept_ebm;
+		concept_synthpop;
+		concept_electro;
+		concept_nu_disco;
+		concept_idm;
+		concept_glitch;
+		concept_vaporwave;
+		concept_hardstyle;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;;
+*];;
+
+sc_node_class ->
+	concept_electronic_music;
+	concept_house;
+	concept_techno;
+	concept_trance;
+	concept_breakbeat;
+	concept_jungle;
+	concept_drum_and_bass;
+	concept_dubstep;
+	concept_garage;
+	concept_grime;
+	concept_ambient;
+	concept_downtempo;
+	concept_trip_hop;
+	concept_synthwave;
+	concept_industrial;
+	concept_ebm;
+	concept_synthpop;
+	concept_electro;
+	concept_nu_disco;
+	concept_idm;
+	concept_glitch;
+	concept_vaporwave;
+	concept_hardstyle;;

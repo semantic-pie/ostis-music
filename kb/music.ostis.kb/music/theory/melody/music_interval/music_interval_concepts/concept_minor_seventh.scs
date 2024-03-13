@@ -1,0 +1,31 @@
+concept_minor_seventh
+=> nrel_main_idtf:
+	[малая септима] (* <- lang_ru;; *);
+	[minor seventh] (* <- lang_en;; *);;
+
+definition -> definition_of_minor_seventh (*
+	-> rrel_key_sc_element: concept_minor_seventh;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интервал, состоящий из десяти полутонов] (* <- lang_ru;; *);;
+		-> [Interval of a minor seventh, consisting of ten semitones] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (малая септима)] (* <- lang_ru;; *);
+		[Def. (minor seventh)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_interval;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_interval;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

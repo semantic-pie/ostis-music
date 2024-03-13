@@ -1,0 +1,28 @@
+concept_progressive_metal
+=> nrel_main_idtf:
+	[прогрессивный метал] (* <- lang_ru;; *);
+	[progressive metal] (* <- lang_en;; *);;
+
+definition -> definition_of_progressive_metal (*
+	-> rrel_key_sc_element: concept_progressive_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Прогрессивный метал это жанр метал-музыки, который характеризуется нестандартными композиционными решениями, использованием сложных метрических ритмов, экспериментами со звуком, необычными музыкальными образами и часто длинными композициями] (* <- lang_ru;; *);;
+		-> [Progressive metal is a subgenre of heavy metal music that is characterized by complex compositional structures, unconventional rhythms, sound experimentation, unusual musical imagery, and often lengthy songs] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (прогрессивный метал)] (* <- lang_ru;; *);
+		[Def. (progressive metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

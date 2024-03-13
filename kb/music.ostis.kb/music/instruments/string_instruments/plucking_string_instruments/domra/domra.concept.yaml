@@ -1,0 +1,14 @@
+ru: домра
+en: domra
+
+definition:
+  ru: Струнный щепковый инструмент, имеющий деку в форме груши и три пары струн
+
+  en:
+    A stringed plucked instrument with a pear-shaped soundboard and three pairs
+    of strings
+  using:
+    concepts: |
+      plucking_string_instrument
+      string
+      soundboard

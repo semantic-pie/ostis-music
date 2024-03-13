@@ -1,0 +1,28 @@
+concept_heavy_metal
+=> nrel_main_idtf:
+	[хэви-метал] (* <- lang_ru;; *);
+	[heavy metal] (* <- lang_en;; *);;
+
+definition -> definition_of_heavy_metal (*
+	-> rrel_key_sc_element: concept_heavy_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хэви-метал это жанр рок-музыки, который характеризуется сильным ритмом, мощными гитарными рифами и мелодиями, а также выразительным вокалом] (* <- lang_ru;; *);;
+		-> [Heavy metal is a genre of rock music that is characterized by strong rhythm, powerful guitar riffs and melodies, and expressive vocals] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хэви-метал)] (* <- lang_ru;; *);
+		[Def. (heavy metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

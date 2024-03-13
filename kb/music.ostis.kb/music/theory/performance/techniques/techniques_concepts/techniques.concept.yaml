@@ -1,0 +1,17 @@
+ru: техники исполнения
+en: techniques
+definition:
+  ru: Техники исполнения это различные методы, которые музыканты применяют для извлечения звуков на своих инструментах. Они помогают музыкантам создавать разнообразные эффекты, выразительность и техническую сложность в своём исполнении
+  en: Performance techniques are the various methods that musicians use to produce sounds on their instruments. They help musicians create a variety of effects, expressiveness and technical complexity in their performance
+  using:
+    concepts: |
+      note
+      violin
+      cello
+      guitar
+      electro_guitar
+      string_instruments
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

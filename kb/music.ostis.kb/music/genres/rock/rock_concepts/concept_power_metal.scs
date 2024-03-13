@@ -1,0 +1,28 @@
+concept_power_metal
+=> nrel_main_idtf:
+	[пауэр-метал] (* <- lang_ru;; *);
+	[power metal] (* <- lang_en;; *);;
+
+definition -> definition_of_power_metal (*
+	-> rrel_key_sc_element: concept_power_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пауэр-метал это жанр метал-музыки, который характеризуется использованием быстрых темпов, ярких мелодий, сильным вокалом и обширным использованием гитарных соло] (* <- lang_ru;; *);;
+		-> [Power metal is a subgenre of heavy metal music that is characterized by fast tempos, bright melodies, powerful vocals, and extensive use of guitar solos] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пауэр-метал)] (* <- lang_ru;; *);
+		[Def. (power metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

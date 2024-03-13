@@ -1,0 +1,25 @@
+concept_clavinet
+=> nrel_main_idtf:
+	[клавинет] (* <- lang_ru;; *);
+	[clavinet] (* <- lang_en;; *);;
+
+definition -> definition_of_clavinet (*
+	-> rrel_key_sc_element: concept_clavinet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [вариация электропиано, в котором используется электромеханический механизм, где зубцы, при нажатии клавиш, вибрируют и создают звуковые колебания] (* <- lang_ru;; *);;
+		-> [a variation of the electropiano, which uses an electromechanical mechanism, where the teeth, when the keys are pressed, they vibrate and create sound vibrations] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (клавинет)] (* <- lang_ru;; *);
+		[Def. (clavinet)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_piano
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_piano;;

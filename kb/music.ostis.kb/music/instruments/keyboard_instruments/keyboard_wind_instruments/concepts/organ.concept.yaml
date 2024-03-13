@@ -1,0 +1,15 @@
+ru: орган
+en: organ
+
+definition:
+  ru:
+    Клавишный духовой музыкальный инструмен звучащий при помощи труб различных
+    тембров
+
+  en:
+    A keyboard wind musical instrument sounding with the help of pipes of
+    various timbres
+  using:
+    concepts: |
+      pipe
+      timbre

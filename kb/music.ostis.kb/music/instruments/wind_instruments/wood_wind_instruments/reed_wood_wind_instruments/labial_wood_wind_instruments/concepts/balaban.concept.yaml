@@ -1,0 +1,27 @@
+ru: балабан
+en: balaban
+
+definition:
+  ru:
+    Музыкальный инструмент с двойной тростью
+
+  en:
+    Musical instrument with double cane
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+
+statement: 
+  oboe_structure:
+    title:
+      ru: структура фагота
+      en: bassoon structure
+    ru: состоит из корпуса, трости, кобылки и крышки-клапана
+    en: it consists of a body, a cane, a filly and a valve cover
+    using:
+      concepts: |
+        body
+        cane
+        filly
+        valve_cover

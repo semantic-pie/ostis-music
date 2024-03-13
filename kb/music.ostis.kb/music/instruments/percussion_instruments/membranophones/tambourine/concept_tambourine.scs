@@ -1,0 +1,27 @@
+concept_tambourine
+=> nrel_main_idtf:
+	[бубен] (* <- lang_ru;; *);
+	[tambourine] (* <- lang_en;; *);;
+
+definition -> definition_of_tambourine (*
+	-> rrel_key_sc_element: concept_tambourine;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент в виде круглой рамы с натянутой на неё кожаной или пластиковой мембраной. В отличие от барабанов диаметр мембраны бубна значительно превышает ширину рамы] (* <- lang_ru;; *);;
+		-> [A percussion musical instrument in the form of a round frame with a leather or plastic membrane stretched over it. Unlike drums, the diameter of the tambourine membrane significantly exceeds the width of the frame] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (бубен)] (* <- lang_ru;; *);
+		[Def. (tambourine)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument;
+		concept_membrane
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;
+	concept_membrane;;

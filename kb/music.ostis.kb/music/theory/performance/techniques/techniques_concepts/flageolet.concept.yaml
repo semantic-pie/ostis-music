@@ -1,0 +1,17 @@
+ru: флажолет
+en: flageolet
+definition:
+  ru: Флажолет это техника струнного инструмента, которая использует узлы естественных гармоник музыкальной струны для выделения обертонов. Палец слегка касается струны
+  en: Flageolet is a string instrument technique that uses the nodes of natural harmonics of a musical string to isolate overtones. Finger slightly touches the string
+  using:
+    concepts: |
+      note
+      guitar
+      violin
+      cello
+      electro_guitar
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

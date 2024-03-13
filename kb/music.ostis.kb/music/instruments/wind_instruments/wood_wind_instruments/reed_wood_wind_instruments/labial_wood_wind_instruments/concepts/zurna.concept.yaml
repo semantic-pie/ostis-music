@@ -1,0 +1,25 @@
+ru: зурна
+en: zurna
+
+definition:
+  ru:
+    Музыкальный инструмент
+
+  en:
+    A musical instrument
+  using:
+    concepts: |
+      wood_wind_instrument
+      music_instrument
+
+statement: 
+  oboe_structure:
+    title:
+      ru: структура зурны
+      en: zurna structure
+    ru: представляет собой деревянную трубку с раструбом и несколькими отверстиями 
+    en: it is a wooden tube with a bell and several holes
+    using:
+      concepts: |
+        tube
+        hole

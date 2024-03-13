@@ -1,0 +1,13 @@
+ru: тембр
+en: timbre
+definition:
+  ru: Окраска звука. Одна из специфических характеристик музыкального звука. По тембру отличают звуки одинаковой высоты и громкости, но исполненные на различных инструментах, разными голосами, или же на одном инструменте, но разными способами, штрихами
+  en: Sound coloration. One of the specific characteristics of musical sound. By timbre, sounds of the same height and volume are distinguished, but performed on different instruments, in different voices, or on the same instrument, but in different ways, with strokes
+  using:
+    concepts: |
+      techniques
+      performance
+      string_instrument
+    nrels: |
+      used_musical_instruments
+      playing_techniques

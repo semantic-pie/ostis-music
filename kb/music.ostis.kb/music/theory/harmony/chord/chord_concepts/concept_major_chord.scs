@@ -1,0 +1,33 @@
+concept_major_chord
+=> nrel_main_idtf:
+	[мажорное трезвучие] (* <- lang_ru;; *);
+	[major_chord] (* <- lang_en;; *);;
+
+definition -> definition_of_major_chord (*
+	-> rrel_key_sc_element: concept_major_chord;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Трезвучие, состоящее из большой терции внизу и малой вверху, между крайними звуками которого образуется интервал чистой квинты] (* <- lang_ru;; *);;
+		-> [A triad consisting of a major third at the bottom and a minor at the top, between the extreme sounds of which an interval of a perfect fifth is formed] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (мажорное трезвучие)] (* <- lang_ru;; *);
+		[Def. (major_chord)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_major_third;
+		concept_minor_third;
+		concept_perfect_fifth;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_major_third;
+	concept_minor_third;
+	concept_perfect_fifth;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

@@ -1,0 +1,11 @@
+ru: модуляция
+en: modulation
+definition:
+  ru: Процесс, при котором музыкальная композиция изменяет свою гармоническую основу, перемещаясь из одной тоники в другую
+  en: The process by which a musical composition changes its harmonic basis by moving from one tonality to another
+  using:
+    concepts: |
+      harmony
+      tonality
+    nrels: |
+      used_musical_instruments

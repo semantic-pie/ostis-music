@@ -1,0 +1,27 @@
+concept_drum
+=> nrel_main_idtf:
+	[барабан] (* <- lang_ru;; *);
+	[drum] (* <- lang_en;; *);;
+
+definition -> definition_of_drum (*
+	-> rrel_key_sc_element: concept_drum;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный инструмент, звучащим элементов которого служит кожанная или пластиковая мембрана] (* <- lang_ru;; *);;
+		-> [A percussion instrument whose sounding elements are a leather or plastic membrane] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (барабан)] (* <- lang_ru;; *);
+		[Def. (drum)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_sound;
+		concept_membrane
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_sound;
+	concept_membrane;;

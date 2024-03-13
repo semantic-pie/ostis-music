@@ -1,0 +1,50 @@
+section_subject_domain_of_melody
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область мелодики] (* <- lang_ru;; *);
+	[Section. Subject domain of melody] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_music_interval
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_melody;
+	concept_melody;
+	concept_timbre;
+	concept_arpeggio;
+	concept_reprise;
+	concept_intonation;;
+
+section_subject_domain_of_melody=[*
+	subject_domain_of_melody
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область мелодики] (* <- lang_ru;; *);
+		[Subject Domain of melody] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_melody;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_timbre;
+		concept_arpeggio;
+		concept_reprise;
+		concept_intonation;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_theory;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_music_interval;;
+*];;
+
+sc_node_class ->
+	concept_melody;
+	concept_timbre;
+	concept_arpeggio;
+	concept_reprise;
+	concept_intonation;;

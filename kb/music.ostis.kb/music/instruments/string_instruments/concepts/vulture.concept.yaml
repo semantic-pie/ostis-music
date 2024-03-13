@@ -1,0 +1,36 @@
+ru: гриф
+en: vultute
+
+definition:
+  ru:
+    Продолговатая, 
+    выступающая за пределы резонаторного корпуса
+    часть струнного щипкового или смычкового музыкального инструмента
+
+  en:
+    Oblong,
+    protruding beyond the resonator housing
+    part of a stringed plucked or bowed musical instrument
+  using:
+    concepts: |
+      string
+      resonator
+      string_instrument
+      bowed_string_instrument
+      plucking_string_instrument
+
+statement: 
+  statement_title:
+    title:
+      ru: Суть грифа
+      en: The essence of the vulture
+    ru: На грифе музыкант управляет длиной звучащей части струн,
+        прижимая их к поверхности грифа или к ладам и тем самым меняя высоту звучания струн
+    en: Statement text
+    using:
+      concepts: |
+        fret
+        string
+
+
+

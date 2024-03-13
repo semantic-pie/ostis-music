@@ -1,0 +1,35 @@
+concept_j_pop
+=> nrel_main_idtf:
+	[j-поп] (* <- lang_ru;; *);
+	[j-pop] (* <- lang_en;; *);;
+
+definition -> definition_of_j_pop (*
+	-> rrel_key_sc_element: concept_j_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [J-pop, также известный как японский поп, является жанром популярной музыки в Японии. Он характеризуется захватывающими мелодиями, живыми темпами и использованием электронных инструментов] (* <- lang_ru;; *);;
+		-> [J-pop, also known as Japanese pop, is a genre of popular music in Japan. It is characterized by its catchy melodies, upbeat tempos, and use of electronic instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (j-поп)] (* <- lang_ru;; *);
+		[Def. (j-pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

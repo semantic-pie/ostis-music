@@ -1,0 +1,13 @@
+ru: ритмика
+en: rhythm
+definition:
+  ru: Раздел теории музыки, изучающий ритмические структуры, метрику, длительности нот и пауз, а также их взаимоотношения и акценты
+  en: Part of music theory that studies rhythmic structures, metrics, note and rest durations, as well as their relationships and accents
+  using:
+    concepts: |
+      bar
+      pickup_measure
+      metronome
+      syncopation
+    nrels: |
+      used_musical_instruments

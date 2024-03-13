@@ -1,0 +1,28 @@
+concept_soul_jazz
+=> nrel_main_idtf:
+	[соул-джаз] (* <- lang_ru;; *);
+	[soul jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_soul_jazz (*
+	-> rrel_key_sc_element: concept_soul_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Соул-джаз это жанр джазовой музыки, характеризующийся смесью соула, фанка и хард-бопа. Он объединяет мелодичность соула с импровизационной свободой джаза и подчеркивает ритмическую секцию] (* <- lang_ru;; *);;
+		-> [Soul jazz is a genre of jazz music that combines soul, funk, and hard bop. It blends the melodic qualities of soul with the improvisational freedom of jazz and emphasizes the rhythm section] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (соул-джаз)] (* <- lang_ru;; *);
+		[Def. (soul jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

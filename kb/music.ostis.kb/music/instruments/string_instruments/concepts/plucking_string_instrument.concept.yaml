@@ -1,0 +1,15 @@
+ru: струнно-щепковый инструмент
+en: plucking string instrument
+
+definition:
+  ru:
+    струнный инструмент, звукоизвлечение на котором осуществляется защипыванием
+    струн пальцами или медиатором
+
+  en:
+    stringed instrument, sound production on which is carried out by pinching
+    strings with fingers or a pick
+  using:
+    concepts: |
+      string_instrument
+      pick

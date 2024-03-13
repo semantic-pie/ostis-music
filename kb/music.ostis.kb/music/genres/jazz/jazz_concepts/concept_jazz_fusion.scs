@@ -1,0 +1,28 @@
+concept_jazz_fusion
+=> nrel_main_idtf:
+	[джаз-фьюжн] (* <- lang_ru;; *);
+	[jazz fusion] (* <- lang_en;; *);;
+
+definition -> definition_of_jazz_fusion (*
+	-> rrel_key_sc_element: concept_jazz_fusion;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Джаз-фьюжн это жанр джазовой музыки, который объединяет элементы джаза и рока или других жанров в одном произведении. Это может включать в себя использование электрических инструментов, гитарных риффов, бас-гитары и синтезаторов] (* <- lang_ru;; *);;
+		-> [Jazz fusion is a genre of jazz music that combines elements of jazz and rock or other genres into one piece of music. This can include the use of electric instruments, guitar riffs, bass guitar, and synthesizers] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (джаз-фьюжн)] (* <- lang_ru;; *);
+		[Def. (jazz fusion)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

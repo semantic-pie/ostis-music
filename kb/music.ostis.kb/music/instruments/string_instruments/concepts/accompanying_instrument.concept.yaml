@@ -1,0 +1,12 @@
+ru: аккомпанирающий инструмент
+en: accompanying instrument
+
+definition:
+  ru:
+    Инструмент, играющий аккомпанирующую партию
+
+  en:
+    An instrument playing an accompanying part
+  using:
+    concepts: |
+      accompanying

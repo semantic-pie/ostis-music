@@ -1,0 +1,29 @@
+concept_electro_guitar
+=> nrel_main_idtf:
+	[электрогитара] (* <- lang_ru;; *);
+	[electroguitar] (* <- lang_en;; *);;
+
+definition -> definition_of_electro_guitar (*
+	-> rrel_key_sc_element: concept_electro_guitar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Разновидность гитары, имеющая электромагнитные звукосниматели, преобразующие колебания металлических струн в колебания электрического тока] (* <- lang_ru;; *);;
+		-> [A type of guitar that has electromagnetic pickups that convert vibrations of metal strings into electric current vibrations] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электрогитара)] (* <- lang_ru;; *);
+		[Def. (electroguitar)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string;
+		concept_pickups;
+		concept_vibration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string;
+	concept_pickups;
+	concept_vibration;;

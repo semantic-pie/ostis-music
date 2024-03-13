@@ -1,0 +1,27 @@
+concept_saxophone
+=> nrel_main_idtf:
+	[саксофон] (* <- lang_ru;; *);
+	[saxophone] (* <- lang_en;; *);;
+
+definition -> definition_of_saxophone (*
+	-> rrel_key_sc_element: concept_saxophone;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент, который состоит из конической трубки с отверстием для губ на верхнем конце и набором клапанов на нижней части, которые позволяют музыканту изменять высоту звука] (* <- lang_ru;; *);;
+		-> [A musical instrument that consists of a conical tube with a lip hole on the upper end and a set of valves on the lower part that allow the musician to change the pitch of the sound] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (саксофон)] (* <- lang_ru;; *);
+		[Def. (saxophone)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;;

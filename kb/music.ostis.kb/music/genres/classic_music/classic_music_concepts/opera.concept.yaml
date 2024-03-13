@@ -1,0 +1,17 @@
+ru: опера
+en: opera
+definition:
+  ru:
+    Опера это музыкально-театральный жанр, в котором музыка используется для передачи драматической истории, обычно в вокальной форме. Опера сочетает музыку с декорациями, костюмами, хореографией и драматургией
+  en:
+    Opera is a musical-theatrical genre in which music is used to convey a dramatic story, usually in vocal form. Opera combines music with sets, costumes, choreography, and dramaturgy
+  using:
+    concepts: |
+      music_genre
+      theatrical_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

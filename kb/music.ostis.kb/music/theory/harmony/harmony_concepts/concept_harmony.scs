@@ -1,0 +1,33 @@
+concept_harmony
+=> nrel_main_idtf:
+	[гармоника] (* <- lang_ru;; *);
+	[harmony] (* <- lang_en;; *);;
+
+definition -> definition_of_harmony (*
+	-> rrel_key_sc_element: concept_harmony;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Раздел теории музыки, изучающий совокупность звуков, создаваемых одновременно и взаимодействующих друг с другом] (* <- lang_ru;; *);;
+		-> [Part of music theory that studies the totality of sounds created simultaneously and interacting with each other] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гармоника)] (* <- lang_ru;; *);
+		[Def. (harmony)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_chord;
+		concept_seventh_chord;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_chord;
+	concept_seventh_chord;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

@@ -1,0 +1,41 @@
+concept_slide
+=> nrel_main_idtf:
+	[слайд] (* <- lang_ru;; *);
+	[slide] (* <- lang_en;; *);;
+
+definition -> definition_of_slide (*
+	-> rrel_key_sc_element: concept_slide;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Слайд это техника, при которой палец сдвигается по грифу, создавая плавный переход между двумя нотами] (* <- lang_ru;; *);;
+		-> [A slide is a technique in which the finger is moved across the fretboard, creating a smooth transition between two notes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (слайд)] (* <- lang_ru;; *);
+		[Def. (slide)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_violin;
+		concept_cello;
+		concept_electro_guitar;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_violin;
+	concept_cello;
+	concept_electro_guitar;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

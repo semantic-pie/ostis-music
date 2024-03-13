@@ -1,0 +1,16 @@
+ru: струнно-смычковый инструмент
+en: bowed string instrument
+
+definition:
+  ru:
+    Музыкальный инструмент со звукоизвлечением, осуществляемым обычно в процессе
+    ведения смычка по натянутым струнам
+
+  en:
+    A musical instrument with sound extraction, usually carried out in the
+    process of conducting a bow on taut strings
+  using:
+    concepts: |
+      music_instrument
+      bow
+      string

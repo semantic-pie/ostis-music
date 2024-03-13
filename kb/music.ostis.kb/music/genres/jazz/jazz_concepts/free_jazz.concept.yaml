@@ -1,0 +1,16 @@
+ru: свободный джаз
+en: free jazz
+definition:
+  ru: 
+    Свободный джаз это жанр джазовой музыки, который характеризуется импровизационным подходом и отсутствием фиксированной гармонической структуры, мелодии и ритма. Вместо этого музыканты свободно играют, реагируя на друг друга и создавая уникальную музыкальную атмосферу
+  en: 
+    Free jazz is a genre of jazz music that is characterized by an improvisational approach and the absence of a fixed harmonic structure, melody, and rhythm. Instead, musicians play freely, reacting to each other and creating a unique musical atmosphere
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

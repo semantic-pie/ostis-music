@@ -1,0 +1,15 @@
+ru: бекар
+en: natural
+definition:
+  ru: Бекар это знак альтерации, используемый для отмены бемоля или диеза из предшествующей ноты
+  en: Natural is an accidental used to cancel a flat or sharp from a previous note
+  using:
+    concepts: |
+      music_notation
+      sound
+      semitone
+      flat
+      sharp
+      natural
+    nrels: |
+      cancellation

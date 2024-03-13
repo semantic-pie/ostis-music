@@ -1,0 +1,28 @@
+concept_modal_jazz
+=> nrel_main_idtf:
+	[модальный джаз] (* <- lang_ru;; *);
+	[modal jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_modal_jazz (*
+	-> rrel_key_sc_element: concept_modal_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Модальный джаз это жанр джазовой музыки, который характеризуется использованием модальных гармоний вместо традиционных аккордов. Это позволяет музыкантам создавать более свободные мелодии и импровизировать на основе модальных тем] (* <- lang_ru;; *);;
+		-> [Modal jazz is a genre of jazz music that is characterized by the use of modal harmonies instead of traditional chords. This allows musicians to create more free-flowing melodies and improvise based on modal themes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (модальный джаз)] (* <- lang_ru;; *);
+		[Def. (modal jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

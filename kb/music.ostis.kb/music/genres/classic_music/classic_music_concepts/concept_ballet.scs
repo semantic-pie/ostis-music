@@ -1,0 +1,28 @@
+concept_ballet
+=> nrel_main_idtf:
+	[балетная музыка] (* <- lang_ru;; *);
+	[ballet music] (* <- lang_en;; *);;
+
+definition -> definition_of_ballet (*
+	-> rrel_key_sc_element: concept_ballet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Балетная музыка это музыка, написанная для сопровождения танцевальных постановок. Она характеризуется четкой ритмикой, выразительными мелодиями и разнообразными инструментальными звуками] (* <- lang_ru;; *);;
+		-> [Ballet music is music written for accompanying dance performances. It is characterized by clear rhythm, expressive melodies, and diverse instrumental sounds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (балетная музыка)] (* <- lang_ru;; *);
+		[Def. (ballet music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,16 @@
+ru: авангардный джаз
+en: avant-garde jazz
+definition:
+  ru: 
+    Авангардный джаз это жанр, в котором музыканты экспериментируют со звуками, ритмами, мелодиями и формами композиций, нарушая традиционные рамки джаза
+  en: 
+    Avant-garde jazz is a genre in which musicians experiment with sounds, rhythms, melodies, and composition forms, breaking traditional jazz conventions
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,25 @@
+concept_music_saw
+=> nrel_main_idtf:
+	[музыкальная пила] (* <- lang_ru;; *);
+	[musical saw] (* <- lang_en;; *);;
+
+definition -> definition_of_music_saw (*
+	-> rrel_key_sc_element: concept_music_saw;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент, состоящий из стального лезвия, заставленное вибрировать и которое при трении смычком издает музыкальный звук, который может модулироваться скручиванием и кривизной пилы, полученной при нажатии пальцев руки] (* <- lang_ru;; *);;
+		-> [A musical instrument consisting of a steel blade made to vibrate and which, when rubbed with a bow, emits a musical sound that it can be modulated by the twisting and curvature of the saw obtained by pressing the fingers of the hand] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (музыкальная пила)] (* <- lang_ru;; *);
+		[Def. (musical saw)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;;

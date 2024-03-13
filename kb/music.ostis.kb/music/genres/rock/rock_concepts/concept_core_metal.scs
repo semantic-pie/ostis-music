@@ -1,0 +1,28 @@
+concept_core_metal
+=> nrel_main_idtf:
+	[кор-метал] (* <- lang_ru;; *);
+	[metal-core] (* <- lang_en;; *);;
+
+definition -> definition_of_core_metal (*
+	-> rrel_key_sc_element: concept_core_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Кор-метал обобщающее название для многих поджанров экстремального метала, таких как металкор, дезкор, грайндкор, металл-хардкор и др. Основные признаки кор-метала это быстрый темп, тяжелые гитарные риффы, агрессивный вокал и частое использование бластбитов] (* <- lang_ru;; *);;
+		-> [Core metal is an umbrella term for many subgenres of extreme metal, such as metalcore, deathcore, grindcore, metal-hardcore, and others. The main characteristics of core metal are fast tempo, heavy guitar riffs, aggressive vocals, and frequent use of blast beats] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кор-метал)] (* <- lang_ru;; *);
+		[Def. (metal-core)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

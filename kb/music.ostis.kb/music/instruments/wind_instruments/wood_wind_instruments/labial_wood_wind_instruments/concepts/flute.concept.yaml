@@ -1,0 +1,17 @@
+ru: флейта
+en: flute
+
+definition:
+  ru:
+    Деревянный духовой музыкальный инструмент
+    высокого тона в виде прямой трубки
+    с отверстиями и клапанами
+
+  en:
+    Woodwind musical instrument
+    high tone in the form of a straight tube
+    with holes and valves
+  using:
+    concepts: |
+      wood_wind_instrument
+      

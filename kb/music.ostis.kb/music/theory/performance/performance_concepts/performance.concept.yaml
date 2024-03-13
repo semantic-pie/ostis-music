@@ -1,0 +1,16 @@
+ru: исполнение
+en: performance
+definition:
+  ru: Музыкальное исполнение, этап музыкального процесса, в ходе которого музыкальные идеи реализуются и передаются слушателю
+  en: Musical performance, step in the musical process during which musical ideas are realized and transmitted to a listener
+  using:
+    concepts: |
+      viola
+      violin
+      guitar
+      cello
+      trombone
+      
+    nrels: |
+      used_musical_instruments
+      playing_techniques

@@ -1,0 +1,28 @@
+concept_math_rock
+=> nrel_main_idtf:
+	[мат-рок] (* <- lang_ru;; *);
+	[math rock] (* <- lang_en;; *);;
+
+definition -> definition_of_math_rock (*
+	-> rrel_key_sc_element: concept_math_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Мат-рок это жанр рок-музыки, который характеризуется использованием сложных метрических ритмов, нестандартных мелодий, громкой гитарной игрой и иногда прогрессивными элементами] (* <- lang_ru;; *);;
+		-> [Math rock is a genre of rock music that is characterized by the use of complex metric rhythms, unconventional melodies, loud guitar playing, and sometimes progressive elements] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (мат-рок)] (* <- lang_ru;; *);
+		[Def. (math rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,28 @@
+concept_bossa_nova
+=> nrel_main_idtf:
+	[босса-нова] (* <- lang_ru;; *);
+	[bossa nova] (* <- lang_en;; *);;
+
+definition -> definition_of_bossa_nova (*
+	-> rrel_key_sc_element: concept_bossa_nova;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Босса-нова это жанр бразильской музыки, который комбинирует элементы самбы и джаза. Он характеризуется использованием мягких гармоний, легких мелодий и ритмов, а также виртуозной гитарной игрой и романтическими текстами песен] (* <- lang_ru;; *);;
+		-> [Bossa nova is a genre of Brazilian music that combines elements of samba and jazz. It is characterized by the use of soft harmonies, light melodies and rhythms, as well as virtuoso guitar playing and romantic song lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (босса-нова)] (* <- lang_ru;; *);
+		[Def. (bossa nova)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

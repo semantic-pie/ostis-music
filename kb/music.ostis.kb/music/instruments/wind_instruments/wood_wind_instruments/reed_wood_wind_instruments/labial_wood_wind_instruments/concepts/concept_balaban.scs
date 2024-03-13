@@ -1,0 +1,50 @@
+concept_balaban
+=> nrel_main_idtf:
+	[балабан] (* <- lang_ru;; *);
+	[balaban] (* <- lang_en;; *);;
+
+definition -> definition_of_balaban (*
+	-> rrel_key_sc_element: concept_balaban;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент с двойной тростью] (* <- lang_ru;; *);;
+		-> [Musical instrument with double cane] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (балабан)] (* <- lang_ru;; *);
+		[Def. (balaban)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+statement -> statement_of_oboe_structure (*
+	-> rrel_key_sc_element: concept_balaban;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [состоит из корпуса, трости, кобылки и крышки-клапана] (* <- lang_ru;; *);;
+		-> [it consists of a body, a cane, a filly and a valve cover] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (структура фагота)] (* <- lang_ru;; *);
+		[Stat. (bassoon structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_body;
+		concept_cane;
+		concept_filly;
+		concept_valve_cover
+	};;
+*);;
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;
+	concept_body;
+	concept_cane;
+	concept_filly;
+	concept_valve_cover;;

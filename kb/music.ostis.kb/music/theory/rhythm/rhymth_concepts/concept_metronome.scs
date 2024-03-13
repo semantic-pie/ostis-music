@@ -1,0 +1,33 @@
+concept_metronome
+=> nrel_main_idtf:
+	[метроном] (* <- lang_ru;; *);
+	[metronome] (* <- lang_en;; *);;
+
+definition -> definition_of_metronome (*
+	-> rrel_key_sc_element: concept_metronome;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Прибор, отмечающий короткие промежутки времени равномерными ударами. В основном используется музыкантами как точный ориентир темпа при исполнении музыкального произведения] (* <- lang_ru;; *);;
+		-> [A device that marks short intervals of time with uniform strokes. Mainly used by musicians as an accurate tempo guide when performing a piece of music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (метроном)] (* <- lang_ru;; *);
+		[Def. (metronome)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		concept_bar;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;
+	concept_bar;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

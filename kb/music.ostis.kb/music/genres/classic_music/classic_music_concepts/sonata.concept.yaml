@@ -1,0 +1,15 @@
+ru: соната
+en: sonata
+definition:
+  ru:
+    Соната это классическая музыкальная форма, которая имеет три или четыре раздела, обычно быстрый, медленный, быстрый и очень быстрый, и часто исполняется на соло инструменте или как часть ансамбля. В современной музыке это термин, который используется для обозначения произведений, написанных для соло инструментов, дуэтов или трио
+  en:
+    Sonata is a classical musical form that has three or four sections, usually fast, slow, fast, and very fast, and is often performed on a solo instrument or as part of an ensemble. In modern music, it is a term used to denote works written for solo instruments, duets, or trios
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form

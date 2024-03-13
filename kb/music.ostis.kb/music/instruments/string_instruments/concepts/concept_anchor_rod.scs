@@ -1,0 +1,25 @@
+concept_anchor_rod
+=> nrel_main_idtf:
+	[анкерный стержень] (* <- lang_ru;; *);
+	[anchor rod] (* <- lang_en;; *);;
+
+definition -> definition_of_anchor_rod (*
+	-> rrel_key_sc_element: concept_anchor_rod;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Металлический стержень внутри грифа гитары толщиной 4-6 мм. Один конец анкера фиксируется, а на втором располагается регулировочный болт, который регулирует силу анкера и, соответственно, степень прогиба грифа. Анкерный болт может располагаться как у головы, так и у пятки грифа] (* <- lang_ru;; *);;
+		-> [The metal rod inside the guitar neck is 4-6 mm thick. One end the anchor is fixed, and on the second there is an adjustment bolt, which regulates the strength of the anchor and, accordingly, the degree of deflection of the neck. Anchor the bolt can be located both at the head and at the heel of the neck] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (анкерный стержень)] (* <- lang_ru;; *);
+		[Def. (anchor rod)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_vulture
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_vulture;;

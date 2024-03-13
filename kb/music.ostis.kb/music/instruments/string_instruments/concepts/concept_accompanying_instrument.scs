@@ -1,0 +1,25 @@
+concept_accompanying_instrument
+=> nrel_main_idtf:
+	[аккомпанирающий инструмент] (* <- lang_ru;; *);
+	[accompanying instrument] (* <- lang_en;; *);;
+
+definition -> definition_of_accompanying_instrument (*
+	-> rrel_key_sc_element: concept_accompanying_instrument;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Инструмент, играющий аккомпанирующую партию] (* <- lang_ru;; *);;
+		-> [An instrument playing an accompanying part] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (аккомпанирающий инструмент)] (* <- lang_ru;; *);
+		[Def. (accompanying instrument)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_accompanying
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_accompanying;;

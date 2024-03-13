@@ -1,0 +1,110 @@
+
+
+pattern_place_of_origin
+=>nrel_main_idtf:
+		[Паттерн нахождения места возникновения рока] (* <- lang_ru;; *);
+		[Pattern of finding the place of origin of rock] (* <- lang_en;; *);;
+pattern_place_of_origin = [*
+    concept_rock _<- concept_music_genre;
+    _=> nrel_place_of_origin:: _x;;
+*];;
+
+pattern_place_of_origin_is_usa
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров место возникновения которых - США] (* <- lang_ru;; *);
+		[Pattern of finding genres whose place of origin is the USA] (* <- lang_en;; *);;
+
+pattern_place_of_origin_is_usa = [*
+    _x _<- concept_music_genre;
+    _=> nrel_place_of_origin:: united_states;;
+    
+*];;
+
+pattern_year_of_origin_in_1960
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров зародившиеся в 60-x] (* <- lang_ru;; *);
+		[Pattern of finding  genres originated in the 60s] (* <- lang_en;; *);;
+pattern_year_of_origin_in_1960 = [*
+    _x _<- concept_music_genre;
+    _=> nrel_year_of_origin:: 1960s;;
+*];;
+
+pattern_strange_ganre
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров стилистически основанных на блюзе, в которых используются саксофоны, зародившееся на Кубе в 40-x] (* <- lang_ru;; *);
+		[Pattern of finding genres stylistically based on blues, in which saxophones are used, originated in Cuba in the 40s] (* <- lang_en;; *);;
+pattern_strange_ganre = [*
+    _x _<- concept_music_genre;
+    _=> nrel_stylistic_origin:: concept_blues;
+    _=> nrel_used_musical_instruments:: concept_saxophone;;
+    _y _<- _x;
+    _=> nrel_year_of_origin:: 1940s;
+    _=> nrel_place_of_origin:: cuba;;
+*];;
+
+search_pattern
+=> nrel_main_idtf:
+    [шаблон поиска](* <- lang_ru;; *);
+    [search template](* <- lang_en;; *);
+-> pattern_place_of_origin;
+-> pattern_place_of_origin_is_usa;
+-> pattern_year_of_origin_in_1960;
+-> pattern_strange_ganre;
+-> pattern_stylistic_origin_of_post_metal;
+-> pattern_place_of_origin_is_usa_in_1960;
+-> pattern_derivative_forms_of_garage_rock;
+-> pattern_sweden_norway_1980;
+-> pattern_used_instruments;
+-> pattern_genre_that_use_sexophone;
+-> pattern_electrosex;
+-> pattern_genre_with_guitar_and_power_chords;
+-> cringe_test_1;
+-> cringe_test_2;
+-> cringe_test_3;
+-> cringe_test_4;
+-> cringe_test_5;
+-> m_pattern1;
+-> m_pattern2;
+-> m_pattern3;;
+
+
+pattern_stylistic_origin_of_post_metal
+=> nrel_main_idtf:
+		[Паттерн нахождения стилистического происхождения пост-метала] (* <- lang_ru;; *);
+		[Pattern of finding stylistic origin of post-metal] (* <- lang_en;; *);;
+
+pattern_place_of_origin_is_usa_in_1960
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров место происхождения которых - США, а год выпуска - 1960-е] (* <- lang_ru;; *);
+		[Pattern of finding place of origin is usa and year of origin is 1960s] (* <- lang_en;; *);;
+
+pattern_derivative_forms_of_garage_rock
+=> nrel_main_idtf:
+		[Паттерн нахождения производных жанров жанра гаражного рока] (* <- lang_ru;; *);
+		[Pattern of finding derivative forms of garage rock genre] (* <- lang_en;; *);;
+
+pattern_sweden_norway_1980
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров рока место происхождения которых Швеция и Норвегия 80-x] (* <- lang_ru;; *);
+		[Pattern of finding rock genres whose place of origin is Sweden and Norway] (* <- lang_en;; *);;
+
+pattern_used_instruments
+=> nrel_main_idtf:
+		[Паттерн нахождения интсрументов обычно используемых в жанре рока] (* <- lang_ru;; *);
+		[Pattern of finding instruments commonly used in the rock genre] (* <- lang_en;; *);;
+
+pattern_genre_that_use_sexophone
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров использующий саксофоны] (* <- lang_ru;; *);
+		[Pattern of finding genre that use sexophones] (* <- lang_en;; *);;
+
+pattern_electrosex
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров использующий саксофоны, и его поджанр стилистическое происхождение которого электронная музыка] (* <- lang_ru;; *);
+		[Pattern of finding genre using saxophones, and its subgenre whose stylistic origin is electronic music] (* <- lang_en;; *);;
+
+pattern_genre_with_guitar_and_power_chords
+=> nrel_main_idtf:
+		[Паттерн нахождения жанров характерных использованием электро гитар и квинтакордов] (* <- lang_ru;; *);
+		[Pattern of finding genre characterized by the use of electric guitars and quintaccords] (* <- lang_en;; *);;
+

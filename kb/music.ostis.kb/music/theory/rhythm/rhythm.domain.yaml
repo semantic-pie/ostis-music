@@ -1,0 +1,13 @@
+en: rhythm
+ru: ритмики
+
+parent: music_theory
+
+max: |
+  rhythm
+
+concepts: |
+  bar
+  syncopation
+  pickup_measure
+  metronome

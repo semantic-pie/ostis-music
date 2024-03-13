@@ -1,0 +1,37 @@
+concept_alto_clef
+=> nrel_main_idtf:
+	[альтовый ключ] (* <- lang_ru;; *);
+	[alto clef] (* <- lang_en;; *);;
+
+definition -> definition_of_alto_clef (*
+	-> rrel_key_sc_element: concept_alto_clef;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Альтовый ключ или ключ до, это музыкальный символ в нотной грамоте, который используется для обозначения высоты записанных нот. Альтовый ключ размещается на третьей линии нотного стана и представляет средний диапазон нот, используемых инструментами, такими как альт, виолончель, тромбон] (* <- lang_ru;; *);;
+		-> [The alto clef or the C clef, is a musical symbol used in notation to indicate the pitch of written notes. The alto clef is placed on the third line of the staff, and it represents the middle range of notes used by instruments such as the viola, cello, trombone] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (альтовый ключ)] (* <- lang_ru;; *);
+		[Def. (alto clef)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_alto;
+		concept_cello;
+		concept_trombone;
+		nrel_note_pitch;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_alto;
+	concept_cello;
+	concept_trombone;;
+
+sc_node_norole_relation ->
+	nrel_note_pitch;
+	nrel_used_musical_instruments;;

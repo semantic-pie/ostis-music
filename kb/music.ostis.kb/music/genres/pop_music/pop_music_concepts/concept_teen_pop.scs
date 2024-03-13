@@ -1,0 +1,28 @@
+concept_teen_pop
+=> nrel_main_idtf:
+	[тин-поп] (* <- lang_ru;; *);
+	[teen pop] (* <- lang_en;; *);;
+
+definition -> definition_of_teen_pop (*
+	-> rrel_key_sc_element: concept_teen_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Тин-поп популярный музыкальный жанр, направленный на подростковую аудиторию. Характеризуется яркой мелодикой, простыми текстами и динамичным ритмом, а также активным использованием электронных средств звукозаписи] (* <- lang_ru;; *);;
+		-> [Teen pop is a popular music genre aimed at a teenage audience. It is characterized by bright melody, simple lyrics and dynamic rhythm, as well as active use of electronic recording techniques] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (тин-поп)] (* <- lang_ru;; *);
+		[Def. (teen pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

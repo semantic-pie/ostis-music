@@ -1,0 +1,46 @@
+section_subject_domain_of_piano
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область фортепиано] (* <- lang_ru;; *);
+	[Section. Subject domain of piano] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_pianino;
+	section_subject_domain_of_grand_piano
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_piano;
+	concept_piano;
+	concept_pianino;
+	concept_grand_piano;;
+
+section_subject_domain_of_piano=[*
+	subject_domain_of_piano
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область фортепиано] (* <- lang_ru;; *);
+		[Subject Domain of piano] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_piano;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_pianino;
+		concept_grand_piano;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_percussion_keyboard_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_pianino;
+		subject_domain_of_grand_piano;;
+*];;
+
+sc_node_class ->
+	concept_piano;
+	concept_pianino;
+	concept_grand_piano;;

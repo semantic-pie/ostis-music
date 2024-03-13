@@ -1,0 +1,28 @@
+concept_hard_rock
+=> nrel_main_idtf:
+	[хард-рок] (* <- lang_ru;; *);
+	[hard-rock] (* <- lang_en;; *);;
+
+definition -> definition_of_hard_rock (*
+	-> rrel_key_sc_element: concept_hard_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хард-рок это жанр рок-музыки, отличающийся более тяжелым и громким звучанием, чем у классического рока, с более выраженными гитарными риффами, ударными ритмами и агрессивным вокалом] (* <- lang_ru;; *);;
+		-> [Hard rock is a genre of rock music characterized by a heavier and louder sound than classic rock, with more pronounced guitar riffs, percussive rhythms and aggressive vocals] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хард-рок)] (* <- lang_ru;; *);
+		[Def. (hard-rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

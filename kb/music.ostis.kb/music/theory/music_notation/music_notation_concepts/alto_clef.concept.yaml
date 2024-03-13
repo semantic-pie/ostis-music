@@ -1,0 +1,14 @@
+ru: альтовый ключ
+en: alto clef
+definition:
+  ru: Альтовый ключ или ключ до, это музыкальный символ в нотной грамоте, который используется для обозначения высоты записанных нот. Альтовый ключ размещается на третьей линии нотного стана и представляет средний диапазон нот, используемых инструментами, такими как альт, виолончель, тромбон
+  en: The alto clef or the C clef, is a musical symbol used in notation to indicate the pitch of written notes. The alto clef is placed on the third line of the staff, and it represents the middle range of notes used by instruments such as the viola, cello, trombone
+  using:
+    concepts: |
+      music_notation
+      alto
+      cello
+      trombone
+    nrels: |
+      note_pitch
+      used_musical_instruments

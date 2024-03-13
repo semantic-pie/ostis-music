@@ -1,0 +1,39 @@
+concept_guitar
+=> nrel_main_idtf:
+	[гитара] (* <- lang_ru;; *);
+	[guitar] (* <- lang_en;; *);
+
+
+=> nrel_inclusion:
+concept_bass_guitar;
+concept_electro_guitar;
+concept_classic_guitar;;
+
+definition -> definition_of_guitar (*
+	-> rrel_key_sc_element: concept_guitar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Струнный музыкальный инструмент с ладами, обычно имеющий 6 струн. Применяется в качестве аккомпанирующего или сольного инструмента во многих стилях и направлениях музыки] (* <- lang_ru;; *);;
+		-> [A stringed musical instrument with frets, usually having 6 strings. It is used as an accompanying or solo instrument in many styles and directions of music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гитара)] (* <- lang_ru;; *);
+		[Def. (guitar)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string;
+		concept_music_genre;
+		concept_solo_instrument;
+		concept_accompanying_instrument;
+		concept_fret
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string;
+	concept_music_genre;
+	concept_solo_instrument;
+	concept_accompanying_instrument;
+	concept_fret;;

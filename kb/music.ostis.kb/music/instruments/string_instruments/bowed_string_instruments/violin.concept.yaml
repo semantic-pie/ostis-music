@@ -1,0 +1,15 @@
+ru: скрипка
+en: violin
+
+definition:
+  ru:
+    Смычковый музыкальный инструмент с 4-мя струнами. Самая высокая по тону
+    среди альта, виолончели и контрабаса
+  en:
+    A bowed musical instrument with 4 strings. The highest in tone among viola,
+    cello and double bass
+  using:
+    concepts: |
+      viola
+      cello
+      double_bass

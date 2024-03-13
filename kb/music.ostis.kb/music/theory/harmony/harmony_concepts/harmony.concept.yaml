@@ -1,0 +1,13 @@
+ru: гармоника
+en: harmony
+definition:
+  ru: Раздел теории музыки, изучающий совокупность звуков, создаваемых одновременно и взаимодействующих друг с другом
+  en: Part of music theory that studies the totality of sounds created simultaneously and interacting with each other
+
+  using:
+    concepts: |
+      chord
+      seventh_chord
+      tonality
+    nrels: |
+      used_musical_instruments

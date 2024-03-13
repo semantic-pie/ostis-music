@@ -1,0 +1,27 @@
+concept_harmonium
+=> nrel_main_idtf:
+	[фисгармония] (* <- lang_ru;; *);
+	[harmonium] (* <- lang_en;; *);;
+
+definition -> definition_of_harmonium (*
+	-> rrel_key_sc_element: concept_harmonium;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [музыкальный инструмент по концепции схожий с аккордеоном, отличающийся наличием фортепианной клавиатуры и напольным или настольным расположением] (* <- lang_ru;; *);;
+		-> [a musical instrument similar in concept to an accordion, characterized by the presence of a piano keyboard and a floor or table arrangement] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фисгармония)] (* <- lang_ru;; *);
+		[Def. (harmonium)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_accordion;
+		concept_piano
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_accordion;
+	concept_piano;;

@@ -1,0 +1,11 @@
+ru: малая секста
+en: minor sixth
+definition:
+  ru: Интервал, состоящий из восьми полутонов
+  en: Interval of a minor sixth, consisting of eight semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

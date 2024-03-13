@@ -1,0 +1,14 @@
+ru: клавинет
+en: clavinet
+
+definition:
+  ru:
+    вариация электропиано, в котором используется электромеханический механизм,
+    где зубцы, при нажатии клавиш, вибрируют и создают звуковые колебания
+  en:
+    a variation of the electropiano, which uses an electromechanical mechanism,
+    where the teeth, when the keys are pressed, they vibrate and create sound
+    vibrations
+  using:
+    concepts: |
+      piano

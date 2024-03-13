@@ -1,0 +1,37 @@
+concept_dynamic_markings
+=> nrel_main_idtf:
+	[динамика] (* <- lang_ru;; *);
+	[dynamic_markings] (* <- lang_en;; *);;
+
+definition -> definition_of_dynamic_markings (*
+	-> rrel_key_sc_element: concept_dynamic_markings;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Совокупность понятий и нотных обозначений, связанных с оттенками громкости звучания] (* <- lang_ru;; *);;
+		-> [A set of concepts and musical notations associated with shades of sound volume] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (динамика)] (* <- lang_ru;; *);
+		[Def. (dynamic_markings)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_forte;
+		concept_mezzo_piano;
+		concept_viola;
+		concept_violin;
+		concept_string_instruments;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_forte;
+	concept_mezzo_piano;
+	concept_viola;
+	concept_violin;
+	concept_string_instruments;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

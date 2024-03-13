@@ -1,0 +1,28 @@
+concept_vaporwave
+=> nrel_main_idtf:
+	[вейпорвейв] (* <- lang_ru;; *);
+	[vaporwave] (* <- lang_en;; *);;
+
+definition -> definition_of_vaporwave (*
+	-> rrel_key_sc_element: concept_vaporwave;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Вейпорвейв это жанр электронной музыки, который характеризуется использованием сэмплов поп-культуры восьмидесятых, а также обработкой их звуковых материалов с помощью различных эффектов и техник] (* <- lang_ru;; *);;
+		-> [Vaporwave is a genre of electronic music that is characterized by the use of samples pop culture, as well as the processing of their sound materials using various effects and techniques] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (вейпорвейв)] (* <- lang_ru;; *);
+		[Def. (vaporwave)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

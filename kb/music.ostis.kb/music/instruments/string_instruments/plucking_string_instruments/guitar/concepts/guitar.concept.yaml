@@ -1,0 +1,25 @@
+ru: гитара
+en: guitar
+
+definition:
+  ru:
+    Струнный музыкальный инструмент с ладами, обычно имеющий 6 струн.
+    Применяется в качестве аккомпанирующего или сольного инструмента во многих
+    стилях и направлениях музыки
+
+  en:
+    A stringed musical instrument with frets, usually having 6 strings. It is
+    used as an accompanying or solo instrument in many styles and directions of
+    music
+  using:
+    concepts: |
+      string
+      music_genre
+      solo_instrument
+      accompanying_instrument
+      fret
+
+subclass:
+  - bass_guitar
+  - electro_guitar
+  - classic_guitar

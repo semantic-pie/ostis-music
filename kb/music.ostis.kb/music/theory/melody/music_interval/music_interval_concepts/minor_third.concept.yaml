@@ -1,0 +1,11 @@
+ru: малая терция
+en: minor third
+definition:
+  ru: Интервал, состоящий из трех полутонов
+  en: Interval of a minor third, consisting of three semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

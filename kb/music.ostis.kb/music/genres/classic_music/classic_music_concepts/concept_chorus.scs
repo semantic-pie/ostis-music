@@ -1,0 +1,28 @@
+concept_chorus
+=> nrel_main_idtf:
+	[хор] (* <- lang_ru;; *);
+	[chorus] (* <- lang_en;; *);;
+
+definition -> definition_of_chorus (*
+	-> rrel_key_sc_element: concept_chorus;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хор это музыкальный ансамбль, в котором певцы поют вместе в группе, следуя общей мелодии и ритму] (* <- lang_ru;; *);;
+		-> [A chorus is a musical ensemble in which singers sing together as a group, following a common melody and rhythm] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хор)] (* <- lang_ru;; *);
+		[Def. (chorus)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

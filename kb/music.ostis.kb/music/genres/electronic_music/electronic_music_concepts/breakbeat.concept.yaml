@@ -1,0 +1,14 @@
+ru: брейкбит
+en: breakbeat
+definition:
+  ru: Брейкбит жанр электронной танцевальной музыки, который характеризуется использованием различных сэмплов, в том числе звуков барабанов и ударных инструментов. Основные элементы брейкбита это биты, ритмы и брейки
+  en: Breakbeat is a genre of electronic dance music that is characterized by the use of various samples, including drum and percussion sounds. The main elements of breakbeat are beats, rhythms, and breaks
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,16 @@
+ru: аккомпанемент
+en: accompaniment
+definition:
+  ru: Аккомпанемент это сопровождение одним или несколькими инструментами, а также оркестром сольной партии инструмента
+  en: Accompaniment is an accompaniment by one or more instruments, as well as an orchestra of the solo part of the instrument
+  using:
+    concepts: |
+      viola
+      violin
+      guitar
+      cello
+      trombone
+      
+    nrels: |
+      used_musical_instruments
+      playing_techniques

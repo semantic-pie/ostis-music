@@ -1,0 +1,15 @@
+ru: резонаторное отверстие
+en: resonator hole
+
+definition:
+  ru:
+    Отверстие в корпусе музыкального инструмента. Служит для улучшения его
+    акустических свойств. Передаёт колебания воздуха из полой части корпуса
+    наружу
+  en:
+    A hole in the body of a musical instrument. Serves to improve it acoustic
+    properties. Transmits air vibrations from the hollow part of the housing
+    outside
+  using:
+    concepts: |
+      music_instrument

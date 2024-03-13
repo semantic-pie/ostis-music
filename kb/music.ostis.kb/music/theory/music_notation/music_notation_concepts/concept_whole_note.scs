@@ -1,0 +1,31 @@
+concept_whole_note
+=> nrel_main_idtf:
+	[целая нота] (* <- lang_ru;; *);
+	[whole note] (* <- lang_en;; *);;
+
+definition -> definition_of_whole_note (*
+	-> rrel_key_sc_element: concept_whole_note;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Целая нота это музыкальный символ, выглядевший как круглая нота без стержня и обозначающий звучание в течение одной полной музыкальной доли] (* <- lang_ru;; *);;
+		-> [A whole note is a musical symbol that looks like a hollow circle and represents a sound that lasts for one full measure] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (целая нота)] (* <- lang_ru;; *);
+		[Def. (whole note)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_note_name;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_note_name;
+	nrel_duration;;

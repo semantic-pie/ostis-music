@@ -1,0 +1,25 @@
+concept_flute
+=> nrel_main_idtf:
+	[флейта] (* <- lang_ru;; *);
+	[flute] (* <- lang_en;; *);;
+
+definition -> definition_of_flute (*
+	-> rrel_key_sc_element: concept_flute;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Деревянный духовой музыкальный инструмент высокого тона в виде прямой трубки с отверстиями и клапанами] (* <- lang_ru;; *);;
+		-> [Woodwind musical instrument high tone in the form of a straight tube with holes and valves] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (флейта)] (* <- lang_ru;; *);
+		[Def. (flute)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_wood_wind_instrument;;

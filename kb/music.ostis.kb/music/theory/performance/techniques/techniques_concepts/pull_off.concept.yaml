@@ -1,0 +1,17 @@
+ru: пулл оф
+en: pull-off
+definition:
+  ru: Pull-off это гитарная техника, используемая для создания плавного перехода между двумя нотами. Он обычно используется при игре на струнных инструментах, таких как гитара. Чтобы выполнить пулл-офф, вы начинаете с того, что нажимаете ноту на более высоком ладу струны и дергаете эту струну своей рукой. Эта техника противоположна хамер он
+  en: A pull-off is a guitar technique used to create a smooth transition between two notes. It is commonly used in playing stringed instruments like the guitar. To perform a pull-off, you start by fretting a note on a higher fret of a string and plucking that string with your picking hand. This technique is the opposite of the hammer-on
+
+  using:
+    concepts: |
+      note
+      guitar
+      electro_guitar
+      string_instruments
+      hammer_on
+      techniques
+    nrels: |
+      used_musical_instruments
+      playing_techniques

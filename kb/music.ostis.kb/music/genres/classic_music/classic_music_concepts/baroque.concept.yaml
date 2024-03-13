@@ -1,0 +1,14 @@
+ru: барокко
+en: baroque
+definition:
+  ru: Барокко это стиль музыки характеризующийся использованием оркестров и хоров, богатой гармоникой, изысканной мелодикой и причудливой орнаментикой
+  en: Baroque is characterized by the use of orchestras and choirs, rich harmony, elaborate melodies, and intricate ornamentation
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,15 @@
+ru: динамика
+en: dynamic_markings
+definition:
+  ru: Совокупность понятий и нотных обозначений, связанных с оттенками громкости звучания
+  en: A set of concepts and musical notations associated with shades of sound volume
+
+  using:
+    concepts: |
+      forte
+      mezzo_piano
+      viola
+      violin
+      string_instruments
+    nrels: |
+      used_musical_instruments

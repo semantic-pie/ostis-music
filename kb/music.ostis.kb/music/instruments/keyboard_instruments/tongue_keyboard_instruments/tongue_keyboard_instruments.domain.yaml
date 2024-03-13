@@ -1,0 +1,13 @@
+en: tongue-keyboard instruments
+ru: язычково-клавишных инструментов
+
+parent: keyboard_instruments
+
+max: |
+  tongue_keyboard_instrument
+
+concepts: |
+  harmonium
+  accordion
+  bayan
+  melodica

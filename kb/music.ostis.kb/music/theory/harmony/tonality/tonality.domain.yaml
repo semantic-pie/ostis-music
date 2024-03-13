@@ -1,0 +1,11 @@
+en: tonality
+ru: тональности
+
+parent: harmony
+
+max: |
+  tonality
+
+concepts: |
+  c_major
+  d_minor

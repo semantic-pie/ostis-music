@@ -1,0 +1,10 @@
+en: electromechanical keyboard instruments
+ru: электромеханических клавишных инструментов
+
+parent: keyboard_instruments
+
+max: |
+  electropiano
+
+concepts: |
+  clavinet

@@ -1,0 +1,17 @@
+ru: слайд
+en: slide
+definition:
+  ru: Слайд это техника, при которой палец сдвигается по грифу, создавая плавный переход между двумя нотами
+  en: A slide is a technique in which the finger is moved across the fretboard, creating a smooth transition between two notes
+  using:
+    concepts: |
+      note
+      guitar
+      violin
+      cello
+      electro_guitar
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

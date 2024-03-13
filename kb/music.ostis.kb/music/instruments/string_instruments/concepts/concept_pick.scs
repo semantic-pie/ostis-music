@@ -1,0 +1,25 @@
+concept_pick
+=> nrel_main_idtf:
+	[медиатор] (* <- lang_ru;; *);
+	[pick] (* <- lang_en;; *);;
+
+definition -> definition_of_pick (*
+	-> rrel_key_sc_element: concept_pick;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Приспособление для защипывания струн на музыкальных инструментах] (* <- lang_ru;; *);;
+		-> [A device for plucking strings on musical instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (медиатор)] (* <- lang_ru;; *);
+		[Def. (pick)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;;

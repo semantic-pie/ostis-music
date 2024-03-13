@@ -1,0 +1,31 @@
+concept_banjo
+=> nrel_main_idtf:
+	[банджо] (* <- lang_ru;; *);
+	[banjo] (* <- lang_en;; *);;
+
+definition -> definition_of_banjo (*
+	-> rrel_key_sc_element: concept_banjo;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Струнный щипковый музыкальный инструмент типа гитары. Количество струн 4-6. Резонаторный корпус круглой формы, дека в виде пластиковой мембраны] (* <- lang_ru;; *);;
+		-> [A stringed plucked musical instrument of the guitar type. The number of strings is 4-6. Resonator case of round shape, soundboard in the form of a plastic membrane] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (банджо)] (* <- lang_ru;; *);
+		[Def. (banjo)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_plucking_string_instrument;
+		concept_string;
+		concept_soundboard;
+		concept_resonator_case
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_plucking_string_instrument;
+	concept_string;
+	concept_soundboard;
+	concept_resonator_case;;

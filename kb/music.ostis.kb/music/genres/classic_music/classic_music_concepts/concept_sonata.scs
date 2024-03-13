@@ -1,0 +1,35 @@
+concept_sonata
+=> nrel_main_idtf:
+	[соната] (* <- lang_ru;; *);
+	[sonata] (* <- lang_en;; *);;
+
+definition -> definition_of_sonata (*
+	-> rrel_key_sc_element: concept_sonata;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Соната это классическая музыкальная форма, которая имеет три или четыре раздела, обычно быстрый, медленный, быстрый и очень быстрый, и часто исполняется на соло инструменте или как часть ансамбля. В современной музыке это термин, который используется для обозначения произведений, написанных для соло инструментов, дуэтов или трио] (* <- lang_ru;; *);;
+		-> [Sonata is a classical musical form that has three or four sections, usually fast, slow, fast, and very fast, and is often performed on a solo instrument or as part of an ensemble. In modern music, it is a term used to denote works written for solo instruments, duets, or trios] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (соната)] (* <- lang_ru;; *);
+		[Def. (sonata)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;;

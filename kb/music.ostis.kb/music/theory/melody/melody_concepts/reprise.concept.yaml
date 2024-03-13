@@ -1,0 +1,13 @@
+ru: реприза
+en: reprise
+definition:
+  ru: Музыкальный теормин, использующийся для повтора фргаментов музыкального произведения
+  en: A musical term used to repeat a section of a piece of music
+  using:
+    concepts: |
+      analysis
+      structure
+      bar
+    nrels: |
+      used_musical_instruments
+      playing_techniques

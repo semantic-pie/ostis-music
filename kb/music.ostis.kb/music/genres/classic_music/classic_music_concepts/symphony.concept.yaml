@@ -1,0 +1,15 @@
+ru: симфония
+en: symphony
+definition:
+  ru:
+    Симфония это музыкальный жанр, который имеет обширный и разнообразный инструментальный состав и обычно состоит из четырех частей быстрый, медленный, средний и быстрый. Это один из самых сложных и масштабных жанров в классической музыке
+  en:
+    Symphony is a musical genre that has an extensive and varied instrumental composition and usually consists of four parts fast, slow, medium, and fast. It is one of the most complex and large-scale genres in classical music
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form

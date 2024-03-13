@@ -1,0 +1,19 @@
+ru: анкерный стержень
+en: anchor rod
+
+definition:
+  ru:
+    Металлический стержень внутри грифа гитары толщиной 4-6 мм. Один конец
+    анкера фиксируется, а на втором располагается регулировочный болт, который
+    регулирует силу анкера и, соответственно, степень прогиба грифа. Анкерный
+    болт может располагаться как у головы, так и у пятки грифа
+
+  en:
+    The metal rod inside the guitar neck is 4-6 mm thick. One end the anchor is
+    fixed, and on the second there is an adjustment bolt, which regulates the
+    strength of the anchor and, accordingly, the degree of deflection of the
+    neck. Anchor the bolt can be located both at the head and at the heel of the
+    neck
+  using:
+    concepts: |
+      vulture

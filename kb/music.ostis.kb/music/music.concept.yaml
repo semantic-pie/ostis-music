@@ -1,0 +1,43 @@
+ru: музыка
+en: music
+
+definition:
+  ru:
+    - искусство, которое выражается через звуковые ритмы, мелодии и гармонии.
+      Она создается и исполняется с помощью музыкальных инструментов или голоса,
+      и обладает способностью вызывать эмоциональные и эстетические впечатления
+      у слушателя
+
+    - упорядоченное сочетание звуков, имеющее определенную структуру и ритм. Она
+      может быть инструментальной или вокальной, и служит средством передачи и
+      выражения идей, настроений и эмоций
+
+    - универсальный язык, понятный и доступный людям разных культур и
+      национальностей. Она имеет способность объединять людей, вызывать
+      сопереживание и передавать истории и традиции народов. Музыка также
+      является формой самовыражения и средством развлечения и разрядки
+      напряжения
+  en:
+    - art that is expressed through sound rhythms, melodies and harmonies. It is
+      created and performed with the help of musical instruments or voice, and
+      has the ability to evoke emotional and aesthetic impressions the listener
+      has
+
+    - an ordered combination of sounds that has a certain structure and rhythm.
+      She it can be instrumental or vocal, and serves as a means of transmitting
+      and expressions of ideas, moods and emotions
+
+    - an universal language that is understandable and accessible to people of
+      different cultures and nationalities. It has the ability to unite people,
+      to cause empathy and transmit the stories and traditions of peoples. Music
+      also it is a form of self-expression and a means of entertainment and
+      relaxation voltage 
+  using:
+    concepts: |
+      rhythm
+      melody
+      harmony
+      music_instrument
+      sound
+      vocal
+      

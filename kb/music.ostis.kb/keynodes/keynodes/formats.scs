@@ -1,0 +1,31 @@
+format_audio_mpeg
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат mp3] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format mp3] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[audio/mpeg];;
+
+format_audio_flac
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат flac] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format flac] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[audio/flac];;

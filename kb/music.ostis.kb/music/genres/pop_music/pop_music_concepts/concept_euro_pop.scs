@@ -1,0 +1,28 @@
+concept_euro_pop
+=> nrel_main_idtf:
+	[евро-поп] (* <- lang_ru;; *);
+	[euro pop] (* <- lang_en;; *);;
+
+definition -> definition_of_euro_pop (*
+	-> rrel_key_sc_element: concept_euro_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Евро-поп это популярный музыкальный жанр, который появился в Европе и быстро стал популярным во всем мире. Характеризуется использованием синтезаторов, электронных инструментов и простых мелодий] (* <- lang_ru;; *);;
+		-> [Euro pop is a popular music genre that originated in Europe and quickly became popular worldwide. It is characterized by the use of synthesizers, electronic instruments, and simple melodies] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (евро-поп)] (* <- lang_ru;; *);
+		[Def. (euro pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

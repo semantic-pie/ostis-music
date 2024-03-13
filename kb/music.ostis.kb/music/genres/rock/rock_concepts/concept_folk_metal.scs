@@ -1,0 +1,28 @@
+concept_folk_metal
+=> nrel_main_idtf:
+	[фолк-метал] (* <- lang_ru;; *);
+	[folk metal] (* <- lang_en;; *);;
+
+definition -> definition_of_folk_metal (*
+	-> rrel_key_sc_element: concept_folk_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Фолк-метал жанр метал-музыки, в котором элементы фолка и этники объединяются с гитарной тяжестью и агрессией. Фолк-метал обычно включает в себя использование таких инструментов, как скрипка, гайда и труба, а также тексты на темы, связанные с мифологией и историей народов] (* <- lang_ru;; *);;
+		-> [Folk metal is a subgenre of heavy metal music that combines elements of traditional folk music and ethnic music with heavy guitar sounds and aggression. Folk metal typically involves the use of instruments such as fiddles, bagpipes, and flutes, as well as lyrics that deal with mythological and historical themes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фолк-метал)] (* <- lang_ru;; *);
+		[Def. (folk metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

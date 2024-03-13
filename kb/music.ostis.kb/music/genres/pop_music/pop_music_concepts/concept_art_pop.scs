@@ -1,0 +1,28 @@
+concept_art_pop
+=> nrel_main_idtf:
+	[арт-поп] (* <- lang_ru;; *);
+	[art pop] (* <- lang_en;; *);;
+
+definition -> definition_of_art_pop (*
+	-> rrel_key_sc_element: concept_art_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Арт-поп это жанр поп-музыки, который характеризуется экспериментами с звуком, нестандартными композициями и использованием элементов классической музыки и жанров, таких как джаз, рок и электронная музыка. Этот жанр отличается от других жанров поп-музыки более сложной и утонченной музыкой] (* <- lang_ru;; *);;
+		-> [Art pop is a genre of pop music that is characterized by sound experimentation, unconventional compositions, and the use of classical music elements and genres such as jazz, rock, and electronic music. This genre differs from other genres of pop music with more complex and refined music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (арт-поп)] (* <- lang_ru;; *);
+		[Def. (art pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

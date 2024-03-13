@@ -1,0 +1,10 @@
+ru: четвертная пауза
+en: quarter rest
+definition:
+  ru: Четвертная пауза это символ в нотной грамоте, который обозначает паузу в течение одной четвертой музыкальной доли. Представляет собой вертикальный зигзагообразны символ
+  en: A quarter rest is a symbol in musical notation that denotes a pause during one fourth of a musical measure. Represents a vertical zigzag symbol
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      duration

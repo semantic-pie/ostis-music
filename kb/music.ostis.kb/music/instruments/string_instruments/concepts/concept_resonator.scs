@@ -1,0 +1,25 @@
+concept_resonator
+=> nrel_main_idtf:
+	[резонаторное отверстие] (* <- lang_ru;; *);
+	[resonator hole] (* <- lang_en;; *);;
+
+definition -> definition_of_resonator (*
+	-> rrel_key_sc_element: concept_resonator;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Отверстие в корпусе музыкального инструмента. Служит для улучшения его акустических свойств. Передаёт колебания воздуха из полой части корпуса наружу] (* <- lang_ru;; *);;
+		-> [A hole in the body of a musical instrument. Serves to improve it acoustic properties. Transmits air vibrations from the hollow part of the housing outside] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (резонаторное отверстие)] (* <- lang_ru;; *);
+		[Def. (resonator hole)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;;

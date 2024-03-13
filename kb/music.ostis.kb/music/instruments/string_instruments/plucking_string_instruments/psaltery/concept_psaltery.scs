@@ -1,0 +1,29 @@
+concept_psaltery
+=> nrel_main_idtf:
+	[гусли] (* <- lang_ru;; *);
+	[psaltery] (* <- lang_en;; *);;
+
+definition -> definition_of_psaltery (*
+	-> rrel_key_sc_element: concept_psaltery;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [струнный щипковый музыкальный инструмент, в общем виде представляющий собой резонаторный корпус с натянутыми над ним 5-20 струнами] (* <- lang_ru;; *);;
+		-> [a stringed plucked musical instrument, generally representing resonator housing with 5-20 strings stretched over it] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гусли)] (* <- lang_ru;; *);
+		[Def. (psaltery)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_plucking_string_instrument;
+		concept_soundboard;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_plucking_string_instrument;
+	concept_soundboard;
+	concept_string;;

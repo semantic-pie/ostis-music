@@ -1,0 +1,16 @@
+ru: нью-диско
+en: nu-disco
+definition:
+  ru:
+    Нью-диско это жанр танцевальной музыки, который характеризуется использованием элементов диско музыки годов и современных электронных звуков, часто в сочетании с живыми инструментами и вокалом
+  en:
+    Nu-disco is a genre of dance music that is characterized by the use of elements of disco music and modern electronic sounds, often combined with live instruments and vocals
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

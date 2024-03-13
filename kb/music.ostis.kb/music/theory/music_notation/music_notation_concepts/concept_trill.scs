@@ -1,0 +1,35 @@
+concept_trill
+=> nrel_main_idtf:
+	[трель] (* <- lang_ru;; *);
+	[trill] (* <- lang_en;; *);;
+
+definition -> definition_of_trill (*
+	-> rrel_key_sc_element: concept_trill;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Трель это быстрое чередование двух соседних нот, отстоящих на секунду, большую или малую. Первая нота называется главной, а вторая называется вспомогательной. Обычно вспомогательная нота стоит выше главной] (* <- lang_ru;; *);;
+		-> [Trill is a rapid alternation between two neighboring notes, separated by either a minor or major second. The first note is called the principal, and the second note is called the auxiliary. Usually, the auxiliary note is higher than the principal] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (трель)] (* <- lang_ru;; *);
+		[Def. (trill)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_music_interval;
+		concept_major_second;
+		concept_minor_second;
+		nrel_performance_technique
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_music_interval;
+	concept_major_second;
+	concept_minor_second;;
+
+sc_node_norole_relation ->
+	nrel_performance_technique;;

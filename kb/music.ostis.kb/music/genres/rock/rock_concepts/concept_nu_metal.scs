@@ -1,0 +1,25 @@
+concept_nu_metal
+=> nrel_main_idtf:
+	[ню-метал] (* <- lang_ru;; *);
+	[nu metal] (* <- lang_en;; *);;
+
+definition -> definition_of_nu_metal (*
+	-> rrel_key_sc_element: concept_nu_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ню-метал жанр рок-музыки, который объединяет элементы хип-хопа, гранжа, индастриала и фанка с гитарными риффами и агрессивным вокалом. Ню-метал часто использует сэмплы, электронные инструменты и динамичные переходы между стилями] (* <- lang_ru;; *);;
+		-> [Nu metal is a genre of rock music that combines elements of hip hop, grunge, industrial, and funk with heavy guitar riffs and aggressive vocals. Nu metal often utilizes samples, electronic instruments, and dynamic transitions between styles] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ню-метал)] (* <- lang_ru;; *);
+		[Def. (nu metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form
+	};;
+*);;

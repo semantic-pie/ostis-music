@@ -1,0 +1,55 @@
+section_subject_domain_of_reed_wind_instruments
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область язычковых деревянных духовых инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of reed wood wind instruments] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_reed_wind_instruments;
+	concept_reed_wind_instrument;
+	concept_music_instrument;
+	concept_wood_wind_instrument;
+	concept_oboe;
+	concept_clarinet;
+	concept_saxophone;
+	concept_bassoon;
+	concept_zurna;
+	concept_balaban;;
+
+section_subject_domain_of_reed_wind_instruments=[*
+	subject_domain_of_reed_wind_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область язычковых деревянных духовых инструментов] (* <- lang_ru;; *);
+		[Subject Domain of reed wood wind instruments] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_reed_wind_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_music_instrument;
+		concept_wood_wind_instrument;
+		concept_oboe;
+		concept_clarinet;
+		concept_saxophone;
+		concept_bassoon;
+		concept_zurna;
+		concept_balaban;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_wood_wind_instruments;;
+*];;
+
+sc_node_class ->
+	concept_reed_wind_instrument;
+	concept_music_instrument;
+	concept_wood_wind_instrument;
+	concept_oboe;
+	concept_clarinet;
+	concept_saxophone;
+	concept_bassoon;
+	concept_zurna;
+	concept_balaban;;

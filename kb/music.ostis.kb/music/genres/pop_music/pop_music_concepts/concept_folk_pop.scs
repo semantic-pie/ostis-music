@@ -1,0 +1,28 @@
+concept_folk_pop
+=> nrel_main_idtf:
+	[фолк-поп] (* <- lang_ru;; *);
+	[folk pop] (* <- lang_en;; *);;
+
+definition -> definition_of_folk_pop (*
+	-> rrel_key_sc_element: concept_folk_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Фолк-поп это жанр популярной музыки, который сочетает в себе элементы фолк и поп-музыки. Характеризуется использованием акустических гитар, банджо, мандолин, скрипки и других традиционных музыкальных инструментов, а также простыми мелодиями и текстами о повседневной жизни] (* <- lang_ru;; *);;
+		-> [Folk pop is a genre of popular music that combines elements of folk and pop music. It is characterized by the use of acoustic guitars, banjos, mandolins, violins, and other traditional musical instruments, as well as simple melodies and lyrics about everyday life] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фолк-поп)] (* <- lang_ru;; *);
+		[Def. (folk pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

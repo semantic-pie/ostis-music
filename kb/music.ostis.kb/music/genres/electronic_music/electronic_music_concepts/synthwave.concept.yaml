@@ -1,0 +1,16 @@
+ru: синтвейв
+en: synthwave
+definition:
+  ru:
+    Синтвейв это жанр электронной музыки, который характеризуется использованием синтезаторов и эмуляции звука старых аналоговых синтезаторов, сочетающий в себе элементы электроники, рока и саундтреков к фильмам ужасов
+  en:
+    Synthwave is a genre of electronic music that is characterized by the use of synthesizers and emulating the sound of old analog synthesizers, combining elements of electronic music, rock, and horror movie soundtracks
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

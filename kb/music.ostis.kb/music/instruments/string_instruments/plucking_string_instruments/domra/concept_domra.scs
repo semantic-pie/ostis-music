@@ -1,0 +1,29 @@
+concept_domra
+=> nrel_main_idtf:
+	[домра] (* <- lang_ru;; *);
+	[domra] (* <- lang_en;; *);;
+
+definition -> definition_of_domra (*
+	-> rrel_key_sc_element: concept_domra;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Струнный щепковый инструмент, имеющий деку в форме груши и три пары струн] (* <- lang_ru;; *);;
+		-> [A stringed plucked instrument with a pear-shaped soundboard and three pairs of strings] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (домра)] (* <- lang_ru;; *);
+		[Def. (domra)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_plucking_string_instrument;
+		concept_string;
+		concept_soundboard
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_plucking_string_instrument;
+	concept_string;
+	concept_soundboard;;

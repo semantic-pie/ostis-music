@@ -1,0 +1,33 @@
+concept_mezzo_piano
+=> nrel_main_idtf:
+	[меццо-пиано] (* <- lang_ru;; *);
+	[mezzo-piano] (* <- lang_en;; *);;
+
+definition -> definition_of_mezzo_piano (*
+	-> rrel_key_sc_element: concept_mezzo_piano;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Умерено тихо] (* <- lang_ru;; *);;
+		-> [Moderately quiet] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (меццо-пиано)] (* <- lang_ru;; *);
+		[Def. (mezzo-piano)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin;
+		concept_string_instruments;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;
+	concept_string_instruments;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

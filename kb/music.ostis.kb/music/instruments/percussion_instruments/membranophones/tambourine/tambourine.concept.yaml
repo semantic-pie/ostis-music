@@ -1,0 +1,17 @@
+ru: бубен
+en: tambourine
+
+definition:
+  ru:
+    Ударный музыкальный инструмент в виде круглой рамы с натянутой на неё
+    кожаной или пластиковой мембраной. В отличие от барабанов диаметр мембраны
+    бубна значительно превышает ширину рамы
+
+  en:
+    A percussion musical instrument in the form of a round frame with a leather
+    or plastic membrane stretched over it. Unlike drums, the diameter of the
+    tambourine membrane significantly exceeds the width of the frame
+  using:
+    concepts: |
+      music_instrument
+      membrane

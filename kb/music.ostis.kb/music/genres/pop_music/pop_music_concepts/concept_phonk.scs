@@ -1,0 +1,26 @@
+concept_phonk
+=> nrel_main_idtf:
+	[фонк] (* <- lang_ru;; *);
+	[phonk] (* <- lang_en;; *);;
+
+definition -> definition_of_phonk (*
+	-> rrel_key_sc_element: concept_phonk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Фонк это жанр музыки, который сочетает элементы фанка, хип-хопа и техно, и часто характеризуется замедленными темпами, густыми сэмплами и необычными звуковыми эффектами] (* <- lang_ru;; *);;
+		-> [Phonk is a genre of music that combines elements of funk, hip-hop, and techno, and is often characterized by slow tempos, heavy sampling, and unique sound effects] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фонк)] (* <- lang_ru;; *);
+		[Def. (phonk)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

@@ -1,0 +1,15 @@
+en: tambourine
+ru: бубнов
+
+parent: membranophones
+
+max: |
+  tambourine
+
+concepts: |
+  membranophones
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

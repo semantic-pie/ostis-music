@@ -1,0 +1,16 @@
+ru: свадебная музыка
+en: wedding music
+definition:
+  ru:
+    Свадебная музыка это музыкальный жанр, который играют на свадьбах. Он включает в себя музыкальные произведения различных жанров, от классической музыки до современных хитов, которые помогают создать праздничную атмосферу и поддерживают настроение гостей
+  en:
+    Wedding music is a musical genre that is played at weddings. It includes musical compositions of various genres, from classical music to modern hits, which help to create a festive atmosphere and maintain the mood of the guests
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+

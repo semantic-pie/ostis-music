@@ -1,0 +1,312 @@
+concept_classic_music
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_ancient_music;
+concept_medieval_music;
+concept_renaissance_music;
+concept_baroque;
+concept_classical_period_music;
+concept_romantic_music;
+concept_modern_classics;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+9th;
+=> nrel_derivative_form:
+concept_contemporary_classical_music;
+concept_neoclassicism;
+=> nrel_main_idtf:
+[classical music](* <- lang_en;; *);
+[классическая музыка](* <- lang_ru;; *);;
+
+concept_ballet
+<- concept_dance;
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_dance;
+concept_baroque_dance;
+concept_classical_ballet;
+concept_neoclassical_ballet;
+concept_contemporary_ballet;
+=> nrel_place_of_origin:
+italy;
+france;
+russia;
+=> nrel_year_of_origin:
+15th;
+=> nrel_main_idtf:
+[ballet](* <- lang_en;; *);
+[балет](* <- lang_ru;; *);;
+
+concept_baroque
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_music;
+concept_early_baroque_music;
+=> nrel_place_of_origin:
+italy;
+=> nrel_year_of_origin:
+17th;
+=> nrel_derivative_form:
+concept_classical_music;
+=> nrel_main_idtf:
+[baroque](* <- lang_en;; *);
+[барокко](* <- lang_ru;; *);;
+
+concept_cantata
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_music;
+concept_baroque;
+=> nrel_place_of_origin:
+italy;
+germany;
+=> nrel_year_of_origin:
+17th;
+=> nrel_derivative_form:
+concept_oratorio;
+=> nrel_main_idtf:
+[cantata](* <- lang_en;; *);
+[кантата](* <- lang_ru;; *);;
+
+concept_chamber_music
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_music;
+concept_baroque;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+16th;
+=> nrel_main_idtf:
+[chamber music](* <- lang_en;; *);
+[камерная музыка](* <- lang_ru;; *);;
+
+concept_string_quartet
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_chamber_music;
+=> nrel_place_of_origin:
+austria;
+=> nrel_year_of_origin:
+18th;
+=> nrel_main_idtf:
+[string quartet](* <- lang_en;; *);
+[струнный квартет](* <- lang_ru;; *);;
+
+concept_chorus
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_medieval_music;
+concept_renaissance_music;
+concept_baroque;
+concept_classical_period_music;
+concept_romantic_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+9th;
+=> nrel_derivative_form:
+concept_vocal_ensemble;
+=> nrel_main_idtf:
+[chorus](* <- lang_en;; *);
+[хор](* <- lang_ru;; *);;
+
+concept_concert
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_contemporary_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+17th;
+=> nrel_main_idtf:
+[concert](* <- lang_en;; *);
+[концерт](* <- lang_ru;; *);;
+
+concept_modern_classics
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_contemporary_music;
+=> nrel_place_of_origin:
+europe;
+united_states;
+=> nrel_year_of_origin:
+20th;
+=> nrel_main_idtf:
+[modern classics](* <- lang_en;; *);
+[современная классика](* <- lang_ru;; *);;
+
+concept_expressionism
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_modern_classics;
+concept_avant_garde;
+concept_expressionism;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+20th;
+=> nrel_main_idtf:
+[expressionism](* <- lang_en;; *);
+[экспрессионизм](* <- lang_ru;; *);;
+
+concept_high_classics
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_romantic_music;
+concept_symphonic_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+18th;
+=> nrel_main_idtf:
+[high classics](* <- lang_en;; *);
+[высокая классика](* <- lang_ru;; *);;
+
+concept_mass_requiem
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_music;
+concept_baroque;
+concept_classical_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+15th;
+=> nrel_main_idtf:
+[mass requiem](* <- lang_en;; *);
+[реквием](* <- lang_ru;; *);;
+
+concept_modern_composition
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_modern_classics;
+concept_avant_garde;
+concept_expressionism;
+=> nrel_place_of_origin:
+europe;
+united_states;
+=> nrel_year_of_origin:
+20th;
+=> nrel_main_idtf:
+[modern composition](* <- lang_en;; *);
+[современная композиция](* <- lang_ru;; *);;
+
+concept_opera
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_baroque;
+concept_classical_music;
+concept_romantic_music;
+concept_contemporary_music;
+=> nrel_place_of_origin:
+italy;
+=> nrel_year_of_origin:
+16th;
+=> nrel_derivative_form:
+concept_opera_ballet;
+=> nrel_main_idtf:
+[opera](* <- lang_en;; *);
+[опера](* <- lang_ru;; *);;
+
+concept_oratorio
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_renaissance_music;
+concept_baroque;
+concept_classical_music;
+=> nrel_place_of_origin:
+italy;
+germany;
+=> nrel_year_of_origin:
+16th;
+=> nrel_main_idtf:
+[oratorio](* <- lang_en;; *);
+[оратория](* <- lang_ru;; *);;
+
+concept_orchestral
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_romantic_music;
+concept_symphonic_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+17th;
+=> nrel_main_idtf:
+[orchestral](* <- lang_en;; *);
+[оркестровая музыка](* <- lang_ru;; *);;
+
+concept_organum
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_medieval_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+9th;
+=> nrel_main_idtf:
+[organum](* <- lang_en;; *);
+[органум](* <- lang_ru;; *);;
+
+concept_sonata
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_romantic_music;
+=> nrel_place_of_origin:
+italy;
+=> nrel_year_of_origin:
+17th;
+=> nrel_main_idtf:
+[sonata](* <- lang_en;; *);
+[соната](* <- lang_ru;; *);;
+
+concept_symphony
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_classical_music;
+concept_romantic_music;
+concept_symphonic_music;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+18th;
+=> nrel_main_idtf:
+[symphony](* <- lang_en;; *);
+[симфония](* <- lang_ru;; *);;
+
+concept_wedding_music
+<- concept_music_genre;
+<- concept_classic_music;
+=> nrel_stylistic_origin:
+concept_folk_music;
+concept_traditional_music;
+=> nrel_place_of_origin:
+various_cultures;
+=> nrel_main_idtf:
+[wedding music](* <- lang_en;; *);
+[свадебная музыка](* <- lang_ru;; *);;

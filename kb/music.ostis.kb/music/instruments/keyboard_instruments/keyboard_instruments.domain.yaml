@@ -1,0 +1,19 @@
+en: keyboard instruments
+ru: клавишных инструментов
+
+parent: music_instruments
+
+children: |
+  tongue_keyboard_instruments
+  percussion_keyboard_instruments
+  plucked_keyboard_instruments
+  keyboard_wind_instruments
+  electromechanical_keyboard_instruments
+  electro_keyboard_instruments
+
+max: |
+  keyboard_instrument
+
+concepts: |
+  piano
+  clavichord

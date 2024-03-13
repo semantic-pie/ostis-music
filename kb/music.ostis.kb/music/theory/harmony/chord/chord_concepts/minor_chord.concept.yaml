@@ -1,0 +1,13 @@
+ru: минорное трезвучие
+en: major_chord
+definition:
+  ru:  Трезвучие, состоящее из малой терции внизу и большой вверху, между крайними звуками которого образуется интервал чистой квинты
+  en: A triad consisting of a minor third at the bottom and a major at the top, between the extreme sounds of which an interval of a perfect fifth is formed
+
+  using:
+    concepts: |
+      major_third
+      minor_third
+      perfect_fifth
+    nrels: |
+      used_musical_instruments

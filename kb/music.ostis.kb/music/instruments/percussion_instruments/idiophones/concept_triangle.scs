@@ -1,0 +1,25 @@
+concept_triangle
+=> nrel_main_idtf:
+	[треугольник] (* <- lang_ru;; *);
+	[triangle] (* <- lang_en;; *);;
+
+definition -> definition_of_triangle (*
+	-> rrel_key_sc_element: concept_triangle;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент в виде стального прута, изогнутого в форме равнобедренного треугольника, незамкнутого в одном из нижних углов] (* <- lang_ru;; *);;
+		-> [Percussion musical instrument in the form of a steel rod, curved in the form of an isosceles triangle, unclosed in one of the lower corners] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (треугольник)] (* <- lang_ru;; *);
+		[Def. (triangle)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;;

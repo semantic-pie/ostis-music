@@ -1,0 +1,44 @@
+concept_oboe
+=> nrel_main_idtf:
+	[гобой] (* <- lang_ru;; *);
+	[oboe] (* <- lang_en;; *);;
+
+definition -> definition_of_oboe (*
+	-> rrel_key_sc_element: concept_oboe;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент] (* <- lang_ru;; *);;
+		-> [A musical instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гобой)] (* <- lang_ru;; *);
+		[Def. (oboe)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+statement -> statement_of_oboe_structure (*
+	-> rrel_key_sc_element: concept_oboe;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [состоит из трубки конической формы с системой клапанов и двойной тростью] (* <- lang_ru;; *);;
+		-> [it consists of a conical tube with a valve system and a double cane] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (структура гобоя)] (* <- lang_ru;; *);
+		[Stat. (oboe structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_tube
+	};;
+*);;
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;
+	concept_tube;;

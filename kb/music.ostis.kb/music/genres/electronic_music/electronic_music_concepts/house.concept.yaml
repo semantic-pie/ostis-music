@@ -1,0 +1,14 @@
+ru: хаус
+en: house
+definition:
+  ru: Хаус жанр электронной танцевальной музыки. Хаус музыка характеризуется использованием электронных инструментов и сэмплов, а также присутствием ритмичной драм-секции
+  en: House is a genre of electronic dance music. House music is characterized by the use of electronic instruments and samples, as well as the presence of a rhythmic drum section
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

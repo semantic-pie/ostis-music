@@ -1,0 +1,13 @@
+ru: синтезатор
+en: synthesizer
+
+definition:
+  ru:
+    электронный музыкальный инструмент, способный генерировать и модулировать
+    звуки с помощью синтеза звука
+  en:
+    an electronic musical instrument capable of generating and modulating sounds
+    using sound synthesis
+  using:
+    concepts: |
+      sound

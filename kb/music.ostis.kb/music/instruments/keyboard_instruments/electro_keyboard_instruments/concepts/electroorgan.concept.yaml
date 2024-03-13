@@ -1,0 +1,13 @@
+ru: электроорган
+en: electroorgan
+
+definition:
+  ru:
+    электронный музыкальный инструмент, схожий с синтезатором, но имеющий
+    несколько рядов клавиатур
+  en:
+    an electronic musical instrument similar to a synthesizer, but having
+    several rows of keyboards
+  using:
+    concepts: |
+      keyboard

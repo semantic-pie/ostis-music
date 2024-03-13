@@ -1,0 +1,25 @@
+concept_string
+=> nrel_main_idtf:
+	[струна] (* <- lang_ru;; *);
+	[string] (* <- lang_en;; *);;
+
+definition -> definition_of_string (*
+	-> rrel_key_sc_element: concept_string;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Деталь струнных музыкальных инструментов, служащая первоисточником звуковых колебаний. Представляет собой длинный отрезок гибкого материала, натягиваемого над резонаторным корпусом щипковых, смычковых, ударных или внутри клавишных струнных инструментов] (* <- lang_ru;; *);;
+		-> [Detail of stringed musical instruments, serving as the primary source of sound vibrations. It is a long piece of flexible material, stretched over the resonator housing of the plucked, bowed, percussion or inside keyboard string instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (струна)] (* <- lang_ru;; *);
+		[Def. (string)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string_instrument;;

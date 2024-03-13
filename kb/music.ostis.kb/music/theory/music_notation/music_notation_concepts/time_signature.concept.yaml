@@ -1,0 +1,12 @@
+ru: музыкальный размер
+en: time_signature
+definition:
+  ru: Музыкальный размер это характеристика такта, выражающая количество ритмических единиц
+  en: Time signature is a characteristic of a measure, expressing the number of rhythmic units
+  using:
+    concepts: |
+      music_notation
+      instrument
+      sound
+    nrels: |
+      number_of_rhythmic_units

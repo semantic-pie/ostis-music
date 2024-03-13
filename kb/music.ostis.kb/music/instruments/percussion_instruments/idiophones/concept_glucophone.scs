@@ -1,0 +1,29 @@
+concept_glucophone
+=> nrel_main_idtf:
+	[глюкофон] (* <- lang_ru;; *);
+	[glucophone] (* <- lang_en;; *);;
+
+definition -> definition_of_glucophone (*
+	-> rrel_key_sc_element: concept_glucophone;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент, состоящий из двух чаш, на одной из которых расположены лепестки (язычки барабана), а на другой резонирующее отверстие. Каждая чаша настраивается нужным образом для придания необходимого чистого и богатого обертонами звучания] (* <- lang_ru;; *);;
+		-> [A percussive musical instrument consisting of two bowls, on one of which the petals (tabs of the drum) are located, and on the other a resonating hole. Each bowl is adjusted in the right way to give the necessary pure and rich overtones of sound] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (глюкофон)] (* <- lang_ru;; *);
+		[Def. (glucophone)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument;
+		concept_drum;
+		concept_resonating_hole
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;
+	concept_drum;
+	concept_resonating_hole;;

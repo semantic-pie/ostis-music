@@ -1,0 +1,100 @@
+section_subject_domain_of_jazz
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра джаз] (* <- lang_ru;; *);
+	[Section. Subject domain of jazz genre] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_jazz;
+	concept_jazz;
+	concept_swing;
+	concept_bebop;
+	concept_cool_jazz;
+	concept_hard_bop;
+	concept_free_jazz;
+	concept_modal_jazz;
+	concept_jazz_fusion;
+	concept_funk;
+	concept_latin_jazz;
+	concept_afro_cuban_jazz;
+	concept_bossa_nova;
+	concept_acid_jazz;
+	concept_smooth_jazz;
+	concept_jazz_funk;
+	concept_soul_jazz;
+	concept_dixieland;
+	concept_swing_revival;
+	concept_gypsy_jazz;
+	concept_ethno_jazz;
+	concept_chamber_jazz;
+	concept_avantgarde_jazz;
+	concept_jazz_rap;
+	concept_nu_jazz;;
+
+section_subject_domain_of_jazz=[*
+	subject_domain_of_jazz
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра джаз] (* <- lang_ru;; *);
+		[Subject Domain of jazz genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_jazz;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_swing;
+		concept_bebop;
+		concept_funk;
+		concept_cool_jazz;
+		concept_hard_bop;
+		concept_free_jazz;
+		concept_modal_jazz;
+		concept_jazz_fusion;
+		concept_latin_jazz;
+		concept_afro_cuban_jazz;
+		concept_bossa_nova;
+		concept_acid_jazz;
+		concept_smooth_jazz;
+		concept_jazz_funk;
+		concept_soul_jazz;
+		concept_dixieland;
+		concept_swing_revival;
+		concept_gypsy_jazz;
+		concept_ethno_jazz;
+		concept_chamber_jazz;
+		concept_avantgarde_jazz;
+		concept_jazz_rap;
+		concept_nu_jazz;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;;
+*];;
+
+sc_node_class ->
+	concept_jazz;
+	concept_swing;
+	concept_bebop;
+	concept_cool_jazz;
+	concept_hard_bop;
+	concept_free_jazz;
+	concept_modal_jazz;
+	concept_jazz_fusion;
+	concept_latin_jazz;
+	concept_afro_cuban_jazz;
+	concept_bossa_nova;
+	concept_acid_jazz;
+	concept_smooth_jazz;
+	concept_jazz_funk;
+	concept_soul_jazz;
+	concept_dixieland;
+	concept_swing_revival;
+	concept_gypsy_jazz;
+	concept_ethno_jazz;
+	concept_funk;
+	concept_chamber_jazz;
+	concept_avantgarde_jazz;
+	concept_jazz_rap;
+	concept_nu_jazz;;

@@ -1,0 +1,11 @@
+ru: структура
+en: structure
+definition:
+  ru: Раздел теории музыки, который изучает и разбирает музыкальные произведения на составляющие элементы с целью понимания и исследования их структуры, характеристик и связей
+  en: Part of music theory that studies and disassembles musical works into their constituent elements in order to understand and study their structure, characteristics and relationships
+  using:
+    concepts: |
+      harmony
+      music_theory
+    nrels: |
+      used_musical_instruments

@@ -1,0 +1,16 @@
+ru: гусли
+
+en: psaltery
+
+definition:
+  ru:
+    струнный щипковый музыкальный инструмент, в общем виде представляющий собой
+    резонаторный корпус с натянутыми над ним 5-20 струнами
+  en:
+    a stringed plucked musical instrument, generally representing resonator
+    housing with 5-20 strings stretched over it
+  using:
+    concepts: |
+      plucking_string_instrument
+      soundboard
+      string

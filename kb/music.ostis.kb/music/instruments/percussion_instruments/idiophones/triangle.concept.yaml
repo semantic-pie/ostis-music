@@ -1,0 +1,14 @@
+ru: треугольник
+en: triangle
+
+definition:
+  ru:
+    Ударный музыкальный инструмент в виде стального прута, изогнутого в форме
+    равнобедренного треугольника, незамкнутого в одном из нижних углов
+
+  en:
+    Percussion musical instrument in the form of a steel rod, curved in the form
+    of an isosceles triangle, unclosed in one of the lower corners
+  using:
+    concepts: |
+      percussion_instrument

@@ -1,0 +1,28 @@
+concept_free_jazz
+=> nrel_main_idtf:
+	[свободный джаз] (* <- lang_ru;; *);
+	[free jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_free_jazz (*
+	-> rrel_key_sc_element: concept_free_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Свободный джаз это жанр джазовой музыки, который характеризуется импровизационным подходом и отсутствием фиксированной гармонической структуры, мелодии и ритма. Вместо этого музыканты свободно играют, реагируя на друг друга и создавая уникальную музыкальную атмосферу] (* <- lang_ru;; *);;
+		-> [Free jazz is a genre of jazz music that is characterized by an improvisational approach and the absence of a fixed harmonic structure, melody, and rhythm. Instead, musicians play freely, reacting to each other and creating a unique musical atmosphere] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (свободный джаз)] (* <- lang_ru;; *);
+		[Def. (free jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

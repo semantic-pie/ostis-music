@@ -1,0 +1,28 @@
+concept_sophistic_pop
+=> nrel_main_idtf:
+	[софистик-поп] (* <- lang_ru;; *);
+	[sophistic pop] (* <- lang_en;; *);;
+
+definition -> definition_of_sophistic_pop (*
+	-> rrel_key_sc_element: concept_sophistic_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Софистик-поп музыкальный жанр, объединяющий элементы поп-музыки и джаза, характеризующийся изысканными аранжировками, акцентом на гармонии и мелодии, а также частым использованием живых инструментов] (* <- lang_ru;; *);;
+		-> [Sophistic pop is a music genre that combines elements of pop music and jazz, characterized by elaborate arrangements, emphasis on harmony and melody, and frequent use of live instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (софистик-поп)] (* <- lang_ru;; *);
+		[Def. (sophistic pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

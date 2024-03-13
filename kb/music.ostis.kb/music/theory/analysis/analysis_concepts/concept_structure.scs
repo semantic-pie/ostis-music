@@ -1,0 +1,31 @@
+concept_structure
+=> nrel_main_idtf:
+	[структура] (* <- lang_ru;; *);
+	[structure] (* <- lang_en;; *);;
+
+definition -> definition_of_structure (*
+	-> rrel_key_sc_element: concept_structure;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Раздел теории музыки, который изучает и разбирает музыкальные произведения на составляющие элементы с целью понимания и исследования их структуры, характеристик и связей] (* <- lang_ru;; *);;
+		-> [Part of music theory that studies and disassembles musical works into their constituent elements in order to understand and study their structure, characteristics and relationships] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (структура)] (* <- lang_ru;; *);
+		[Def. (structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_harmony;
+		concept_music_theory;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_harmony;
+	concept_music_theory;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

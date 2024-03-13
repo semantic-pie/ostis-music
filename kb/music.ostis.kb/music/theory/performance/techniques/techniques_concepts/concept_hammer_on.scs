@@ -1,0 +1,41 @@
+concept_hammer_on
+=> nrel_main_idtf:
+	[хамер он] (* <- lang_ru;; *);
+	[hammer-on] (* <- lang_en;; *);;
+
+definition -> definition_of_hammer_on (*
+	-> rrel_key_sc_element: concept_hammer_on;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Бенд это техника, используемая для манипулирования высотой одной ноты на одной струне. Бенд возникает, когда играется нота, а затем натягивается струна, делая ноту выше по высоте, чем первая сыгранная нота. Эта техника противоположна пулл оф] (* <- lang_ru;; *);;
+		-> [A hammer-on is a playing technique performed on a stringed instrument by sharply bringing a fretting-hand finger down on to the fingerboard, causing a note to sound. This technique is the opposite of the pull-off] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хамер он)] (* <- lang_ru;; *);
+		[Def. (hammer-on)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_electro_guitar;
+		concept_string_instruments;
+		concept_pull_off;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_electro_guitar;
+	concept_string_instruments;
+	concept_pull_off;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

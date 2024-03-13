@@ -1,0 +1,26 @@
+en: music instrument
+ru: музыкальных инструментов
+
+parent: music
+
+children: |
+  string_instruments
+  keyboard_instruments
+  percussion_instruments
+  wind_instruments
+
+max: |
+  music_instrument
+  
+
+concepts: |
+  string_instrument
+  keyboard_instrument
+  wind_instrument
+  percussion_instrument
+  
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

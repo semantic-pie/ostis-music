@@ -1,0 +1,27 @@
+en: music notation
+ru: нотной грамоты
+
+parent: music_theory
+
+max: |
+  music_notation
+
+concepts: |
+  tremble_clef
+  alto_clef
+  bass_clef
+  whole_rest
+  half_rest
+  quarter_rest
+  eighth_rest
+  whole_note
+  half_note
+  quarter_note
+  eighth_note
+  trill
+  legato
+  tempo
+  flat
+  sharp
+  natural
+  time_signature

@@ -1,0 +1,28 @@
+concept_trip_hop
+=> nrel_main_idtf:
+	[трип-хоп] (* <- lang_ru;; *);
+	[trip-hop] (* <- lang_en;; *);;
+
+definition -> definition_of_trip_hop (*
+	-> rrel_key_sc_element: concept_trip_hop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Трип-хоп это жанр электронной музыки, который характеризуется медленным темпом, глубоким басом и плавными мелодиями, обычно с элементами хип-хопа, соула, джаза и рока] (* <- lang_ru;; *);;
+		-> [Trip-hop is a genre of electronic music that is characterized by a slow tempo, deep bass, and smooth melodies, usually with elements of hip-hop, soul, jazz, and rock] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (трип-хоп)] (* <- lang_ru;; *);
+		[Def. (trip-hop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

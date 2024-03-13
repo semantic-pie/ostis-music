@@ -1,0 +1,28 @@
+concept_country_pop
+=> nrel_main_idtf:
+	[кантри-поп] (* <- lang_ru;; *);
+	[country pop] (* <- lang_en;; *);;
+
+definition -> definition_of_country_pop (*
+	-> rrel_key_sc_element: concept_country_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Кантри-поп это жанр популярной музыки, который сочетает в себе элементы кантри и поп-музыки. Характеризуется использованием традиционных музыкальных инструментов, таких как гитара, скрипка и банджо, а также простыми мелодиями и текстами о повседневной жизни] (* <- lang_ru;; *);;
+		-> [Country pop is a genre of popular music that combines elements of country and pop music. It is characterized by the use of traditional musical instruments such as guitar, fiddle, and banjo, as well as simple melodies and lyrics about everyday life] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кантри-поп)] (* <- lang_ru;; *);
+		[Def. (country pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

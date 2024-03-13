@@ -1,0 +1,14 @@
+ru: драм-н-бэйс
+en: drum and bass
+definition:
+  ru: Драм-н-бэйс жанр электронной танцевальной музыки, который возник в Англии на основе джангла и других электронных стилей. Основные элементы драм-н-бэйса это быстрые ритмы, глубокий бас и разнообразные сэмплы и эффекты
+  en: Drum and bass is a genre of electronic dance music that emerged in England, based on jungle and other electronic styles. The main elements of drum and bass are fast rhythms, deep bass and a variety of samples and effects
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

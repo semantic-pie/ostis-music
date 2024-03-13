@@ -1,0 +1,27 @@
+concept_plucking_string_instrument
+=> nrel_main_idtf:
+	[струнно-щепковый инструмент] (* <- lang_ru;; *);
+	[plucking string instrument] (* <- lang_en;; *);;
+
+definition -> definition_of_plucking_string_instrument (*
+	-> rrel_key_sc_element: concept_plucking_string_instrument;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [струнный инструмент, звукоизвлечение на котором осуществляется защипыванием струн пальцами или медиатором] (* <- lang_ru;; *);;
+		-> [stringed instrument, sound production on which is carried out by pinching strings with fingers or a pick] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (струнно-щепковый инструмент)] (* <- lang_ru;; *);
+		[Def. (plucking string instrument)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string_instrument;
+		concept_pick
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string_instrument;
+	concept_pick;;

@@ -1,0 +1,28 @@
+concept_trance
+=> nrel_main_idtf:
+	[транс] (* <- lang_ru;; *);
+	[trance] (* <- lang_en;; *);;
+
+definition -> definition_of_trance (*
+	-> rrel_key_sc_element: concept_trance;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Транс жанр электронной музыки. Транс характеризуется использованием пульсирующих басовых линий, мелодичных синтезаторов и эффектов, создающих ощущение гипноза и транса] (* <- lang_ru;; *);;
+		-> [Trance is a genre of electronic music. Trance is characterized by the use of pulsating basslines, melodic synthesizers, and effects that create a sense of hypnosis and trance] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (транс)] (* <- lang_ru;; *);
+		[Def. (trance)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

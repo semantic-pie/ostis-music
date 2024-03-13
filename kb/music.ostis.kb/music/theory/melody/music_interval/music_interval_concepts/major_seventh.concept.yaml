@@ -1,0 +1,11 @@
+ru: большая септима
+en: major seventh
+definition:
+  ru: Интервал, состоящий из одиннадцати полутонов
+  en: Interval of a major seventh, consisting of eleven semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

@@ -1,0 +1,32 @@
+en: jazz genre
+ru: жанра джаз
+
+parent: music_genres
+
+max: |
+  jazz
+
+concepts: |
+  swing
+  bebop
+  cool_jazz
+  hard_bop
+  free_jazz
+  modal_jazz
+  jazz_fusion
+  latin_jazz
+  afro_cuban_jazz
+  bossa_nova
+  acid_jazz
+  smooth_jazz
+  jazz_funk
+  soul_jazz
+  dixieland
+  swing_revival
+  gypsy_jazz
+  ethno_jazz
+  chamber_jazz
+  avantgarde_jazz
+  jazz_rap
+  nu_jazz
+

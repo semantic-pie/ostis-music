@@ -1,0 +1,16 @@
+ru: хард-боп
+en: hard bop
+definition:
+  ru: 
+    Хард-боп жанр джазовой музыки, возникший в США. Он является эволюцией бибопа, но отличается более тяжелым звучанием, громкими ритмическими секциями и более экспрессивной импровизацией. Хард-боп был одним из первых жанров, в котором использовались фанк-ритмы и соул
+  en: 
+    Hard bop is a genre of jazz music that originated in the United States. It is an evolution of bebop, but is characterized by a heavier sound, loud rhythmic sections, and more expressive improvisation. Hard bop was one of the first genres to incorporate funk rhythms and soul into jazz
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

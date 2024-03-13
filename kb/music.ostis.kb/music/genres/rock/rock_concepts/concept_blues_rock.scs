@@ -1,0 +1,28 @@
+concept_blues_rock
+=> nrel_main_idtf:
+	[блюз-рок] (* <- lang_ru;; *);
+	[blues rock] (* <- lang_en;; *);;
+
+definition -> definition_of_blues_rock (*
+	-> rrel_key_sc_element: concept_blues_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Блюз-рок это жанр рок-музыки, который сочетает в себе элементы блюза и рока. Характеризуется присутствием характерных блюзовых гитарных риффов и соло, гармоники, энергичной ритм-секции и часто более простой, но задорной мелодикой] (* <- lang_ru;; *);;
+		-> [Blues rock is a genre of rock music that combines elements of blues and rock. It is characterized by the presence of typical blues guitar riffs and solos, harmonica, energetic rhythm section, and often simpler but lively melodies] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (блюз-рок)] (* <- lang_ru;; *);
+		[Def. (blues rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

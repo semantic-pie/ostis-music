@@ -1,0 +1,28 @@
+concept_psychedelic_rock
+=> nrel_main_idtf:
+	[психоделический рок] (* <- lang_ru;; *);
+	[psychedelic rock] (* <- lang_en;; *);;
+
+definition -> definition_of_psychedelic_rock (*
+	-> rrel_key_sc_element: concept_psychedelic_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Психоделический рок это жанр рок-музыки, который характеризуется использованием психоделических эффектов, сильной импровизацией и экспериментами со звуком, а также философскими, метафизическими и социально-политическими темами в текстах песен] (* <- lang_ru;; *);;
+		-> [Psychedelic rock is a genre of rock music characterized by the use of psychedelic effects, strong improvisation and sound experiments, as well as philosophical, metaphysical and socio-political themes in song lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (психоделический рок)] (* <- lang_ru;; *);
+		[Def. (psychedelic rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

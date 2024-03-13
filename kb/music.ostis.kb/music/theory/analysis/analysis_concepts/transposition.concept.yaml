@@ -1,0 +1,12 @@
+ru: транспонирование
+en: transposition
+definition:
+  ru: Перенос мелодии в другую тональность, то есть на другую высоту, сохраняя ладовую окраска мелодии, её ритмический рисунок
+  en: Transferring the melody to a different key, that is, to a different pitch, preserving the modal coloring of the melody, its rhythmic figure
+  using:
+    concepts: |
+      tonality
+      rhythmic_figures
+      melody
+    nrels: |
+      used_musical_instruments

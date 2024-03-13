@@ -1,0 +1,16 @@
+en: melody
+ru: мелодики
+
+parent: music_theory
+
+children: |
+  music_interval
+
+max: |
+  melody
+
+concepts: |
+  timbre
+  arpeggio
+  reprise
+  intonation

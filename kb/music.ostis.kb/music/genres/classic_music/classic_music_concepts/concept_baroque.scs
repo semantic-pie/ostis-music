@@ -1,0 +1,28 @@
+concept_baroque
+=> nrel_main_idtf:
+	[барокко] (* <- lang_ru;; *);
+	[baroque] (* <- lang_en;; *);;
+
+definition -> definition_of_baroque (*
+	-> rrel_key_sc_element: concept_baroque;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Барокко это стиль музыки характеризующийся использованием оркестров и хоров, богатой гармоникой, изысканной мелодикой и причудливой орнаментикой] (* <- lang_ru;; *);;
+		-> [Baroque is characterized by the use of orchestras and choirs, rich harmony, elaborate melodies, and intricate ornamentation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (барокко)] (* <- lang_ru;; *);
+		[Def. (baroque)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

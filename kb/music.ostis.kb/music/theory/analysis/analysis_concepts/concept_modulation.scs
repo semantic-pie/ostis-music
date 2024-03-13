@@ -1,0 +1,31 @@
+concept_modulation
+=> nrel_main_idtf:
+	[модуляция] (* <- lang_ru;; *);
+	[modulation] (* <- lang_en;; *);;
+
+definition -> definition_of_modulation (*
+	-> rrel_key_sc_element: concept_modulation;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Процесс, при котором музыкальная композиция изменяет свою гармоническую основу, перемещаясь из одной тоники в другую] (* <- lang_ru;; *);;
+		-> [The process by which a musical composition changes its harmonic basis by moving from one tonality to another] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (модуляция)] (* <- lang_ru;; *);
+		[Def. (modulation)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_harmony;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_harmony;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

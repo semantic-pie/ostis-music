@@ -1,0 +1,15 @@
+ru: мелодика
+en: melodica
+
+definition:
+  ru:
+    клавишный музыкальный инструмент, обладающий простой конструкцией, состоящей
+    из ряда клавиш и отверстий
+
+  en:
+    a keyboard musical instrument with a simple design consisting of a number of
+    keys and holes
+  using:
+    concepts: |
+      music_instrument
+      keyboard

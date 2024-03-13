@@ -1,0 +1,11 @@
+ru: целая нота
+en: whole note
+definition:
+  ru: Целая нота это музыкальный символ, выглядевший как круглая нота без стержня и обозначающий звучание в течение одной полной музыкальной доли
+  en: A whole note is a musical symbol that looks like a hollow circle and represents a sound that lasts for one full measure
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      note_name
+      duration

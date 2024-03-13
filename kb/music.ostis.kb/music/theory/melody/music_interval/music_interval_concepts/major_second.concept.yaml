@@ -1,0 +1,11 @@
+ru: большая секунда
+en: major second
+definition:
+  ru: Интервал из двух полутонов
+  en: Interval of a whole step (2 semitones) between two notes
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

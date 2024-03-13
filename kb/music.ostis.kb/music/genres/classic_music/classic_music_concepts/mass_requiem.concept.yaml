@@ -1,0 +1,16 @@
+ru: реквием
+en: mass requiem
+definition:
+  ru:
+    Реквием это жанр хоровой музыки, написанный на латинском языке. Он представляет собой музыкальную мессу для усопших и часто используется в церковной музыке
+  en:
+    Mass requiem is a genre of choral music written in Latin. It is a musical Mass for the dead and is often used in church music
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

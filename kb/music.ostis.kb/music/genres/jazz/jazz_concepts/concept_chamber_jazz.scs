@@ -1,0 +1,28 @@
+concept_chamber_jazz
+=> nrel_main_idtf:
+	[камерный джаз] (* <- lang_ru;; *);
+	[chamber jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_chamber_jazz (*
+	-> rrel_key_sc_element: concept_chamber_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Камерный джаз это жанр джазовой музыки, который использует элементы классической музыки и привлекает внимание к звуку и форме музыки. Он часто исполняется в небольших составах, используя акустические инструменты] (* <- lang_ru;; *);;
+		-> [Chamber jazz is a genre of jazz music that uses elements of classical music and emphasizes the sound and form of the music. It is often performed in small ensembles, using acoustic instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (камерный джаз)] (* <- lang_ru;; *);
+		[Def. (chamber jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,10 @@
+ru: ударная установка
+en: drum kit
+
+definition:
+  ru: Набор ударных инструментов, использующийся одним барабанщиком
+  en: A set of percussion instruments used by one drummer
+  using:
+    concepts: |
+      drummer
+      percussion_instruments

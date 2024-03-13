@@ -1,0 +1,28 @@
+concept_industrial
+=> nrel_main_idtf:
+	[индастриал] (* <- lang_ru;; *);
+	[industrial] (* <- lang_en;; *);;
+
+definition -> definition_of_industrial (*
+	-> rrel_key_sc_element: concept_industrial;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Индастриал это жанр рок-музыки, который характеризуется использованием промышленных звуков, грязных гитарных риффов, машинных ритмов и дисторшн-эффектов, создающих агрессивную и депрессивную атмосферу] (* <- lang_ru;; *);;
+		-> [Industrial is a genre of rock music that is characterized by the use of industrial sounds, dirty guitar riffs, machine rhythms, and distortion effects, creating an aggressive and depressive atmosphere] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (индастриал)] (* <- lang_ru;; *);
+		[Def. (industrial)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,15 @@
+ru: органум
+en: organum
+definition:
+  ru:
+    Органум это раннее формальное многоголосье, где один голос играет главную мелодию, а другой голос поддерживает эту мелодию, двигаясь параллельно с ней на фиксированном расстоянии
+  en:
+    Organum is an early formal polyphony where one voice plays the main melody and another voice supports this melody, moving in parallel with it at a fixed distance
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form

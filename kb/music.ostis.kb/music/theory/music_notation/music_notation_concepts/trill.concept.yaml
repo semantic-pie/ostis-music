@@ -1,0 +1,13 @@
+ru: трель
+en: trill
+definition:
+  ru: Трель это быстрое чередование двух соседних нот, отстоящих на секунду, большую или малую. Первая нота называется главной, а вторая называется вспомогательной. Обычно вспомогательная нота стоит выше главной
+  en: Trill is a rapid alternation between two neighboring notes, separated by either a minor or major second. The first note is called the principal, and the second note is called the auxiliary. Usually, the auxiliary note is higher than the principal
+  using:
+    concepts: | 
+      music_notation
+      music_interval
+      major_second
+      minor_second
+    nrels: |
+      performance_technique

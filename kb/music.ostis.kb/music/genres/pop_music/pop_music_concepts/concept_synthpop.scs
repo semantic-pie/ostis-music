@@ -1,0 +1,28 @@
+concept_synthpop
+=> nrel_main_idtf:
+	[синтпоп] (* <- lang_ru;; *);
+	[synthpop] (* <- lang_en;; *);;
+
+definition -> definition_of_synthpop (*
+	-> rrel_key_sc_element: concept_synthpop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Синтпоп это жанр поп-музыки, который характеризуется использованием синтезаторов, программного обеспечения и электронных музыкальных инструментов для создания музыкальных композиций с преобладанием синтезированных звуков] (* <- lang_ru;; *);;
+		-> [Synthpop is a genre of pop music that is characterized by the use of synthesizers, software, and electronic musical instruments to create musical compositions with a predominance of synthesized sounds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (синтпоп)] (* <- lang_ru;; *);
+		[Def. (synthpop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

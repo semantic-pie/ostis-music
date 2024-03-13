@@ -1,0 +1,12 @@
+ru: звукосниматель
+en: pickup
+
+definition:
+  ru: Устройство, преобразующее энергию колебания струн в электрический ток
+  en:
+    A device that converts the energy of string vibrations into an electric
+    current
+
+  using:
+    concepts: |
+      string

@@ -1,0 +1,17 @@
+ru: рейнстик
+en: rainstick
+
+definition:
+  ru:
+    Ударный музыкальный инструмент, представляющий собой длинную полую глухо
+    закрытую на торцах трубу с расположенными по всей длине внутренними
+    перегородками, частично заполненную мелким сыпучим наполнителем
+
+  en:
+    Percussion musical instrument, which is a long hollow hollow a pipe closed
+    at the ends with internal pipes located along the entire length partitions
+    partially filled with fine bulk filler
+  using:
+    concepts: |
+      percussion_instrument
+      pipe

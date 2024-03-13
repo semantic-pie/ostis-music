@@ -1,0 +1,27 @@
+concept_drums
+=> nrel_main_idtf:
+	[ударная установка] (* <- lang_ru;; *);
+	[drum kit] (* <- lang_en;; *);;
+
+definition -> definition_of_drums (*
+	-> rrel_key_sc_element: concept_drums;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Набор ударных инструментов, использующийся одним барабанщиком] (* <- lang_ru;; *);;
+		-> [A set of percussion instruments used by one drummer] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ударная установка)] (* <- lang_ru;; *);
+		[Def. (drum kit)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_drummer;
+		concept_percussion_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_drummer;
+	concept_percussion_instruments;;

@@ -1,0 +1,16 @@
+ru: высокая классика
+en: high classics
+definition:
+  ru:
+    Высокая классика это музыкальный жанр, который характеризуется высокой сложностью композиций, сильным эмоциональным воздействием и высоким уровнем виртуозности исполнения. Он включает в себя музыку от Баха и до современных композиторов
+  en:
+    High classics is a musical genre that is characterized by highly complex compositions, strong emotional impact, and a high level of virtuosity in performance. It includes music from Bach to contemporary composers
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

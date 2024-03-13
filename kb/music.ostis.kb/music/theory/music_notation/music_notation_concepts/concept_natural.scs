@@ -1,0 +1,39 @@
+concept_natural
+=> nrel_main_idtf:
+	[бекар] (* <- lang_ru;; *);
+	[natural] (* <- lang_en;; *);;
+
+definition -> definition_of_natural (*
+	-> rrel_key_sc_element: concept_natural;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Бекар это знак альтерации, используемый для отмены бемоля или диеза из предшествующей ноты] (* <- lang_ru;; *);;
+		-> [Natural is an accidental used to cancel a flat or sharp from a previous note] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (бекар)] (* <- lang_ru;; *);
+		[Def. (natural)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_sound;
+		concept_semitone;
+		concept_flat;
+		concept_sharp;
+		concept_natural;
+		nrel_cancellation
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_sound;
+	concept_semitone;
+	concept_flat;
+	concept_sharp;
+	concept_natural;;
+
+sc_node_norole_relation ->
+	nrel_cancellation;;

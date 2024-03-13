@@ -1,0 +1,25 @@
+concept_synthesizer
+=> nrel_main_idtf:
+	[синтезатор] (* <- lang_ru;; *);
+	[synthesizer] (* <- lang_en;; *);;
+
+definition -> definition_of_synthesizer (*
+	-> rrel_key_sc_element: concept_synthesizer;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [электронный музыкальный инструмент, способный генерировать и модулировать звуки с помощью синтеза звука] (* <- lang_ru;; *);;
+		-> [an electronic musical instrument capable of generating and modulating sounds using sound synthesis] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (синтезатор)] (* <- lang_ru;; *);
+		[Def. (synthesizer)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_sound
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_sound;;

@@ -1,0 +1,33 @@
+concept_transposition
+=> nrel_main_idtf:
+	[транспонирование] (* <- lang_ru;; *);
+	[transposition] (* <- lang_en;; *);;
+
+definition -> definition_of_transposition (*
+	-> rrel_key_sc_element: concept_transposition;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Перенос мелодии в другую тональность, то есть на другую высоту, сохраняя ладовую окраска мелодии, её ритмический рисунок] (* <- lang_ru;; *);;
+		-> [Transferring the melody to a different key, that is, to a different pitch, preserving the modal coloring of the melody, its rhythmic figure] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (транспонирование)] (* <- lang_ru;; *);
+		[Def. (transposition)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_tonality;
+		concept_rhythmic_figures;
+		concept_melody;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_tonality;
+	concept_rhythmic_figures;
+	concept_melody;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

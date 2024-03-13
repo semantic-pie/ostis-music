@@ -1,0 +1,15 @@
+ru: бенд
+en: bend
+definition:
+  ru: Бенд это техника, используемая для манипулирования высотой одной ноты на одной струне. Бенд возникает, когда играется нота, а затем натягивается струна, делая ноту выше по высоте, чем первая сыгранная нота
+  en: The guitar bend is a technique used to manipulate single-note lines on a single string. A bend occurs when a note is played, and then the string is pulled, tightening the string and making the note higher in pitch than the first note played
+  using:
+    concepts: |
+      note
+      guitar
+      electro_guitar
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

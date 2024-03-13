@@ -1,0 +1,41 @@
+concept_pull_off
+=> nrel_main_idtf:
+	[пулл оф] (* <- lang_ru;; *);
+	[pull-off] (* <- lang_en;; *);;
+
+definition -> definition_of_pull_off (*
+	-> rrel_key_sc_element: concept_pull_off;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Pull-off это гитарная техника, используемая для создания плавного перехода между двумя нотами. Он обычно используется при игре на струнных инструментах, таких как гитара. Чтобы выполнить пулл-офф, вы начинаете с того, что нажимаете ноту на более высоком ладу струны и дергаете эту струну своей рукой. Эта техника противоположна хамер он] (* <- lang_ru;; *);;
+		-> [A pull-off is a guitar technique used to create a smooth transition between two notes. It is commonly used in playing stringed instruments like the guitar. To perform a pull-off, you start by fretting a note on a higher fret of a string and plucking that string with your picking hand. This technique is the opposite of the hammer-on] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пулл оф)] (* <- lang_ru;; *);
+		[Def. (pull-off)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_electro_guitar;
+		concept_string_instruments;
+		concept_hammer_on;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_electro_guitar;
+	concept_string_instruments;
+	concept_hammer_on;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

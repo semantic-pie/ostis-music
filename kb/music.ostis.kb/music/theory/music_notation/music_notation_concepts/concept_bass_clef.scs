@@ -1,0 +1,35 @@
+concept_bass_clef
+=> nrel_main_idtf:
+	[басовый ключ] (* <- lang_ru;; *);
+	[bass clef] (* <- lang_en;; *);;
+
+definition -> definition_of_bass_clef (*
+	-> rrel_key_sc_element: concept_bass_clef;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Басовый ключ или ключ фа, это музыкальный символ в нотной грамоте, который используется для обозначения высоты записанных нот. Басовый ключ размещается на четвертой линии нотного стана и представляет более низкий диапазон нот, используемых инструментами, такими как контрабас, туба, баритон] (* <- lang_ru;; *);;
+		-> [The bass clef or the F clef, is a musical symbol used in notation to indicate the pitch of written notes. The bass clef is placed on the fourth line of the staff, and it represents the lower range of notes used by instruments such as the double bass, tuba, baritone] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (басовый ключ)] (* <- lang_ru;; *);
+		[Def. (bass clef)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_baritone;
+		concept_double_bass;
+		nrel_note_pitch;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_baritone;
+	concept_double_bass;;
+
+sc_node_norole_relation ->
+	nrel_note_pitch;
+	nrel_used_musical_instruments;;

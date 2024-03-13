@@ -1,0 +1,26 @@
+concept_hardcore_punk
+=> nrel_main_idtf:
+    [хардкор панк] (* <- lang_ru;; *);
+    [hardcore punk] (* <- lang_en;; *);;
+
+definition -> definition_of_hardcore_punk (*
+    -> rrel_key_sc_element: concept_hardcore_punk;;
+
+    <= nrel_sc_text_translation: ... (*
+        -> [Хардкор панк это жанр панк-рок музыки, который развился в 1970-х годах. Характеризуется быстрыми и энергичными ритмами, агрессивными гитарными риффами, текстами с политическими и социальными посланиями, а также интенсивными живыми выступлениями] (* <- lang_ru;; *);;
+        -> [Hardcore punk is a genre of punk rock music that originated in the 1970s. It is characterized by fast and energetic rhythms, aggressive guitar riffs, lyrics with political and social messages, and intense live performances] (* <- lang_en;; *);;
+    *);;
+
+    => nrel_main_idtf:
+        [Опр. (хардкор панк)] (* <- lang_ru;; *);
+        [Def. (hardcore punk)] (* <- lang_en;; *);;
+
+    => nrel_using_constants: {
+        concept_music_genre;
+        nrel_stylistic_origin;
+        nrel_place_of_origin;
+        nrel_year_of_origin;
+        nrel_derivative_form;
+        nrel_used_musical_instruments
+    };;
+*);;

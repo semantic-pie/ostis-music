@@ -1,0 +1,10 @@
+en: plucked-keyboard instruments
+ru: щипково-клавишных инструментов
+
+parent: keyboard_instruments
+
+max: |
+  harpsichord
+
+concepts: |
+  none

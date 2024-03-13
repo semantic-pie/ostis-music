@@ -1,0 +1,10 @@
+"file://guitar.png"
+ <- image;
+ => nrel_image: concept_electro_guitar;
+ => nrel_format: format_png;;
+
+
+"file://bass.png"
+ <- image;
+ => nrel_image: concept_bass_guitar;
+ => nrel_format: format_png;;

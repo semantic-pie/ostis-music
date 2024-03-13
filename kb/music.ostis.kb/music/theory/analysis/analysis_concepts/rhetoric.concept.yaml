@@ -1,0 +1,11 @@
+ru: риторика
+en: modulation
+definition:
+  ru: Процесс использования средства вырзительности в музыкальном произведении для достижения эмоционального воздействия на слушателя
+  en: The process of using expressiveness in a piece of music to achieve an emotional impact on the listener
+  using:
+    concepts: |
+      harmony
+      tonality
+    nrels: |
+      used_musical_instruments

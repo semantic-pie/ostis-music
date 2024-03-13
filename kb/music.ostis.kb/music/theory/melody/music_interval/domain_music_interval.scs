@@ -1,0 +1,64 @@
+section_subject_domain_of_music_interval
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область музыкального интервала] (* <- lang_ru;; *);
+	[Section. Subject domain of music interval] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_music_interval;
+	concept_music_interval;
+	concept_major_second;
+	concept_minor_second;
+	concept_major_third;
+	concept_minor_third;
+	concept_perfect_fourth;
+	concept_perfect_fifth;
+	concept_major_sixth;
+	concept_minor_sixth;
+	concept_major_seventh;
+	concept_minor_seventh;
+	concept_octave;;
+
+section_subject_domain_of_music_interval=[*
+	subject_domain_of_music_interval
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область музыкального интервала] (* <- lang_ru;; *);
+		[Subject Domain of music interval] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_music_interval;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_major_second;
+		concept_minor_second;
+		concept_major_third;
+		concept_minor_third;
+		concept_perfect_fourth;
+		concept_perfect_fifth;
+		concept_major_sixth;
+		concept_minor_sixth;
+		concept_major_seventh;
+		concept_minor_seventh;
+		concept_octave;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_melody;;
+*];;
+
+sc_node_class ->
+	concept_music_interval;
+	concept_major_second;
+	concept_minor_second;
+	concept_major_third;
+	concept_minor_third;
+	concept_perfect_fourth;
+	concept_perfect_fifth;
+	concept_major_sixth;
+	concept_minor_sixth;
+	concept_major_seventh;
+	concept_minor_seventh;
+	concept_octave;;

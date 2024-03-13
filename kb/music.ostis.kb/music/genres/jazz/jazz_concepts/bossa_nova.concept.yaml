@@ -1,0 +1,16 @@
+ru: босса-нова
+en: bossa nova
+definition:
+  ru:
+    Босса-нова это жанр бразильской музыки, который комбинирует элементы самбы и джаза. Он характеризуется использованием мягких гармоний, легких мелодий и ритмов, а также виртуозной гитарной игрой и романтическими текстами песен
+  en: 
+    Bossa nova is a genre of Brazilian music that combines elements of samba and jazz. It is characterized by the use of soft harmonies, light melodies and rhythms, as well as virtuoso guitar playing and romantic song lyrics
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

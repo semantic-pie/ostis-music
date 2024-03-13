@@ -1,0 +1,54 @@
+concept_electronic_music
+=> nrel_main_idtf:
+	[электронная музыка] (* <- lang_ru;; *);
+	[electronic music] (* <- lang_en;; *);;
+
+definition -> definition_of_electronic_music (*
+	-> rrel_key_sc_element: concept_electronic_music;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыка, созданная с использованием электромузыкальных инструментов и электронных технологий] (* <- lang_ru;; *);;
+		-> [Music created using electric musical instruments and electronic technologies] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электронная музыка)] (* <- lang_ru;; *);
+		[Def. (electronic music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+statement -> statement_of_statement_title (*
+	-> rrel_key_sc_element: concept_electronic_music;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Электронная музыка оперирует звуками, которые способны издавать электронные и электромеханические музыкальные инструменты, а также звуками, возникающими при помощи электрических электронных устройств и различного рода преобразователей таких как магнитофоны, генераторы, компьютерные звуковые карты, звукосниматели и тому подобные, которые в строгом смысле не являются музыкальными инструментами] (* <- lang_ru;; *);;
+		-> [Electronic music operates with sounds that are capable of producing electronic and electromechanical musical instruments, as well as sounds that arise with the help of electrical electronic devices and various kinds of converters such as tape recorders, generators, computer sound cards, pickups and the like, which in the strict sense are not musical instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (Особенности электронной музыки)] (* <- lang_ru;; *);
+		[Stat. (Features of electronic music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument
+	};;
+*);;
+
+sc_node_class ->
+	concept_music_genre;
+	concept_music_instrument;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

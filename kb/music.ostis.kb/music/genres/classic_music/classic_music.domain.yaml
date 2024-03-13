@@ -1,0 +1,29 @@
+en: classic music genre
+ru: жанра классической музыки
+
+parent: music_genres
+
+max: |
+  classic_music
+
+concepts: |
+  ballet
+  baroque
+  cantata
+  chamber_music
+  string_quartet
+  chorus
+  concert
+  modern_classics
+  expressionism
+  high_classics
+  mass_requiem
+  modern_composition
+  modern_classics
+  opera
+  oratorio
+  orchestral
+  organum
+  sonata
+  symphony
+  wedding_music

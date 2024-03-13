@@ -1,0 +1,16 @@
+ru: камерная музыка
+en: chamber music
+definition:
+  ru:
+    Камерная музыка это жанр классической музыки, написанный для маленького ансамбля инструментов, в котором каждый инструмент играет свою часть, создавая сложный музыкальный образ в целом
+  en:
+    Chamber music is a genre of classical music written for a small ensemble of instruments, in which each instrument plays its own part, creating a complex musical image as a whole
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,59 @@
+section_subject_domain_of_copper_wind_instruments
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область медных духовых инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of copper wind instruments] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_copper_wind_natural_instruments;
+	section_subject_domain_of_copper_wind_slide_instruments;
+	section_subject_domain_of_copper_wind_valved_instruments;
+	section_subject_domain_of_copper_wind_keyed_instruments
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_copper_wind_instruments;
+	concept_copper_wind_instrument;
+	concept_wind_instrument;
+	concept_copper_wind_natural_instrument;
+	concept_copper_wind_slide_instrument;
+	concept_copper_wind_valved_instrument;
+	concept_copper_wind_keyed_instrument;;
+
+section_subject_domain_of_copper_wind_instruments=[*
+	subject_domain_of_copper_wind_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область медных духовых инструментов] (* <- lang_ru;; *);
+		[Subject Domain of copper wind instruments] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_copper_wind_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_wind_instrument;
+		concept_copper_wind_natural_instrument;
+		concept_copper_wind_slide_instrument;
+		concept_copper_wind_valved_instrument;
+		concept_copper_wind_keyed_instrument;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_wind_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_copper_wind_natural_instruments;
+		subject_domain_of_copper_wind_slide_instruments;
+		subject_domain_of_copper_wind_valved_instruments;
+		subject_domain_of_copper_wind_keyed_instruments;;
+*];;
+
+sc_node_class ->
+	concept_copper_wind_instrument;
+	concept_wind_instrument;
+	concept_copper_wind_natural_instrument;
+	concept_copper_wind_slide_instrument;
+	concept_copper_wind_valved_instrument;
+	concept_copper_wind_keyed_instrument;;

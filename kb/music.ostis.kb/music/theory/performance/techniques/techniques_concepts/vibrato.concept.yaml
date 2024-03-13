@@ -1,0 +1,17 @@
+ru: вибрато
+en: vibrato
+definition:
+  ru: Вибрато это техника исполнения, которая предполагает периодические изменения высоты, громкости или тембра музыкального звука. В струнных инструментах вызывается колебаниями пальца
+  en: Vibrato is a performance technique that involves periodic changes in the pitch, volume, or timbre of a musical sound. In stringed instruments, it is caused by vibrations of the finger
+  using:
+    concepts: |
+      note
+      violin
+      cello
+      guitar
+      electro_guitar
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

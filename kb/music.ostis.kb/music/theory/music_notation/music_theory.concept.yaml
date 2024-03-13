@@ -1,0 +1,16 @@
+ru: теория музыки
+en: music theory
+definition:
+  ru: Определенный комплекс учебных и научных дисциплин музыковедения, которые занимаются теоретическими аспектами музыки
+  en: A certain set of educational and scientific disciplines of musicology that deal with the theoretical aspects of music
+  using:
+    concepts: |
+      harmony
+      analysis
+      melody
+      performance
+      rhythm
+      music_notation
+    nrels: |
+      used_musical_instruments
+      playing_techniques

@@ -1,0 +1,31 @@
+concept_minor_second
+=> nrel_main_idtf:
+	[малая секунда] (* <- lang_ru;; *);
+	[minor second] (* <- lang_en;; *);;
+
+definition -> definition_of_minor_second (*
+	-> rrel_key_sc_element: concept_minor_second;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интервал между двумя соседними нотами] (* <- lang_ru;; *);;
+		-> [Interval of a half step (1 semitone) between two adjacent notes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (малая секунда)] (* <- lang_ru;; *);
+		[Def. (minor second)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_interval;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_interval;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

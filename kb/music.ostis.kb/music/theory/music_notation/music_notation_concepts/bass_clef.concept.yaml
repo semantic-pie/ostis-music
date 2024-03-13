@@ -1,0 +1,13 @@
+ru: басовый ключ
+en: bass clef
+definition:
+  ru: Басовый ключ или ключ фа, это музыкальный символ в нотной грамоте, который используется для обозначения высоты записанных нот. Басовый ключ размещается на четвертой линии нотного стана и представляет более низкий диапазон нот, используемых инструментами, такими как контрабас, туба, баритон
+  en: The bass clef or the F clef, is a musical symbol used in notation to indicate the pitch of written notes. The bass clef is placed on the fourth line of the staff, and it represents the lower range of notes used by instruments such as the double bass, tuba, baritone
+  using:
+    concepts: |
+      music_notation
+      baritone
+      double_bass
+    nrels: |
+      note_pitch
+      used_musical_instruments

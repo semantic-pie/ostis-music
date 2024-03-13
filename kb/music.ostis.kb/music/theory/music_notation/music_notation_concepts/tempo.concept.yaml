@@ -1,0 +1,12 @@
+ru: темп
+en: tempo
+definition:
+  ru: Темп это скорость исполнения метрических счетных единиц
+  en: Tempo is the speed at which metric units are performed
+  using:
+    concepts: |
+      music_notation
+      instrument
+      sound
+    nrels: |
+      performance

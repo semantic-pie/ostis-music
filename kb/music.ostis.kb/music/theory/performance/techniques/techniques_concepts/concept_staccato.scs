@@ -1,0 +1,37 @@
+concept_staccato
+=> nrel_main_idtf:
+	[стаккато] (* <- lang_ru;; *);
+	[staccato] (* <- lang_en;; *);;
+
+definition -> definition_of_staccato (*
+	-> rrel_key_sc_element: concept_staccato;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Стаккато это техника исполнения, которая предполагает отрывистое звучание ноты. На скрипке стаккато интерпретируется как укороченные, отстраненные ноты с небольшим акцентом в начале смычка] (* <- lang_ru;; *);;
+		-> [Staccato is a playing technique that involves the abrupt sound of a note. On the violin, staccato is interpreted as shortened, distant notes with a slight accent at the beginning of the bow] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (стаккато)] (* <- lang_ru;; *);
+		[Def. (staccato)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_violin;
+		concept_cello;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_violin;
+	concept_cello;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

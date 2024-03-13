@@ -1,0 +1,10 @@
+en: psaltery
+ru: гуслей
+
+parent: plucking_string_instruments
+
+max: |
+  psaltery
+
+concepts: |
+  none

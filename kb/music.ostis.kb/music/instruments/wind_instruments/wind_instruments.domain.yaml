@@ -1,0 +1,15 @@
+en: wind instruments
+ru: духовых инструментов
+
+parent: music_instruments
+
+children: |
+  copper_wind_instruments
+  wood_wind_instruments
+
+max: |
+  wind_instrument
+
+concepts: |
+  copper_wind_instrument
+  wood_wind_instrument

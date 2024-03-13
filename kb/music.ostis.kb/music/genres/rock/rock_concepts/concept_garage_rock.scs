@@ -1,0 +1,28 @@
+concept_garage_rock
+=> nrel_main_idtf:
+	[гаражный рок] (* <- lang_ru;; *);
+	[garage rock] (* <- lang_en;; *);;
+
+definition -> definition_of_garage_rock (*
+	-> rrel_key_sc_element: concept_garage_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Гаражный рок это жанр рок-музыки, который характеризуется простой мелодикой, дерзкими гитарными риффами, нередко записанными в домашних условиях, а также резким, неотесанным звучанием] (* <- lang_ru;; *);;
+		-> [Garage rock is a genre of rock music that is characterized by a simple technique, audacious guitar riffs, often recorded at home, as well as a sharp, uncouth sound] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гаражный рок)] (* <- lang_ru;; *);
+		[Def. (garage rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

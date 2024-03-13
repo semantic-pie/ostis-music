@@ -1,0 +1,41 @@
+concept_vibrato
+=> nrel_main_idtf:
+	[вибрато] (* <- lang_ru;; *);
+	[vibrato] (* <- lang_en;; *);;
+
+definition -> definition_of_vibrato (*
+	-> rrel_key_sc_element: concept_vibrato;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Вибрато это техника исполнения, которая предполагает периодические изменения высоты, громкости или тембра музыкального звука. В струнных инструментах вызывается колебаниями пальца] (* <- lang_ru;; *);;
+		-> [Vibrato is a performance technique that involves periodic changes in the pitch, volume, or timbre of a musical sound. In stringed instruments, it is caused by vibrations of the finger] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (вибрато)] (* <- lang_ru;; *);
+		[Def. (vibrato)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_violin;
+		concept_cello;
+		concept_guitar;
+		concept_electro_guitar;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_violin;
+	concept_cello;
+	concept_guitar;
+	concept_electro_guitar;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

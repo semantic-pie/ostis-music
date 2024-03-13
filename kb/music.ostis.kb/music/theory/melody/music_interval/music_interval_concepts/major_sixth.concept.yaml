@@ -1,0 +1,11 @@
+ru: большая секста
+en: major sixth
+definition:
+  ru: Интервал, состоящий из девяти полутонов
+  en: Interval of a major sixth, consisting of nine semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

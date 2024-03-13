@@ -1,0 +1,28 @@
+concept_expressionism
+=> nrel_main_idtf:
+	[экспрессионизм] (* <- lang_ru;; *);
+	[expressionism] (* <- lang_en;; *);;
+
+definition -> definition_of_expressionism (*
+	-> rrel_key_sc_element: concept_expressionism;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Экспрессионизм это жанр музыки, который характеризуется интенсивным выражением эмоций и чувств. В экспрессионизме используются нестандартные музыкальные формы и инструменты, а также необычные гармонии и мелодии] (* <- lang_ru;; *);;
+		-> [Expressionism is a genre of music that is characterized by the intense expression of emotions and feelings. Expressionism uses unconventional musical forms and instruments, as well as unusual harmonies and melodies] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (экспрессионизм)] (* <- lang_ru;; *);
+		[Def. (expressionism)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

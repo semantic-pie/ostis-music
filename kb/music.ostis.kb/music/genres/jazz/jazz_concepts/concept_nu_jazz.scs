@@ -1,0 +1,28 @@
+concept_nu_jazz
+=> nrel_main_idtf:
+	[ню-джаз] (* <- lang_ru;; *);
+	[nu jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_nu_jazz (*
+	-> rrel_key_sc_element: concept_nu_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ню-джаз это жанр, который сочетает в себе элементы джаза, электронной музыки, фанка и соула, и в котором используются как традиционные, так и современные музыкальные инструменты и технологии] (* <- lang_ru;; *);;
+		-> [Nu jazz is a genre that combines elements of jazz, electronic music, funk, and soul, and uses both traditional and modern musical instruments and technologies] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ню-джаз)] (* <- lang_ru;; *);
+		[Def. (nu jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

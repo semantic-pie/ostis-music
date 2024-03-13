@@ -1,0 +1,35 @@
+concept_modern_composition
+=> nrel_main_idtf:
+	[современная композиция] (* <- lang_ru;; *);
+	[modern composition] (* <- lang_en;; *);;
+
+definition -> definition_of_modern_composition (*
+	-> rrel_key_sc_element: concept_modern_composition;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Современная композиция это жанр классической музыки, который характеризуется использованием новых технологий, нестандартных звуковых решений и экспериментов с формой и структурой произведения] (* <- lang_ru;; *);;
+		-> [Modern composition is a genre of classical music that is characterized by the use of new technologies, unconventional sound solutions, and experiments with the form and structure of the composition] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (современная композиция)] (* <- lang_ru;; *);
+		[Def. (modern composition)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;;

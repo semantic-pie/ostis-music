@@ -1,0 +1,14 @@
+ru: техно
+en: techno
+definition:
+  ru: Техно жанр электронной музыки. Техно характеризуется использованием синтезаторов и компьютерных программ, а также присутствием монотонного ритма и повторяющихся звуковых эффектов
+  en: Techno is a genre of electronic music. Techno is characterized by the use of synthesizers and computer programs, as well as the presence of a monotonous rhythm and repeating sound effects
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

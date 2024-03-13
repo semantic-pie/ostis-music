@@ -1,0 +1,41 @@
+concept_pizzicato
+=> nrel_main_idtf:
+	[пиццикато] (* <- lang_ru;; *);
+	[pizzicato] (* <- lang_en;; *);;
+
+definition -> definition_of_pizzicato (*
+	-> rrel_key_sc_element: concept_pizzicato;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пиццикато это техника игры, которая включает в себя выщипывание струн пальцами] (* <- lang_ru;; *);;
+		-> [Pizzicato is a playing technique that involves plucking the strings with your fingers] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пиццикато)] (* <- lang_ru;; *);
+		[Def. (pizzicato)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_guitar;
+		concept_violin;
+		concept_cello;
+		concept_electro_guitar;
+		concept_techniques;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_guitar;
+	concept_violin;
+	concept_cello;
+	concept_electro_guitar;
+	concept_techniques;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

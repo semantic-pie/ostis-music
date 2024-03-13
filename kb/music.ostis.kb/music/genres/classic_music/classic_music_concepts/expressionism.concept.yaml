@@ -1,0 +1,14 @@
+ru: экспрессионизм
+en: expressionism
+definition:
+  ru: Экспрессионизм это жанр музыки, который характеризуется интенсивным выражением эмоций и чувств. В экспрессионизме используются нестандартные музыкальные формы и инструменты, а также необычные гармонии и мелодии
+  en: Expressionism is a genre of music that is characterized by the intense expression of emotions and feelings. Expressionism uses unconventional musical forms and instruments, as well as unusual harmonies and melodies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

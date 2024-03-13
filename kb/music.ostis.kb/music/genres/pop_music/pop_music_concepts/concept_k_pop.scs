@@ -1,0 +1,35 @@
+concept_k_pop
+=> nrel_main_idtf:
+	[k-поп] (* <- lang_ru;; *);
+	[k-pop] (* <- lang_en;; *);;
+
+definition -> definition_of_k_pop (*
+	-> rrel_key_sc_element: concept_k_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [K-pop, сокращение от корейского попа, является жанром популярной музыки в Южной Корее. Он характеризуется захватывающими мелодиями, живыми темпами и синхронизированными танцевальными движениями, исполняемыми мальчиками и девочками] (* <- lang_ru;; *);;
+		-> [K-pop, short for Korean pop, is a genre of popular music in South Korea. It is characterized by its catchy melodies, upbeat tempos, and synchronized dance moves performed by boy and girl groups] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (k-поп)] (* <- lang_ru;; *);
+		[Def. (k-pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

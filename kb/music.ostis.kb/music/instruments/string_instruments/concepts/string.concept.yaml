@@ -1,0 +1,20 @@
+ru: струна
+en: string
+
+definition:
+  ru:
+    Деталь струнных музыкальных инструментов,
+    служащая первоисточником звуковых колебаний.
+    Представляет собой длинный отрезок гибкого материала,
+    натягиваемого над резонаторным корпусом щипковых,
+    смычковых, ударных или внутри клавишных струнных инструментов 
+
+  en:
+    Detail of stringed musical instruments,
+    serving as the primary source of sound vibrations.
+    It is a long piece of flexible material,
+    stretched over the resonator housing of the plucked,
+    bowed, percussion or inside keyboard string instruments
+  using:
+    concepts: |
+      string_instrument

@@ -1,0 +1,35 @@
+concept_melody
+=> nrel_main_idtf:
+	[мелодика] (* <- lang_ru;; *);
+	[melody] (* <- lang_en;; *);;
+
+definition -> definition_of_melody (*
+	-> rrel_key_sc_element: concept_melody;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Раздел теории музыки которая изучает создание и организацию мелодий. Она фокусируется на развитии и выражении музыкальных идей, образующих основную мелодическую линию композиции] (* <- lang_ru;; *);;
+		-> [A Part of music theory that studies the creation and organization of melodies. It focuses on the development and expression of musical ideas that form the main melodic line of the composition] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (мелодика)] (* <- lang_ru;; *);
+		[Def. (melody)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_timbre;
+		concept_structure;
+		concept_string_instrument;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_timbre;
+	concept_structure;
+	concept_string_instrument;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

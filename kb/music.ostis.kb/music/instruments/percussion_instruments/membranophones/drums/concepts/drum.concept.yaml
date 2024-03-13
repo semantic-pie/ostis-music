@@ -1,0 +1,15 @@
+ru: барабан
+en: drum
+
+definition:
+  ru:
+    Ударный инструмент, звучащим элементов которого служит кожанная или
+    пластиковая мембрана
+
+  en:
+    A percussion instrument whose sounding elements are a leather or plastic
+    membrane
+  using:
+    concepts: |
+      sound
+      membrane

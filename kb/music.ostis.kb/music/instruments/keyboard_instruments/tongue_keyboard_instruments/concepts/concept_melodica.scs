@@ -1,0 +1,27 @@
+concept_melodica
+=> nrel_main_idtf:
+	[мелодика] (* <- lang_ru;; *);
+	[melodica] (* <- lang_en;; *);;
+
+definition -> definition_of_melodica (*
+	-> rrel_key_sc_element: concept_melodica;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [клавишный музыкальный инструмент, обладающий простой конструкцией, состоящей из ряда клавиш и отверстий] (* <- lang_ru;; *);;
+		-> [a keyboard musical instrument with a simple design consisting of a number of keys and holes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (мелодика)] (* <- lang_ru;; *);
+		[Def. (melodica)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument;
+		concept_keyboard
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;
+	concept_keyboard;;

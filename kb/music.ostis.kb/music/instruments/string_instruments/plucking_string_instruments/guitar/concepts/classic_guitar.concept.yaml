@@ -1,0 +1,19 @@
+ru: классическая гитара
+en: classic guitar
+
+definition:
+  ru:
+    Струнный щипковый музыкальный инструмент. Основной представитель семейства
+    гитар в целом. От обычной гитары отличается наличием нейлонных струн, а
+    также отсутствием анкерного стержня
+
+  en:
+    Stringed plucked musical instrument. The main representative of the family
+    guitars in general. It differs from a conventional guitar by the presence of
+    nylon strings, as well as the absence of an anchor rod
+  using:
+    concepts: |
+      plucking_string_instrument
+      guitar
+      string
+      anchor_rod

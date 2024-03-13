@@ -1,0 +1,28 @@
+concept_ethno_jazz
+=> nrel_main_idtf:
+	[этно-джаз] (* <- lang_ru;; *);
+	[ethno jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_ethno_jazz (*
+	-> rrel_key_sc_element: concept_ethno_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Этно-джаз это жанр музыки, сочетающий в себе элементы джаза и народной музыки. Он часто использует музыкальные инструменты и мотивы, характерные для определенной культуры или региона] (* <- lang_ru;; *);;
+		-> [Ethno jazz is a genre of music that combines elements of jazz and folk music. It often uses musical instruments and motifs that are characteristic of a particular culture or region] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (этно-джаз)] (* <- lang_ru;; *);
+		[Def. (ethno jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

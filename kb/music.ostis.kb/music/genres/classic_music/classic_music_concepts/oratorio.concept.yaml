@@ -1,0 +1,17 @@
+ru: оратория
+en: oratorio
+definition:
+  ru:
+    Оратория это музыкально-театральный жанр, в котором музыка используется для рассказа о религиозных или исторических событиях. Оратория обычно включает сольные вокальные партии, хор, оркестр и некоторые диалоги
+  en:
+    Oratorio is a musical-theatrical genre in which music is used to tell stories about religious or historical events. Oratorio usually includes solo vocal parts, choir, orchestra, and some dialogues
+  using:
+    concepts: |
+      music_genre
+      theatrical_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

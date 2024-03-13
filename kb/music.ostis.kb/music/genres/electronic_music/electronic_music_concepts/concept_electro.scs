@@ -1,0 +1,28 @@
+concept_electro
+=> nrel_main_idtf:
+	[электро] (* <- lang_ru;; *);
+	[electro] (* <- lang_en;; *);;
+
+definition -> definition_of_electro (*
+	-> rrel_key_sc_element: concept_electro;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Электро это жанр электронной музыки, который характеризуется использованием синтезаторов и электронных ударных, иногда с элементами фанка, хип-хопа и других жанров] (* <- lang_ru;; *);;
+		-> [Electro is a genre of electronic music that is characterized by the use of synthesizers and electronic drums, sometimes with elements of funk, hip-hop, and other genres] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электро)] (* <- lang_ru;; *);
+		[Def. (electro)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

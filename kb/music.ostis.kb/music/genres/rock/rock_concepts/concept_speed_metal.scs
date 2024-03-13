@@ -1,0 +1,28 @@
+concept_speed_metal
+=> nrel_main_idtf:
+	[спид-метал] (* <- lang_ru;; *);
+	[speed metal] (* <- lang_en;; *);;
+
+definition -> definition_of_speed_metal (*
+	-> rrel_key_sc_element: concept_speed_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Скоростной метал это жанр метал-музыки, который характеризуется высокой скоростью исполнения, быстрыми ритмами, техничными гитарными соло и применением двойного бас-барабана] (* <- lang_ru;; *);;
+		-> [Speed metal is a genre of metal music that is characterized by high speed performance, fast rhythms, technical guitar solos, and the use of double bass drumming] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (спид-метал)] (* <- lang_ru;; *);
+		[Def. (speed metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

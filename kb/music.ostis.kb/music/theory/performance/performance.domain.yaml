@@ -1,0 +1,15 @@
+en: performance
+ru: исполнения
+
+parent: music_theory
+
+children: |
+  techniques
+  dynamic_markings
+
+max: |
+  performance
+
+concepts: |
+  accompaniment
+  performance

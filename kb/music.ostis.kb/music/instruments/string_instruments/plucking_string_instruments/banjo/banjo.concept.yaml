@@ -1,0 +1,18 @@
+ru: банджо
+en: banjo
+
+definition:
+  ru:
+    Струнный щипковый музыкальный инструмент типа гитары. Количество струн 4-6.
+    Резонаторный корпус круглой формы, дека в виде пластиковой мембраны
+
+  en:
+    A stringed plucked musical instrument of the guitar type. The number of
+    strings is 4-6. Resonator case of round shape, soundboard in the form of a
+    plastic membrane
+  using:
+    concepts: |
+      plucking_string_instrument
+      string
+      soundboard
+      resonator_case

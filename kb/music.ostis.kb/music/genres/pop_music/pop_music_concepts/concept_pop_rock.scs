@@ -1,0 +1,28 @@
+concept_pop_rock
+=> nrel_main_idtf:
+	[поп-рок] (* <- lang_ru;; *);
+	[pop rock] (* <- lang_en;; *);;
+
+definition -> definition_of_pop_rock (*
+	-> rrel_key_sc_element: concept_pop_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Поп-рок это жанр рок-музыки, который характеризуется комбинацией элементов поп-музыки и рока, таких как мелодичные песни, гитарные риффы, и легкие биты] (* <- lang_ru;; *);;
+		-> [Pop rock is a genre of rock music that combines elements of pop music and rock, such as melodic songs, guitar riffs, and light beats] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (поп-рок)] (* <- lang_ru;; *);
+		[Def. (pop rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

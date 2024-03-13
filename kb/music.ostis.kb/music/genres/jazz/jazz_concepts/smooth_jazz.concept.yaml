@@ -1,0 +1,16 @@
+ru: смуз-джаз
+en: smooth jazz
+definition:
+  ru:
+    Смуз-джаз это жанр джазовой музыки, характеризующийся мягким, расслабляющим звучанием и использованием электронных инструментов, а также элементов фанка, ритм-энд-блюза и соула
+  en:
+    Smooth jazz is a genre of jazz music characterized by its smooth, relaxing sound and the use of electronic instruments, as well as elements of funk, rhythm and blues, and soul
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

@@ -1,0 +1,12 @@
+ru: ре минор
+en: D minor
+definition:
+  ru: Минорная тональность с тоникой ре. Имеет один бемоль при ключе
+  en: Minor tonality with D tonic. It has one flat at the key
+  using:
+    concepts: |
+      flat
+      seventh_chord
+      tonality
+    nrels: |
+      used_musical_instruments

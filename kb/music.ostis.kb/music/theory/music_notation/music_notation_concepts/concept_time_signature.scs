@@ -1,0 +1,33 @@
+concept_time_signature
+=> nrel_main_idtf:
+	[музыкальный размер] (* <- lang_ru;; *);
+	[time_signature] (* <- lang_en;; *);;
+
+definition -> definition_of_time_signature (*
+	-> rrel_key_sc_element: concept_time_signature;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный размер это характеристика такта, выражающая количество ритмических единиц] (* <- lang_ru;; *);;
+		-> [Time signature is a characteristic of a measure, expressing the number of rhythmic units] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (музыкальный размер)] (* <- lang_ru;; *);
+		[Def. (time_signature)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_instrument;
+		concept_sound;
+		nrel_number_of_rhythmic_units
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_instrument;
+	concept_sound;;
+
+sc_node_norole_relation ->
+	nrel_number_of_rhythmic_units;;

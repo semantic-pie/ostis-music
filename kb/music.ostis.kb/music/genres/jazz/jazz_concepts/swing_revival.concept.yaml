@@ -1,0 +1,16 @@
+ru: свинг-ривайвл
+en: swing revival
+definition:
+  ru:
+    Свинг-ривайвл это жанр музыки, который оживил интерес к свингу и биг-бэндовой эре. Он характеризуется использованием свингового ритма, джазовой гармонии, биг-бэндового звука и мелодий в стиле ретро
+  en:
+    Swing revival is a music genre and revived interest in the swing and big band era. It is characterized by the use of swing rhythm, jazz harmony, big band sound, and retro-style melodies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

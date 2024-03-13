@@ -1,0 +1,37 @@
+concept_tremble_clef
+=> nrel_main_idtf:
+	[скрипичный ключ] (* <- lang_ru;; *);
+	[tremble clef] (* <- lang_en;; *);;
+
+definition -> definition_of_tremble_clef (*
+	-> rrel_key_sc_element: concept_tremble_clef;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Скрипичный ключ или ключ соль, это музыкальный символ в нотной грамоте, который используется для обозначения высоты записанных нот. Скрипичный ключ размещается на второй линии нотного стана и представляет более высокий диапазон нот, используемых инструментами, такими как скрипка, флейта, кларнет] (* <- lang_ru;; *);;
+		-> [The treble clef or the G clef, is a musical symbol used in notation to indicate the pitch of written notes. The treble clef is placed on the second line of the staff, and it represents the higher range of notes used by instruments such as the violin, flute, clarinet] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (скрипичный ключ)] (* <- lang_ru;; *);
+		[Def. (tremble clef)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_violin;
+		concept_flute;
+		concept_clarinet;
+		nrel_note_pitch;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_violin;
+	concept_flute;
+	concept_clarinet;;
+
+sc_node_norole_relation ->
+	nrel_note_pitch;
+	nrel_used_musical_instruments;;

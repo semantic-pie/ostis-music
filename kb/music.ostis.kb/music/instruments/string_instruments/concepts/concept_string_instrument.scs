@@ -1,0 +1,27 @@
+concept_string_instrument
+=> nrel_main_idtf:
+	[струнный инструмент] (* <- lang_ru;; *);
+	[string instrument] (* <- lang_en;; *);;
+
+definition -> definition_of_string_instrument (*
+	-> rrel_key_sc_element: concept_string_instrument;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент, в котором источником звука являются колебания струн] (* <- lang_ru;; *);;
+		-> [A musical instrument in which the sound source is the vibrations of the strings] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (струнный инструмент)] (* <- lang_ru;; *);
+		[Def. (string instrument)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;
+	concept_string;;

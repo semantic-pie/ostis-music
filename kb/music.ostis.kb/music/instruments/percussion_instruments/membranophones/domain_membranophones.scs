@@ -1,0 +1,58 @@
+section_subject_domain_of_membranophones
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область мембранофонных ударных инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of membranophones percussion instrument] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_drums;
+	section_subject_domain_of_timpani;
+	section_subject_domain_of_tambourine
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_membranophones;
+	concept_membranophones_percussion_instrument;
+	concept_membranophones;
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;;
+
+section_subject_domain_of_membranophones=[*
+	subject_domain_of_membranophones
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область мембранофонных ударных инструментов] (* <- lang_ru;; *);
+		[Subject Domain of membranophones percussion instrument] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_membranophones_percussion_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_membranophones;
+
+	-> rrel_explored_relation:
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_percussion_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_drums;
+		subject_domain_of_timpani;
+		subject_domain_of_tambourine;;
+*];;
+
+sc_node_class ->
+	concept_membranophones_percussion_instrument;
+	concept_membranophones;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;;

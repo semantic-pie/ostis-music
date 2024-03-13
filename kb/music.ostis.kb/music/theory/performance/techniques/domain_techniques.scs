@@ -1,0 +1,55 @@
+section_subject_domain_of_techniques
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область техник исполнения] (* <- lang_ru;; *);
+	[Section. Subject domain of techniques] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_techniques;
+	concept_techniques;
+	concept_vibrato;
+	concept_flageolet;
+	concept_pizzicato;
+	concept_staccato;
+	concept_hammer_on;
+	concept_pull_off;
+	concept_slide;
+	concept_bend;;
+
+section_subject_domain_of_techniques=[*
+	subject_domain_of_techniques
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область техник исполнения] (* <- lang_ru;; *);
+		[Subject Domain of techniques] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_techniques;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_vibrato;
+		concept_flageolet;
+		concept_pizzicato;
+		concept_staccato;
+		concept_hammer_on;
+		concept_pull_off;
+		concept_slide;
+		concept_bend;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_performance;;
+*];;
+
+sc_node_class ->
+	concept_techniques;
+	concept_vibrato;
+	concept_flageolet;
+	concept_pizzicato;
+	concept_staccato;
+	concept_hammer_on;
+	concept_pull_off;
+	concept_slide;
+	concept_bend;;

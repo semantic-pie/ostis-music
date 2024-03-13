@@ -1,0 +1,39 @@
+concept_accompaniment
+=> nrel_main_idtf:
+	[аккомпанемент] (* <- lang_ru;; *);
+	[accompaniment] (* <- lang_en;; *);;
+
+definition -> definition_of_accompaniment (*
+	-> rrel_key_sc_element: concept_accompaniment;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Аккомпанемент это сопровождение одним или несколькими инструментами, а также оркестром сольной партии инструмента] (* <- lang_ru;; *);;
+		-> [Accompaniment is an accompaniment by one or more instruments, as well as an orchestra of the solo part of the instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (аккомпанемент)] (* <- lang_ru;; *);
+		[Def. (accompaniment)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin;
+		concept_guitar;
+		concept_cello;
+		concept_trombone;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;
+	concept_guitar;
+	concept_cello;
+	concept_trombone;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

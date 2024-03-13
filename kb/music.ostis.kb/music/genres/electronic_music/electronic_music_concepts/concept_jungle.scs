@@ -1,0 +1,28 @@
+concept_jungle
+=> nrel_main_idtf:
+	[джангл] (* <- lang_ru;; *);
+	[jungle] (* <- lang_en;; *);;
+
+definition -> definition_of_jungle (*
+	-> rrel_key_sc_element: concept_jungle;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Джангл жанр электронной танцевальной музыки, который развился в Англии на основе брейкбита, сэмплирования регги, даба и других жанров. Основные элементы джангла это скоростные ритмы, брейки и бас] (* <- lang_ru;; *);;
+		-> [Jungle is a genre of electronic dance music that developed in England, based on breakbeat, sampling of reggae, dub and other genres. The main elements of jungle are fast rhythms, breaks, and bass] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (джангл)] (* <- lang_ru;; *);
+		[Def. (jungle)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

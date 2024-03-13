@@ -1,0 +1,24 @@
+nrel_stylistic_origin
+=> nrel_main_idtf:
+	[стилистическое происхождение] (* <- lang_ru;; *);
+	[stylistic origin] (* <- lang_en;; *);;
+
+nrel_place_of_origin
+=> nrel_main_idtf:
+	[место возникновения] (* <- lang_ru;; *);
+	[place of origin] (* <- lang_en;; *);;
+
+nrel_year_of_origin
+=> nrel_main_idtf:
+	[год возникновения] (* <- lang_ru;; *);
+	[year of origin] (* <- lang_en;; *);;
+
+nrel_derivative_form
+=> nrel_main_idtf:
+	[производные формы] (* <- lang_ru;; *);
+	[derivative form] (* <- lang_en;; *);;
+
+nrel_used_musical_instruments
+=> nrel_main_idtf:
+	[используемые музыкальные инструменты] (* <- lang_ru;; *);
+	[used musical instruments] (* <- lang_en;; *);;

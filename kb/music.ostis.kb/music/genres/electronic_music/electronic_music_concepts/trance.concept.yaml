@@ -1,0 +1,14 @@
+ru: транс
+en: trance
+definition:
+  ru: Транс жанр электронной музыки. Транс характеризуется использованием пульсирующих басовых линий, мелодичных синтезаторов и эффектов, создающих ощущение гипноза и транса
+  en: Trance is a genre of electronic music. Trance is characterized by the use of pulsating basslines, melodic synthesizers, and effects that create a sense of hypnosis and trance
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

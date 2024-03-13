@@ -1,0 +1,33 @@
+concept_c_major
+=> nrel_main_idtf:
+	[До мажор] (* <- lang_ru;; *);
+	[D minor] (* <- lang_en;; *);;
+
+definition -> definition_of_c_major (*
+	-> rrel_key_sc_element: concept_c_major;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Мажорная тональность с тоникой до. Не имеет диезов при ключе] (* <- lang_ru;; *);;
+		-> [Major tonality with C tonic. It has no sharps at the key] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (До мажор)] (* <- lang_ru;; *);
+		[Def. (D minor)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_sharp;
+		concept_seventh_chord;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_sharp;
+	concept_seventh_chord;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

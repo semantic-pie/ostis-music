@@ -1,0 +1,31 @@
+concept_chord
+=> nrel_main_idtf:
+	[трезвучие] (* <- lang_ru;; *);
+	[chord] (* <- lang_en;; *);;
+
+definition -> definition_of_chord (*
+	-> rrel_key_sc_element: concept_chord;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Аккорд, состоящих из 3-х звуков, которые размещаются по терциям] (* <- lang_ru;; *);;
+		-> [Chord, consisting of 3 sounds, which are placed in thirds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (трезвучие)] (* <- lang_ru;; *);
+		[Def. (chord)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_electro_guitar;
+		concept_string_instruments;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_electro_guitar;
+	concept_string_instruments;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

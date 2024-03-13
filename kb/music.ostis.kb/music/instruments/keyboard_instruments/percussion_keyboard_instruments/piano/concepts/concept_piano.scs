@@ -1,0 +1,34 @@
+concept_piano
+=> nrel_main_idtf:
+	[фортепиано] (* <- lang_ru;; *);
+	[piano] (* <- lang_en;; *);
+
+
+=> nrel_inclusion:
+pianino;
+grand_piano;;
+
+definition -> definition_of_piano (*
+	-> rrel_key_sc_element: concept_piano;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Клавишный музыкальный инструмент, в котором звуки производятся при помощи молоточков, которые бьют по струнам внутри инструмента] (* <- lang_ru;; *);;
+		-> [A keyboard musical instrument in which sounds are produced using hammers that strike the strings inside the instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фортепиано)] (* <- lang_ru;; *);
+		[Def. (piano)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument;
+		concept_hammer;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;
+	concept_hammer;
+	concept_string;;

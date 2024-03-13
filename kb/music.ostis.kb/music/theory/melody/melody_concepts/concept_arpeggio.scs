@@ -1,0 +1,35 @@
+concept_arpeggio
+=> nrel_main_idtf:
+	[арпеджио] (* <- lang_ru;; *);
+	[arpeggio] (* <- lang_en;; *);;
+
+definition -> definition_of_arpeggio (*
+	-> rrel_key_sc_element: concept_arpeggio;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Способ исполнения аккордов, преимущественно на струнных и клавишных инструментах, при котором звуки аккорда берутся последовательно один за другим чаще всего, от самого нижнего к самому верхнему] (* <- lang_ru;; *);;
+		-> [A way of playing chords, mainly on strings and keyboards, in which the sounds of the chord are taken sequentially one after the other - most often, from the lowest to the highest] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (арпеджио)] (* <- lang_ru;; *);
+		[Def. (arpeggio)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_chord;
+		concept_fourth_chord;
+		concept_string_instrument;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_chord;
+	concept_fourth_chord;
+	concept_string_instrument;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

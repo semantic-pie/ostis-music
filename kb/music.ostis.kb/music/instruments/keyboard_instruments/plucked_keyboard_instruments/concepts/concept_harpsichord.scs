@@ -1,0 +1,27 @@
+concept_harpsichord
+=> nrel_main_idtf:
+	[клавесин] (* <- lang_ru;; *);
+	[harpsichord] (* <- lang_en;; *);;
+
+definition -> definition_of_harpsichord (*
+	-> rrel_key_sc_element: concept_harpsichord;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Клавишный струнный музыкальный инструмент со щипковым способом звукоизвлечения] (* <- lang_ru;; *);;
+		-> [A keyboard stringed musical instrument with a plucked method of sound extraction] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (клавесин)] (* <- lang_ru;; *);
+		[Def. (harpsichord)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_instrument;
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_instrument;
+	concept_string;;

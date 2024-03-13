@@ -1,0 +1,33 @@
+concept_forte
+=> nrel_main_idtf:
+	[форте] (* <- lang_ru;; *);
+	[forte] (* <- lang_en;; *);;
+
+definition -> definition_of_forte (*
+	-> rrel_key_sc_element: concept_forte;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Громкое исполнение] (* <- lang_ru;; *);;
+		-> [Loud performance] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (форте)] (* <- lang_ru;; *);
+		[Def. (forte)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin;
+		concept_string_instruments;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;
+	concept_string_instruments;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

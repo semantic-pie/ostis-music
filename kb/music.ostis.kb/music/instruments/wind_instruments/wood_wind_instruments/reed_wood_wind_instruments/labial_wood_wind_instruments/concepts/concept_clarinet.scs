@@ -1,0 +1,50 @@
+concept_clarinet
+=> nrel_main_idtf:
+	[кларнет] (* <- lang_ru;; *);
+	[clarinet] (* <- lang_en;; *);;
+
+definition -> definition_of_clarinet (*
+	-> rrel_key_sc_element: concept_clarinet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент] (* <- lang_ru;; *);;
+		-> [A musical instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кларнет)] (* <- lang_ru;; *);
+		[Def. (clarinet)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+statement -> statement_of_oboe_structure (*
+	-> rrel_key_sc_element: concept_clarinet;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [состоит из мундштука с лигатурой и тростью, бочонка, верхнего колена, нижнего колена и раструба] (* <- lang_ru;; *);;
+		-> [it consists of a mouthpiece with a ligature and a cane, a barrel, an upper knee, a lower knee and a bell] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (структура кларнета)] (* <- lang_ru;; *);
+		[Stat. (clarinet structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_ligature;
+		concept_cane;
+		concept_barrel;
+		concept_knee
+	};;
+*);;
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;
+	concept_ligature;
+	concept_cane;
+	concept_barrel;
+	concept_knee;;

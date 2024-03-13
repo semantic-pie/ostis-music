@@ -1,0 +1,28 @@
+concept_jazz_funk
+=> nrel_main_idtf:
+	[джаз-фанк] (* <- lang_ru;; *);
+	[jazz funk] (* <- lang_en;; *);;
+
+definition -> definition_of_jazz_funk (*
+	-> rrel_key_sc_element: concept_jazz_funk;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Джаз-фанк это жанр джазовой музыки, характеризующийся использованием элементов фанка, соула и ритм-энд-блюза, а также упором на ритмическую секцию и импровизацию] (* <- lang_ru;; *);;
+		-> [Jazz funk is a genre of jazz music characterized by its use of funk, soul, and rhythm and blues elements, as well as its emphasis on the rhythm section and improvisation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (джаз-фанк)] (* <- lang_ru;; *);
+		[Def. (jazz funk)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

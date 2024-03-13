@@ -1,0 +1,13 @@
+ru: арпеджио
+en: arpeggio
+definition:
+  ru: Способ исполнения аккордов, преимущественно на струнных и клавишных инструментах, при котором звуки аккорда берутся последовательно один за другим чаще всего, от самого нижнего к самому верхнему
+  en: A way of playing chords, mainly on strings and keyboards, in which the sounds of the chord are taken sequentially one after the other - most often, from the lowest to the highest
+  using:
+    concepts: |
+      chord
+      fourth_chord
+      string_instrument
+    nrels: |
+      used_musical_instruments
+      playing_techniques

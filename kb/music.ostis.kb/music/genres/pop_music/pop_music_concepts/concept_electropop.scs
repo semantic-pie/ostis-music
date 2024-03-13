@@ -1,0 +1,28 @@
+concept_electropop
+=> nrel_main_idtf:
+	[электропоп] (* <- lang_ru;; *);
+	[electropop] (* <- lang_en;; *);;
+
+definition -> definition_of_electropop (*
+	-> rrel_key_sc_element: concept_electropop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Электропоп это жанр поп-музыки, который характеризуется использованием электронных музыкальных инструментов и программного обеспечения для создания музыкальных композиций с элементами электронной танцевальной музыки и поп-музыки] (* <- lang_ru;; *);;
+		-> [Electropop is a genre of pop music that is characterized by the use of electronic musical instruments and software to create musical compositions with elements of electronic dance music and pop music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (электропоп)] (* <- lang_ru;; *);
+		[Def. (electropop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

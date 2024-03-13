@@ -1,0 +1,54 @@
+section_subject_domain_of_keyboard_instruments
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область клавишных инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of keyboard instruments] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_tongue_keyboard_instruments;
+	section_subject_domain_of_percussion_keyboard_instruments;
+	section_subject_domain_of_plucked_keyboard_instruments;
+	section_subject_domain_of_keyboard_wind_instruments;
+	section_subject_domain_of_electromechanical_keyboard_instruments;
+	section_subject_domain_of_electro_keyboard_instruments
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_keyboard_instruments;
+	concept_keyboard_instrument;
+	concept_piano;
+	concept_clavichord;;
+
+section_subject_domain_of_keyboard_instruments=[*
+	subject_domain_of_keyboard_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область клавишных инструментов] (* <- lang_ru;; *);
+		[Subject Domain of keyboard instruments] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_keyboard_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_piano;
+		concept_clavichord;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_tongue_keyboard_instruments;
+		subject_domain_of_percussion_keyboard_instruments;
+		subject_domain_of_plucked_keyboard_instruments;
+		subject_domain_of_keyboard_wind_instruments;
+		subject_domain_of_electromechanical_keyboard_instruments;
+		subject_domain_of_electro_keyboard_instruments;;
+*];;
+
+sc_node_class ->
+	concept_keyboard_instrument;
+	concept_piano;
+	concept_clavichord;;

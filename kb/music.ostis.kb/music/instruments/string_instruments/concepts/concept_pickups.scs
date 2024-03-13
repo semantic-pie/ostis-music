@@ -1,0 +1,25 @@
+concept_pickups
+=> nrel_main_idtf:
+	[звукосниматель] (* <- lang_ru;; *);
+	[pickup] (* <- lang_en;; *);;
+
+definition -> definition_of_pickups (*
+	-> rrel_key_sc_element: concept_pickups;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Устройство, преобразующее энергию колебания струн в электрический ток] (* <- lang_ru;; *);;
+		-> [A device that converts the energy of string vibrations into an electric current] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (звукосниматель)] (* <- lang_ru;; *);
+		[Def. (pickup)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string;;

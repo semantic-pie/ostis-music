@@ -1,0 +1,35 @@
+concept_legato
+=> nrel_main_idtf:
+	[легато] (* <- lang_ru;; *);
+	[legato] (* <- lang_en;; *);;
+
+definition -> definition_of_legato (*
+	-> rrel_key_sc_element: concept_legato;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Легато это приём игры на музыкальном инструменте, или в пении, обозначающее связное исполнение звуков, при котором имеет место плавный переход одного звука в другой, пауза между звуками отсутствует] (* <- lang_ru;; *);;
+		-> [Legato is a technique of playing a musical instrument, or in singing, denoting a coherent performance of sounds, in which there is a smooth transition from one sound to another, there is no pause between sounds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (легато)] (* <- lang_ru;; *);
+		[Def. (legato)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_music_instrument;
+		concept_guitar;
+		concept_sound;
+		nrel_smooth_playing_of_sounds
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_music_instrument;
+	concept_guitar;
+	concept_sound;;
+
+sc_node_norole_relation ->
+	nrel_smooth_playing_of_sounds;;

@@ -1,0 +1,10 @@
+ru: восьмая пауза
+en: eighth rest
+definition:
+  ru: Восьмая пауза это символ в нотной грамоте, который обозначает паузу в течение одной восьмой музыкальной доли. Представляет собой перевернутую запятую со стержнем
+  en: The eighth rest is a symbol in musical notation that denotes a pause for one eighth of a musical measure. Represents an inverted comma with a stem
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      duration

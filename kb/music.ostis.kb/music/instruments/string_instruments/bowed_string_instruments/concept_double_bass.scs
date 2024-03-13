@@ -1,0 +1,29 @@
+concept_double_bass
+=> nrel_main_idtf:
+	[контрабас] (* <- lang_ru;; *);
+	[double_bass] (* <- lang_en;; *);;
+
+definition -> definition_of_double_bass (*
+	-> rrel_key_sc_element: concept_double_bass;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Смычковый музыкальный инструмент с 4-мя струнами. Самый низкий по звучанию инструмент скрипичного семейства после виолончели, альта и скрипки] (* <- lang_ru;; *);;
+		-> [A bowed musical instrument with 4 strings. The lowest in sound the instrument of the violin family after the cello, viola and violin] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (контрабас)] (* <- lang_ru;; *);
+		[Def. (double_bass)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_violin;
+		concept_cello
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_violin;
+	concept_cello;;

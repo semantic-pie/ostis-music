@@ -1,0 +1,13 @@
+ru: электропиано
+en: electropiano
+
+definition:
+  ru:
+    электронный музыкальный инструмент, созданный для имитации звучания и
+    игрового ощущения акустического пианино
+  en:
+    an electronic musical instrument designed to simulate the sound and playing
+    sensation of an acoustic piano
+  using:
+    concepts: |
+      piano

@@ -1,0 +1,18 @@
+en: wood wind instruments
+ru: деревянных духовых инструментов
+
+parent: wind_instruments
+
+children: |
+  labial_wind_natural_instruments
+  reed_wind_instruments
+  
+
+max: |
+  wood_wind_instrument
+  
+
+concepts: |
+  wind_instrument
+  labial_wind_natural_instrument
+  reed_wind_instrument

@@ -1,0 +1,28 @@
+concept_cantata
+=> nrel_main_idtf:
+	[кантата] (* <- lang_ru;; *);
+	[cantata] (* <- lang_en;; *);;
+
+definition -> definition_of_cantata (*
+	-> rrel_key_sc_element: concept_cantata;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Кантата это жанр вокальной классической музыки, состоящий из музыкальных частей, включающий вокальную сольную и хоровую партии с оркестром, обычно соответствующий религиозным или мирским темам] (* <- lang_ru;; *);;
+		-> [Cantata is a genre of classical vocal music consisting of musical parts including solo and choral vocal parts with orchestra, usually corresponding to religious or secular themes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кантата)] (* <- lang_ru;; *);
+		[Def. (cantata)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

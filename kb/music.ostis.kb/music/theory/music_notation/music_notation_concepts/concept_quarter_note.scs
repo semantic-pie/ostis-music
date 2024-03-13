@@ -1,0 +1,31 @@
+concept_quarter_note
+=> nrel_main_idtf:
+	[четветная нота] (* <- lang_ru;; *);
+	[quarter note] (* <- lang_en;; *);;
+
+definition -> definition_of_quarter_note (*
+	-> rrel_key_sc_element: concept_quarter_note;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Четветная нота это музыкальный символ, представленный в виде закрашеного овала с добавленным стержнем, направленным вниз или верх, и флажком на конце стержня. Обозначает звучание в течение одной полной музыкальной доли] (* <- lang_ru;; *);;
+		-> [A quarter note is a musical symbol represented by a filled oval with a stem either pointing upwards or downwards, and a flag at the end of the stem. It indicates a sound that lasts for one full musical measure] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (четветная нота)] (* <- lang_ru;; *);
+		[Def. (quarter note)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_note_name;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_note_name;
+	nrel_duration;;

@@ -1,0 +1,35 @@
+concept_c_pop
+=> nrel_main_idtf:
+	[с-поп] (* <- lang_ru;; *);
+	[c-pop] (* <- lang_en;; *);;
+
+definition -> definition_of_c_pop (*
+	-> rrel_key_sc_element: concept_c_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [C-pop, сокращение от китайского попа, является жанром популярной музыки в Китае. Он характеризуется захватывающими мелодиями, живыми темпами и слиянием традиционной китайской музыки и современной западной музыки] (* <- lang_ru;; *);;
+		-> [C-pop, short for Chinese pop, is a genre of popular music in China. It is characterized by its catchy melodies, upbeat tempos, and fusion of traditional Chinese music and modern Western music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (с-поп)] (* <- lang_ru;; *);
+		[Def. (c-pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

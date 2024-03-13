@@ -1,0 +1,15 @@
+en: timpani
+ru: литавр
+
+parent: membranophones
+
+max: |
+  timpani
+
+concepts: |
+  membranophones
+
+nrels: |
+  stylistic_origin
+  place_of_origin
+  year_of_origin

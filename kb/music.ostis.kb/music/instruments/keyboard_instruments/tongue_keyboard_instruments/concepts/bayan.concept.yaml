@@ -1,0 +1,15 @@
+ru: баян
+en: bayan
+
+definition:
+  ru:
+    клавишный музыкальный инструмент, отличающийся от аккордеона использованием
+    кнопочной клавиатуры вместо механических клавиш
+
+  en:
+    a keyboard musical instrument that differs from an accordion by using a
+    push-button keyboard instead of mechanical keys
+  using:
+    concepts: |
+      keyboard
+      music_instrument

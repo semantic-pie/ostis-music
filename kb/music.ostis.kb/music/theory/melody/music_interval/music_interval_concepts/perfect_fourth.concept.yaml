@@ -1,0 +1,11 @@
+ru: чистая кварта
+en: perfect fourth
+definition:
+  ru: Интервал, состоящий из пяти полутонов
+  en: Interval of a perfect fourth, consisting of five semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

@@ -1,0 +1,14 @@
+en: analysis
+ru: анализа
+
+parent: music_theory
+
+max: |
+  analysis
+
+concepts: |
+  modulation
+  structure
+  rhetoric
+  transposition
+  rhythmic_figures

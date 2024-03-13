@@ -1,0 +1,16 @@
+ru: камерный джаз
+en: chamber jazz
+definition:
+  ru:
+    Камерный джаз это жанр джазовой музыки, который использует элементы классической музыки и привлекает внимание к звуку и форме музыки. Он часто исполняется в небольших составах, используя акустические инструменты
+  en:
+    Chamber jazz is a genre of jazz music that uses elements of classical music and emphasizes the sound and form of the music. It is often performed in small ensembles, using acoustic instruments
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

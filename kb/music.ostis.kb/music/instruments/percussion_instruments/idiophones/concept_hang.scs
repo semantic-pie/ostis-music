@@ -1,0 +1,25 @@
+concept_hang
+=> nrel_main_idtf:
+	[ханг] (* <- lang_ru;; *);
+	[hang] (* <- lang_en;; *);;
+
+definition -> definition_of_hang (*
+	-> rrel_key_sc_element: concept_hang;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент, cостоящий из двух соединенных между собой металлических тарелообразных частей (нижней GU и верхней DING). На верхней стороне по кругу расположены 7-8 зон ударов с различной высотой звучания. В центре этого круга, на вершине, находится шишкообразный выступ] (* <- lang_ru;; *);;
+		-> [A percussive musical instrument consisting of two interconnected metal plate-shaped parts (lower GU and upper DING). On the top on the side of the circle there are 7-8 shock zones with different sound heights. In the center of this circle, at the top, there is a cone-shaped protrusion] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ханг)] (* <- lang_ru;; *);
+		[Def. (hang)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;;

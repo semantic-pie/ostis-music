@@ -1,0 +1,27 @@
+concept_soundboard
+=> nrel_main_idtf:
+	[дека] (* <- lang_ru;; *);
+	[soundboard] (* <- lang_en;; *);;
+
+definition -> definition_of_soundboard (*
+	-> rrel_key_sc_element: concept_soundboard;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Верхняя и нижняя доски струнного музыкального инструмента, служащие для усиления звука] (* <- lang_ru;; *);;
+		-> [The upper and lower boards of a stringed musical instrument, which serve to enhance the sound] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (дека)] (* <- lang_ru;; *);
+		[Def. (soundboard)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_sound;
+		concept_string_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_sound;
+	concept_string_instrument;;

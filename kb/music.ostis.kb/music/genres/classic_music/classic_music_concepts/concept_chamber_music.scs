@@ -1,0 +1,28 @@
+concept_chamber_music
+=> nrel_main_idtf:
+	[камерная музыка] (* <- lang_ru;; *);
+	[chamber music] (* <- lang_en;; *);;
+
+definition -> definition_of_chamber_music (*
+	-> rrel_key_sc_element: concept_chamber_music;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Камерная музыка это жанр классической музыки, написанный для маленького ансамбля инструментов, в котором каждый инструмент играет свою часть, создавая сложный музыкальный образ в целом] (* <- lang_ru;; *);;
+		-> [Chamber music is a genre of classical music written for a small ensemble of instruments, in which each instrument plays its own part, creating a complex musical image as a whole] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (камерная музыка)] (* <- lang_ru;; *);
+		[Def. (chamber music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

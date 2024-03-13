@@ -1,0 +1,100 @@
+section_subject_domain_of_pop_music
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+	[Section. Subject domain of pop music genre] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_pop_music;
+	concept_phonk;
+	concept_hip_hop;
+	concept_pop_music;
+	concept_dance_pop;
+	concept_electropop;
+	concept_synthpop;
+	concept_pop_rock;
+	concept_power_pop;
+	concept_indie_pop;
+	concept_chamber_pop;
+	concept_art_pop;
+	concept_j_pop;
+	concept_k_pop;
+	concept_c_pop;
+	concept_mandopop;
+	concept_latin_pop;
+	concept_reggaeton_pop;
+	concept_afro_pop;
+	concept_euro_pop;
+	concept_country_pop;
+	concept_folk_pop;
+	concept_dream_pop;
+	concept_psychedelic_pop;
+	concept_sophistic_pop;
+	concept_teen_pop;;
+
+section_subject_domain_of_pop_music=[*
+	subject_domain_of_pop_music
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область жанра популярной музыки] (* <- lang_ru;; *);
+		[Subject Domain of pop music genre] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_pop_music;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_dance_pop;
+		concept_electropop;
+		concept_synthpop;
+		concept_pop_rock;
+		concept_power_pop;
+		concept_indie_pop;
+		concept_chamber_pop;
+		concept_art_pop;
+		concept_j_pop;
+		concept_k_pop;
+		concept_c_pop;
+		concept_mandopop;
+		concept_latin_pop;
+		concept_reggaeton_pop;
+		concept_afro_pop;
+		concept_euro_pop;
+		concept_country_pop;
+		concept_folk_pop;
+		concept_dream_pop;
+		concept_psychedelic_pop;
+		concept_sophistic_pop;
+		concept_teen_pop;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_genres;;
+*];;
+
+sc_node_class ->
+	concept_pop_music;
+	concept_dance_pop;
+	concept_electropop;
+	concept_synthpop;
+	concept_pop_rock;
+	concept_power_pop;
+	concept_indie_pop;
+	concept_chamber_pop;
+	concept_art_pop;
+	concept_j_pop;
+	concept_k_pop;
+	concept_c_pop;
+	concept_mandopop;
+	concept_latin_pop;
+	concept_reggaeton_pop;
+	concept_afro_pop;
+	concept_euro_pop;
+	concept_country_pop;
+	concept_folk_pop;
+	concept_dream_pop;
+	concept_psychedelic_pop;
+	concept_sophistic_pop;
+	concept_hip_hop;
+	concept_teen_pop;;

@@ -1,0 +1,27 @@
+concept_organ
+=> nrel_main_idtf:
+	[орган] (* <- lang_ru;; *);
+	[organ] (* <- lang_en;; *);;
+
+definition -> definition_of_organ (*
+	-> rrel_key_sc_element: concept_organ;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Клавишный духовой музыкальный инструмен звучащий при помощи труб различных тембров] (* <- lang_ru;; *);;
+		-> [A keyboard wind musical instrument sounding with the help of pipes of various timbres] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (орган)] (* <- lang_ru;; *);
+		[Def. (organ)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_pipe;
+		concept_timbre
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_pipe;
+	concept_timbre;;

@@ -1,0 +1,10 @@
+ru: медиатор
+en: pick
+
+definition:
+  ru: Приспособление для защипывания струн на музыкальных инструментах
+
+  en: A device for plucking strings on musical instruments
+  using:
+    concepts: |
+      music_instrument

@@ -1,0 +1,28 @@
+concept_techno
+=> nrel_main_idtf:
+	[техно] (* <- lang_ru;; *);
+	[techno] (* <- lang_en;; *);;
+
+definition -> definition_of_techno (*
+	-> rrel_key_sc_element: concept_techno;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Техно жанр электронной музыки. Техно характеризуется использованием синтезаторов и компьютерных программ, а также присутствием монотонного ритма и повторяющихся звуковых эффектов] (* <- lang_ru;; *);;
+		-> [Techno is a genre of electronic music. Techno is characterized by the use of synthesizers and computer programs, as well as the presence of a monotonous rhythm and repeating sound effects] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (техно)] (* <- lang_ru;; *);
+		[Def. (techno)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

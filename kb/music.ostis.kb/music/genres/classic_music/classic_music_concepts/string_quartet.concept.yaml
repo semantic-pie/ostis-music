@@ -1,0 +1,16 @@
+ru: струнный квартет
+en: string quartet
+definition:
+  ru:
+    Струнный квартет это жанр классической музыки, представляющий собой музыкальное произведение, написанное для четырех струнных инструментов двух скрипок, альтовой и виолончели
+  en:
+    String quartet is a genre of classical music that is a musical composition written for four string instruments two violins, viola and cello
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      subgenres
+      notable_composers

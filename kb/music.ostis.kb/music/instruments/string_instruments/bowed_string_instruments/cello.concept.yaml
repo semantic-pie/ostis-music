@@ -1,0 +1,15 @@
+ru: виолончель
+en: cello
+
+definition:
+  ru:
+    Смычковый музыкальный инструмент с 4-мя струнами. По форме схожа со скрипкой
+    и альтом, но гораздо большая по размеру
+
+  en:
+    A bowed musical instrument with 4 strings. It is similar in shape to a
+    violin and viola, but much larger in size
+  using:
+    concepts: |
+      viola
+      violin

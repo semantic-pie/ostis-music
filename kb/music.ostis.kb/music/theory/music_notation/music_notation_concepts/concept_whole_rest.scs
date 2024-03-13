@@ -1,0 +1,29 @@
+concept_whole_rest
+=> nrel_main_idtf:
+	[целая пауза] (* <- lang_ru;; *);
+	[whole rest] (* <- lang_en;; *);;
+
+definition -> definition_of_whole_rest (*
+	-> rrel_key_sc_element: concept_whole_rest;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Целая пауза это символ в нотной грамоте, который обозначает паузу в течение одной полной музыкальной доли. Представляет собой закрашенный прямоугольник, который располагается под четвертой линейкой нотного стана] (* <- lang_ru;; *);;
+		-> [A whole rest is a symbol in musical notation that indicates a rest for one full musical measure. It is represented by a filled rectangle that is positioned below the fourth line of the staff] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (целая пауза)] (* <- lang_ru;; *);
+		[Def. (whole rest)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_duration;;

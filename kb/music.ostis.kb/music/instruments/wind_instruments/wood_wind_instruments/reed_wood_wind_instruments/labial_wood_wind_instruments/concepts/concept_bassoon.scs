@@ -1,0 +1,46 @@
+concept_bassoon
+=> nrel_main_idtf:
+	[фагот] (* <- lang_ru;; *);
+	[bassoon] (* <- lang_en;; *);;
+
+definition -> definition_of_bassoon (*
+	-> rrel_key_sc_element: concept_bassoon;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент] (* <- lang_ru;; *);;
+		-> [A musical instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (фагот)] (* <- lang_ru;; *);
+		[Def. (bassoon)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+statement -> statement_of_oboe_structure (*
+	-> rrel_key_sc_element: concept_bassoon;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [состоит из нижнего колена, малого колена, большого колена и раструба] (* <- lang_ru;; *);;
+		-> [it consists of a lower knee, a small knee, a large knee and a bell] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (структура фагота)] (* <- lang_ru;; *);
+		[Stat. (bassoon structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_bell;
+		concept_knee
+	};;
+*);;
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;
+	concept_bell;
+	concept_knee;;

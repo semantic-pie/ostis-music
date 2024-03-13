@@ -1,0 +1,28 @@
+concept_cool_jazz
+=> nrel_main_idtf:
+	[кул-джаз] (* <- lang_ru;; *);
+	[cool jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_cool_jazz (*
+	-> rrel_key_sc_element: concept_cool_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Кул-джаз жанр джазовой музыки, возникший в США. Он характеризуется более спокойным и легким звучанием, отличающимся от быстрого темпа бибопа и интенсивности свинга. Кул-джаз также характеризуется более сдержанным использованием инструментов и менее выразительной импровизацией] (* <- lang_ru;; *);;
+		-> [Cool jazz is a genre of jazz music that originated in the United States. It is characterized by a more relaxed and light sound, which differs from the fast tempo of bebop and the intensity of swing. Cool jazz is also characterized by a more restrained use of instruments and less expressive improvisation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (кул-джаз)] (* <- lang_ru;; *);
+		[Def. (cool jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

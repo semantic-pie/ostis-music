@@ -1,0 +1,64 @@
+concept_music_genre
+=> nrel_main_idtf:
+	[музыкальный жанр] (* <- lang_ru;; *);
+	[music genre] (* <- lang_en;; *);;
+
+definition -> definition_of_music_genre (*
+	-> rrel_key_sc_element: concept_music_genre;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный жанр это категория, в которую можно отнести композиции или исполнителей на основе их общих стилевых, ритмических, характерных мелодий и звучания] (* <- lang_ru;; *);;
+		-> [A musical genre is a category to which compositions or performers can be classified based on their shared stylistic, rhythmic, distinctive melodies, and sound characteristics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (музыкальный жанр)] (* <- lang_ru;; *);
+		[Def. (music genre)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_harmony;
+		concept_melody;
+		concept_rhythm;
+		concept_performance;
+		concept_tonality
+	};;
+*);;
+
+statement -> statement_of_statement_title (*
+	-> rrel_key_sc_element: concept_music_genre;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Каждый жанр имеет свои особенности, включая специфические инструменты, музыкальные формы и характерные элементы стиля] (* <- lang_ru;; *);;
+		-> [Each genre has its own features, including specific instruments, musical forms, and characteristic style elements] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (особенности)] (* <- lang_ru;; *);
+		[Stat. (features)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_instruments;
+		concept_rhythm;
+		concept_melody
+	};;
+*);;
+
+sc_node_class ->
+	concept_harmony;
+	concept_melody;
+	concept_rhythm;
+	concept_performance;
+	concept_tonality;
+	concept_instruments;
+	concept_rhythm;
+	concept_melody;;
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

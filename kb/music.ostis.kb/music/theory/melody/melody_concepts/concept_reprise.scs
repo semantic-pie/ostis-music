@@ -1,0 +1,35 @@
+concept_reprise
+=> nrel_main_idtf:
+	[реприза] (* <- lang_ru;; *);
+	[reprise] (* <- lang_en;; *);;
+
+definition -> definition_of_reprise (*
+	-> rrel_key_sc_element: concept_reprise;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный теормин, использующийся для повтора фргаментов музыкального произведения] (* <- lang_ru;; *);;
+		-> [A musical term used to repeat a section of a piece of music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (реприза)] (* <- lang_ru;; *);
+		[Def. (reprise)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_analysis;
+		concept_structure;
+		concept_bar;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_analysis;
+	concept_structure;
+	concept_bar;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

@@ -1,0 +1,28 @@
+concept_orchestral
+=> nrel_main_idtf:
+	[оркестровая музыка] (* <- lang_ru;; *);
+	[orchestral music] (* <- lang_en;; *);;
+
+definition -> definition_of_orchestral (*
+	-> rrel_key_sc_element: concept_orchestral;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Оркестровая музыка это музыкальный жанр, в котором оркестр играет главную роль. Оркестр состоит из множества музыкальных инструментов, которые могут играть сольно или вместе. Оркестровая музыка может быть в разных стилях и жанрах] (* <- lang_ru;; *);;
+		-> [Orchestral music is a musical genre in which the orchestra plays the main role. The orchestra consists of many musical instruments that can play solo or together. Orchestral music can be in different styles and genres] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (оркестровая музыка)] (* <- lang_ru;; *);
+		[Def. (orchestral music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

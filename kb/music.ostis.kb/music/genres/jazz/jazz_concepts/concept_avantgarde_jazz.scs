@@ -1,0 +1,28 @@
+concept_avantgarde_jazz
+=> nrel_main_idtf:
+	[авангардный джаз] (* <- lang_ru;; *);
+	[avant-garde jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_avantgarde_jazz (*
+	-> rrel_key_sc_element: concept_avantgarde_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Авангардный джаз это жанр, в котором музыканты экспериментируют со звуками, ритмами, мелодиями и формами композиций, нарушая традиционные рамки джаза] (* <- lang_ru;; *);;
+		-> [Avant-garde jazz is a genre in which musicians experiment with sounds, rhythms, melodies, and composition forms, breaking traditional jazz conventions] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (авангардный джаз)] (* <- lang_ru;; *);
+		[Def. (avant-garde jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

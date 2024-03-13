@@ -1,0 +1,31 @@
+concept_major_second
+=> nrel_main_idtf:
+	[большая секунда] (* <- lang_ru;; *);
+	[major second] (* <- lang_en;; *);;
+
+definition -> definition_of_major_second (*
+	-> rrel_key_sc_element: concept_major_second;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интервал из двух полутонов] (* <- lang_ru;; *);;
+		-> [Interval of a whole step (2 semitones) between two notes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (большая секунда)] (* <- lang_ru;; *);
+		[Def. (major second)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_interval;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_interval;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

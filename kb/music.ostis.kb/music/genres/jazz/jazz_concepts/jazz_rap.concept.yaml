@@ -1,0 +1,16 @@
+ru: джаз-рэп
+en: jazz rap
+definition:
+  ru: 
+    Джаз-рэп это жанр, объединяющий элементы джаза и хип-хопа, в котором исполнители рифмуют на джазовых инструментах
+  en: 
+    Jazz rap is a genre that combines elements of jazz and hip hop, in which performers rhyme over jazz instruments
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

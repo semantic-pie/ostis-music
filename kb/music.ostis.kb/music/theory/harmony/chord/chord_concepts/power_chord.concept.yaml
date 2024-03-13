@@ -1,0 +1,14 @@
+ru: квинтаккорд
+en: power chord
+definition:
+  ru: Квинтаккорд это интервал, состоящий из основного и квинтового тонов, обычно используется в игре на струнных инструментах, а в особенности на электрогитаре с использованием эффектов искажения звука по типу овердрайв и дисторшн
+  en: A power chord is an interval consisting of the root and fifth tones, usually used in playing stringed instruments, and especially on electric guitar, using sound distortion effects such as overdrive and distortion
+  using:
+    concepts: |
+      music_interval
+      guitar
+      electro_guitar
+
+    nrels: |
+      used_musical_instruments
+      playing_with

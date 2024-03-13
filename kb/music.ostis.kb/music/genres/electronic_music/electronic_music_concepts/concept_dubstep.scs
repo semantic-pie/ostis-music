@@ -1,0 +1,28 @@
+concept_dubstep
+=> nrel_main_idtf:
+	[дабстеп] (* <- lang_ru;; *);
+	[dubstep] (* <- lang_en;; *);;
+
+definition -> definition_of_dubstep (*
+	-> rrel_key_sc_element: concept_dubstep;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Дабстеп это жанр электронной музыки, который характеризуется глубоким, часто искаженным басом, использованием синтезаторов и ритмичными ударными звуками] (* <- lang_ru;; *);;
+		-> [Dubstep is a genre of electronic music that is characterized by deep, often distorted bass, the use of synthesizers, and rhythmic percussive sounds] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (дабстеп)] (* <- lang_ru;; *);
+		[Def. (dubstep)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

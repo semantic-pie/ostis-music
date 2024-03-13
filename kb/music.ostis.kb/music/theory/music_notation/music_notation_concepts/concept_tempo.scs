@@ -1,0 +1,33 @@
+concept_tempo
+=> nrel_main_idtf:
+	[темп] (* <- lang_ru;; *);
+	[tempo] (* <- lang_en;; *);;
+
+definition -> definition_of_tempo (*
+	-> rrel_key_sc_element: concept_tempo;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Темп это скорость исполнения метрических счетных единиц] (* <- lang_ru;; *);;
+		-> [Tempo is the speed at which metric units are performed] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (темп)] (* <- lang_ru;; *);
+		[Def. (tempo)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		concept_instrument;
+		concept_sound;
+		nrel_performance
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;
+	concept_instrument;
+	concept_sound;;
+
+sc_node_norole_relation ->
+	nrel_performance;;

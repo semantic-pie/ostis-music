@@ -1,0 +1,17 @@
+ru: хамер он
+en: hammer-on
+definition:
+  ru: Бенд это техника, используемая для манипулирования высотой одной ноты на одной струне. Бенд возникает, когда играется нота, а затем натягивается струна, делая ноту выше по высоте, чем первая сыгранная нота. Эта техника противоположна пулл оф
+  en: A hammer-on is a playing technique performed on a stringed instrument by sharply bringing a fretting-hand finger down on to the fingerboard, causing a note to sound. This technique is the opposite of the pull-off
+
+  using:
+    concepts: |
+      note
+      guitar
+      electro_guitar
+      string_instruments
+      pull_off
+      techniques
+    nrels: |
+      used_musical_instruments
+      playing_techniques

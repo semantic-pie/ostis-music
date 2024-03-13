@@ -1,0 +1,31 @@
+concept_minor_third
+=> nrel_main_idtf:
+	[малая терция] (* <- lang_ru;; *);
+	[minor third] (* <- lang_en;; *);;
+
+definition -> definition_of_minor_third (*
+	-> rrel_key_sc_element: concept_minor_third;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Интервал, состоящий из трех полутонов] (* <- lang_ru;; *);;
+		-> [Interval of a minor third, consisting of three semitones] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (малая терция)] (* <- lang_ru;; *);
+		[Def. (minor third)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_interval;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_interval;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

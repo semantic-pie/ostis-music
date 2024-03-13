@@ -1,0 +1,26 @@
+concept_hip_hop
+=> nrel_main_idtf:
+	[хип-хоп] (* <- lang_ru;; *);
+	[hip hop] (* <- lang_en;; *);;
+
+definition -> definition_of_hip_hop (*
+	-> rrel_key_sc_element: concept_hip_hop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хип-хоп это жанр музыки и культурное движение, которое возникло в афроамериканской и латиноамериканской общине в Нью-Йорке в 1970-х годах. Характеризуется ритмичной речью (рэпом), диджейскими миксами, битбоксом и танцами] (* <- lang_ru;; *);;
+		-> [Hip hop is a genre of music and cultural movement that originated in the African American and Latinx communities in New York City in the 1970s. It is characterized by rhythmic speech (rap), DJ mixes, beatboxing, and dance] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хип-хоп)] (* <- lang_ru;; *);
+		[Def. (hip hop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

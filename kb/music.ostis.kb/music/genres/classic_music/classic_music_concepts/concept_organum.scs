@@ -1,0 +1,35 @@
+concept_organum
+=> nrel_main_idtf:
+	[органум] (* <- lang_ru;; *);
+	[organum] (* <- lang_en;; *);;
+
+definition -> definition_of_organum (*
+	-> rrel_key_sc_element: concept_organum;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Органум это раннее формальное многоголосье, где один голос играет главную мелодию, а другой голос поддерживает эту мелодию, двигаясь параллельно с ней на фиксированном расстоянии] (* <- lang_ru;; *);;
+		-> [Organum is an early formal polyphony where one voice plays the main melody and another voice supports this melody, moving in parallel with it at a fixed distance] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (органум)] (* <- lang_ru;; *);
+		[Def. (organum)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;;

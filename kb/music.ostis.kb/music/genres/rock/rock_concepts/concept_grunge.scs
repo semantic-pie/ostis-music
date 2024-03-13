@@ -1,0 +1,28 @@
+concept_grunge
+=> nrel_main_idtf:
+	[гранж] (* <- lang_ru;; *);
+	[grunge] (* <- lang_en;; *);;
+
+definition -> definition_of_grunge (*
+	-> rrel_key_sc_element: concept_grunge;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Гранж характеризуется грязным, шумным звучанием, выраженной меланхоличностью и эмоциональностью в музыке и текстах песен] (* <- lang_ru;; *);;
+		-> [Grunge is characterized by a dirty, noisy sound, pronounced melancholy and emotional expression in music and lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гранж)] (* <- lang_ru;; *);
+		[Def. (grunge)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

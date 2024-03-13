@@ -1,0 +1,40 @@
+section_subject_domain_of_guitar
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область гитары] (* <- lang_ru;; *);
+	[Section. Subject domain of guitar] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_guitar;
+	concept_guitar;
+	concept_classic_guitar;
+	concept_electro_guitar;
+	concept_bass_guitar;;
+
+section_subject_domain_of_guitar=[*
+	subject_domain_of_guitar
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область гитары] (* <- lang_ru;; *);
+		[Subject Domain of guitar] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_guitar;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_classic_guitar;
+		concept_electro_guitar;
+		concept_bass_guitar;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_plucking_string_instruments;;
+*];;
+
+sc_node_class ->
+	concept_guitar;
+	concept_classic_guitar;
+	concept_electro_guitar;
+	concept_bass_guitar;;

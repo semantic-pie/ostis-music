@@ -1,0 +1,35 @@
+concept_symphony
+=> nrel_main_idtf:
+	[симфония] (* <- lang_ru;; *);
+	[symphony] (* <- lang_en;; *);;
+
+definition -> definition_of_symphony (*
+	-> rrel_key_sc_element: concept_symphony;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Симфония это музыкальный жанр, который имеет обширный и разнообразный инструментальный состав и обычно состоит из четырех частей быстрый, медленный, средний и быстрый. Это один из самых сложных и масштабных жанров в классической музыке] (* <- lang_ru;; *);;
+		-> [Symphony is a musical genre that has an extensive and varied instrumental composition and usually consists of four parts fast, slow, medium, and fast. It is one of the most complex and large-scale genres in classical music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (симфония)] (* <- lang_ru;; *);
+		[Def. (symphony)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_genre;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;;

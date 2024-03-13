@@ -1,0 +1,15 @@
+ru: кастаньеты
+en: castanets
+
+definition:
+  ru:
+    парный ударный музыкальный инструмент, каждая часть которого состоит из двух
+    пластинок-ракушек, соединённых шнурком
+
+  en:
+    a paired percussion musical instrument, each part of which consists of two
+    shell plates connected by a string
+  using:
+    concepts: |
+      percussion_instrument
+      string

@@ -1,0 +1,28 @@
+concept_post_rock
+=> nrel_main_idtf:
+	[пост-рок] (* <- lang_ru;; *);
+	[post-rock] (* <- lang_en;; *);;
+
+definition -> definition_of_post_rock (*
+	-> rrel_key_sc_element: concept_post_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пост-рок это жанр инструментальной рок-музыки, который характеризуется использованием электронных инструментов и элементов классической музыки, экспериментами с звуком, нестандартной структурой композиций и многогранностью музыкальных образов] (* <- lang_ru;; *);;
+		-> [Post-rock is a genre of instrumental rock music that is characterized by the use of electronic instruments and elements of classical music, sound experimentation, unconventional song structures, and multifaceted musical imagery] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пост-рок)] (* <- lang_ru;; *);
+		[Def. (post-rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,28 @@
+concept_afro_pop
+=> nrel_main_idtf:
+	[афро-поп] (* <- lang_ru;; *);
+	[afro pop] (* <- lang_en;; *);;
+
+definition -> definition_of_afro_pop (*
+	-> rrel_key_sc_element: concept_afro_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Афро-поп это популярный музыкальный жанр, который объединяет элементы африканской музыки и поп-музыки. Характеризуется использованием традиционных музыкальных инструментов и ритмов, а также современных звуковых эффектов] (* <- lang_ru;; *);;
+		-> [Afro pop is a popular music genre that combines elements of African music with pop music. It is characterized by the use of traditional musical instruments and rhythms, as well as modern sound effects] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (афро-поп)] (* <- lang_ru;; *);
+		[Def. (afro pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

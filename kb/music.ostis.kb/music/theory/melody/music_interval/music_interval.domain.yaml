@@ -1,0 +1,20 @@
+en: music interval
+ru: музыкального интервала
+
+parent: melody
+
+max: |
+  music_interval
+
+concepts: |
+  major_second
+  minor_second
+  major_third
+  minor_third
+  perfect_fourth
+  perfect_fifth
+  major_sixth
+  minor_sixth
+  major_seventh
+  minor_seventh
+  octave

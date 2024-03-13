@@ -1,0 +1,16 @@
+ru: асид-джаз
+en: acid jazz
+definition:
+  ru:
+    Асид-джаз это жанр джазовой музыки, возникший в Великобритании. Характеризуется смесью элементов фанка, соула, джаза и хип-хопа, использованием электронных инструментов, преобладанием ритмической секции и использованием сэмплов
+  en:
+    Acid jazz is a genre of jazz music that originated in the United Kingdom. It is characterized by a fusion of funk, soul, jazz, and hip-hop elements, the use of electronic instruments, a prominent rhythm section, and the use of samples
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

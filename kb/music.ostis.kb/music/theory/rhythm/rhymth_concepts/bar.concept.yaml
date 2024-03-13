@@ -1,0 +1,12 @@
+ru: такт
+en: bar
+definition:
+  ru: Часть музыки, ограниченная вертикальными линиями, известными как тактовые линии, обычно обозначающие один или несколько повторяющихся ударов
+  en: A segment of music bounded by vertical lines, known as bar lines, usually indicating one of more recurring beats
+  using:
+    concepts: |
+      rhythm
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

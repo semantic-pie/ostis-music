@@ -1,0 +1,13 @@
+ru: форте
+en: forte
+definition:
+  ru: Громкое исполнение
+  en: Loud performance
+
+  using:
+    concepts: |
+      viola
+      violin
+      string_instruments
+    nrels: |
+      used_musical_instruments

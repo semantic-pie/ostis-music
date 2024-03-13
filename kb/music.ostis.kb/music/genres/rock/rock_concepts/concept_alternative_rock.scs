@@ -1,0 +1,28 @@
+concept_alternative_rock
+=> nrel_main_idtf:
+	[альтернативный рок] (* <- lang_ru;; *);
+	[alternative rock] (* <- lang_en;; *);;
+
+definition -> definition_of_alternative_rock (*
+	-> rrel_key_sc_element: concept_alternative_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Альтернативный рок это широкий жанр рок-музыки, который объединяет в себе различные направления и стили, включая гранж, панк-рок, инди-рок и другие. Характеризуется более экспериментальным, необычным и инновационным подходом к музыке и текстам песен] (* <- lang_ru;; *);;
+		-> [Alternative rock is a broad genre of rock music that encompasses various styles and sub-genres, including grunge, punk rock, indie rock, and others. It is characterized by a more experimental, unusual, and innovative approach to music and song lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (альтернативный рок)] (* <- lang_ru;; *);
+		[Def. (alternative rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

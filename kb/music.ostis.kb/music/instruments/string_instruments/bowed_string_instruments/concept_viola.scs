@@ -1,0 +1,64 @@
+concept_viola
+=> nrel_main_idtf:
+	[альт] (* <- lang_ru;; *);
+	[viola] (* <- lang_en;; *);;
+
+definition -> definition_of_viola (*
+	-> rrel_key_sc_element: concept_viola;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Смычковый музыкальный инструмент с 4-мя струнами По высоте звучания занимает промежуточное положение между высокой скрипкой и более низкой виолончелью] (* <- lang_ru;; *);;
+		-> [An instrument playing an accompanying part] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (альт)] (* <- lang_ru;; *);
+		[Def. (viola)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_accompanying
+	};;
+*);;
+
+statement -> statement_of_alt_key (*
+	-> rrel_key_sc_element: concept_viola;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Обычно альт настроен по квинтам Cm Gm D1 A1] (* <- lang_ru;; *);;
+		-> [Usually the viola is tuned in fifth Cm Gm D1 A1] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (Строй альта)] (* <- lang_ru;; *);
+		[Stat. (The key of the viola)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_fifth
+	};;
+*);;
+
+statement -> statement_of_alt_sound_height (*
+	-> rrel_key_sc_element: concept_viola;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [По высоте звучания занимает промежуточное положение между высокой скрипкой и более низкой виолончелью] (* <- lang_ru;; *);;
+		-> [In terms of pitch, alt occupies an intermediate position between a high violin and a lower cello] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (Высота звука альта)] (* <- lang_ru;; *);
+		[Stat. (Viola sound height)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_cello;
+		concept_violin;
+		concept_pitch
+	};;
+*);;
+
+sc_node_class ->
+	concept_accompanying;
+	concept_fifth;
+	concept_cello;
+	concept_violin;
+	concept_pitch;;

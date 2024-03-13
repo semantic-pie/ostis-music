@@ -1,0 +1,14 @@
+ru: современная классика
+en: modern classics
+definition:
+  ru: Современная классика это жанр музыки, в котором используются элементы классической музыки и современных жанров, таких как рок, электронная музыка, джаз и другие. Особенностью современной классики является экспериментирование с звуком, использование современных технологий и оригинальных композиционных приемов
+  en: Modern classics is a genre of music that incorporates elements of classical music and modern genres such as rock, electronic music, jazz, and others. Modern classics is characterized by sound experimentation, the use of modern technology, and original compositional techniques
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

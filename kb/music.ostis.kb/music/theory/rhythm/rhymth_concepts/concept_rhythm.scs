@@ -1,0 +1,35 @@
+concept_rhythm
+=> nrel_main_idtf:
+	[ритмика] (* <- lang_ru;; *);
+	[rhythm] (* <- lang_en;; *);;
+
+definition -> definition_of_rhythm (*
+	-> rrel_key_sc_element: concept_rhythm;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Раздел теории музыки, изучающий ритмические структуры, метрику, длительности нот и пауз, а также их взаимоотношения и акценты] (* <- lang_ru;; *);;
+		-> [Part of music theory that studies rhythmic structures, metrics, note and rest durations, as well as their relationships and accents] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (ритмика)] (* <- lang_ru;; *);
+		[Def. (rhythm)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_bar;
+		concept_pickup_measure;
+		concept_metronome;
+		concept_syncopation;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_bar;
+	concept_pickup_measure;
+	concept_metronome;
+	concept_syncopation;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

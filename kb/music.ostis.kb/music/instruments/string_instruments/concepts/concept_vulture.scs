@@ -1,0 +1,52 @@
+concept_vulture
+=> nrel_main_idtf:
+	[гриф] (* <- lang_ru;; *);
+	[vultute] (* <- lang_en;; *);;
+
+definition -> definition_of_vulture (*
+	-> rrel_key_sc_element: concept_vulture;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Продолговатая, выступающая за пределы резонаторного корпуса часть струнного щипкового или смычкового музыкального инструмента] (* <- lang_ru;; *);;
+		-> [Oblong, protruding beyond the resonator housing part of a stringed plucked or bowed musical instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гриф)] (* <- lang_ru;; *);
+		[Def. (vultute)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string;
+		concept_resonator;
+		concept_string_instrument;
+		concept_bowed_string_instrument;
+		concept_plucking_string_instrument
+	};;
+*);;
+
+statement -> statement_of_statement_title (*
+	-> rrel_key_sc_element: concept_vulture;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [На грифе музыкант управляет длиной звучащей части струн, прижимая их к поверхности грифа или к ладам и тем самым меняя высоту звучания струн] (* <- lang_ru;; *);;
+		-> [Statement text] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (Суть грифа)] (* <- lang_ru;; *);
+		[Stat. (The essence of the vulture)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_fret;
+		concept_string
+	};;
+*);;
+
+sc_node_class ->
+	concept_string;
+	concept_resonator;
+	concept_string_instrument;
+	concept_bowed_string_instrument;
+	concept_plucking_string_instrument;
+	concept_fret;
+	concept_string;;

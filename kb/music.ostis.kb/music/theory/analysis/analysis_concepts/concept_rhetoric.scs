@@ -1,0 +1,31 @@
+concept_rhetoric
+=> nrel_main_idtf:
+	[риторика] (* <- lang_ru;; *);
+	[modulation] (* <- lang_en;; *);;
+
+definition -> definition_of_rhetoric (*
+	-> rrel_key_sc_element: concept_rhetoric;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Процесс использования средства вырзительности в музыкальном произведении для достижения эмоционального воздействия на слушателя] (* <- lang_ru;; *);;
+		-> [The process of using expressiveness in a piece of music to achieve an emotional impact on the listener] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (риторика)] (* <- lang_ru;; *);
+		[Def. (modulation)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_harmony;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_harmony;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

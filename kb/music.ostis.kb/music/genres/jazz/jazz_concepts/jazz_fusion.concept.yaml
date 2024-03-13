@@ -1,0 +1,16 @@
+ru: джаз-фьюжн
+en: jazz fusion
+definition:
+  ru: 
+    Джаз-фьюжн это жанр джазовой музыки, который объединяет элементы джаза и рока или других жанров в одном произведении. Это может включать в себя использование электрических инструментов, гитарных риффов, бас-гитары и синтезаторов
+  en: 
+    Jazz fusion is a genre of jazz music that combines elements of jazz and rock or other genres into one piece of music. This can include the use of electric instruments, guitar riffs, bass guitar, and synthesizers
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

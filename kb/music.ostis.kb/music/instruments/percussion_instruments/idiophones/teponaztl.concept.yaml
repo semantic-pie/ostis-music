@@ -1,0 +1,14 @@
+ru: тепонацтль
+en: teponaztl
+
+definition:
+  ru:
+    Ударный музыкальный инструмент, представляющий собой выдолбленный из бревна
+    горизонтальный цилиндр с прорезями
+
+  en:
+    Percussion musical instrument, which is a horizontal cylinder hollowed out
+    of a log with slots
+  using:
+    concepts: |
+      percussion_instrument

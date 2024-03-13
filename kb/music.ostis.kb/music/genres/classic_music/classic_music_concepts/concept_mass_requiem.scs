@@ -1,0 +1,28 @@
+concept_mass_requiem
+=> nrel_main_idtf:
+	[реквием] (* <- lang_ru;; *);
+	[mass requiem] (* <- lang_en;; *);;
+
+definition -> definition_of_mass_requiem (*
+	-> rrel_key_sc_element: concept_mass_requiem;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Реквием это жанр хоровой музыки, написанный на латинском языке. Он представляет собой музыкальную мессу для усопших и часто используется в церковной музыке] (* <- lang_ru;; *);;
+		-> [Mass requiem is a genre of choral music written in Latin. It is a musical Mass for the dead and is often used in church music] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (реквием)] (* <- lang_ru;; *);
+		[Def. (mass requiem)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

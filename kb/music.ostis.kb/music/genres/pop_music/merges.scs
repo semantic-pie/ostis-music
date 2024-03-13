@@ -1,0 +1,299 @@
+concept_pop_music
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_rhythm_and_blues;
+concept_rock_n_roll;
+concept_country_music;
+concept_disco;
+concept_funk;
+concept_dance_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_dance_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_dance_music;
+concept_pop;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_electropop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_synthpop;
+concept_new_wave;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_synthpop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_electronic_music;
+concept_new_wave;
+concept_post_punk;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_pop_rock
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_rock;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_rock_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_phonk
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_rock;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_rock_music;
+concept_electro_drums;
+concept_electronic_synthpop;
+=> nrel_place_of_origin:
+russia;
+united_states;
+=> nrel_year_of_origin:
+2010s;;
+
+concept_power_pop
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_rock;
+=> nrel_stylistic_origin:
+concept_glam_rock;
+concept_garage_rock;
+concept_pop_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1970s;
+=> nrel_derivative_form:
+concept_indie_pop;;
+
+concept_indie_pop
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_indie_rock;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_indie_rock;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_chamber_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_chamber_music;
+concept_baroque_pop;
+concept_pop_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+2000s;;
+
+concept_art_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_avant_garde;
+concept_pop_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_j_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+=> nrel_place_of_origin:
+japan;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_k_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_hip_hop;
+concept_electronic_music;
+=> nrel_place_of_origin:
+south_korea;
+=> nrel_year_of_origin:
+1990s;;
+
+concept_c_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+=> nrel_place_of_origin:
+china;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_mandopop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_cantopop;
+concept_taiwanese_pop;
+=> nrel_place_of_origin:
+china;
+taiwan;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_latin_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_latin_music;
+concept_tropical_music;
+=> nrel_place_of_origin:
+latin_america;
+spain;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_reggaeton_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_reggaeton;
+concept_pop_music;
+=> nrel_place_of_origin:
+puerto_rico;
+=> nrel_year_of_origin:
+1990s;;
+
+concept_afro_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_afrobeat;
+concept_afrobeats;
+=> nrel_place_of_origin:
+africa;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_euro_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_electronic_music;
+concept_eurodance;
+=> nrel_place_of_origin:
+europe;
+=> nrel_year_of_origin:
+1970s;;
+
+concept_country_pop
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_country_music;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_country_music;
+=> nrel_place_of_origin:
+united_states;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_folk_pop
+<- concept_pop_music;
+<- concept_music_genre;
+<- concept_folk_music;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_folk_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_dream_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_shoegaze;
+concept_indie_pop;
+=> nrel_place_of_origin:
+united_kingdom;
+united_states;
+=> nrel_year_of_origin:
+1980s;;
+
+concept_psychedelic_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_psychedelic_rock;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1960s;;
+
+concept_sophistic_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+concept_jazz;
+concept_bossa_nova;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1950s;;
+
+concept_teen_pop
+<- concept_pop_music;
+<- concept_music_genre;
+=> nrel_stylistic_origin:
+concept_pop_music;
+=> nrel_place_of_origin:
+united_states;
+united_kingdom;
+=> nrel_year_of_origin:
+1950s;;

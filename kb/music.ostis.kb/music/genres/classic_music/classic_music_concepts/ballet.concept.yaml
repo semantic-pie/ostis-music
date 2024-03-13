@@ -1,0 +1,14 @@
+ru: балетная музыка
+en: ballet music
+definition:
+  ru: Балетная музыка это музыка, написанная для сопровождения танцевальных постановок. Она характеризуется четкой ритмикой, выразительными мелодиями и разнообразными инструментальными звуками
+  en: Ballet music is music written for accompanying dance performances. It is characterized by clear rhythm, expressive melodies, and diverse instrumental sounds
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

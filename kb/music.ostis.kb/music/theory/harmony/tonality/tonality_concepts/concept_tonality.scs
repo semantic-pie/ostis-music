@@ -1,0 +1,33 @@
+concept_tonality
+=> nrel_main_idtf:
+	[тональность] (* <- lang_ru;; *);
+	[tonality] (* <- lang_en;; *);;
+
+definition -> definition_of_tonality (*
+	-> rrel_key_sc_element: concept_tonality;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Закрепление положения музыкального лада за определёнными по высоте звучания музыкальными тонами] (* <- lang_ru;; *);;
+		-> [Fixing the position of the musical fret for musical tones determined by the pitch] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (тональность)] (* <- lang_ru;; *);
+		[Def. (tonality)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_chord;
+		concept_seventh_chord;
+		concept_tonality;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_chord;
+	concept_seventh_chord;
+	concept_tonality;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

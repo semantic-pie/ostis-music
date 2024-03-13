@@ -1,0 +1,31 @@
+concept_syncopation
+=> nrel_main_idtf:
+	[синкопа] (* <- lang_ru;; *);
+	[syncopation] (* <- lang_en;; *);;
+
+definition -> definition_of_syncopation (*
+	-> rrel_key_sc_element: concept_syncopation;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Cмещение акцента с сильной доли такта на слабую, вызывающее несовпадение ритмического акцента с метрическим] (* <- lang_ru;; *);;
+		-> [A shift in emphasis with the presence of a beat on a weak one, causing a discrepancy between the rhythmic accent and the metrical one] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (синкопа)] (* <- lang_ru;; *);
+		[Def. (syncopation)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		concept_metronome;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;
+	concept_metronome;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;;

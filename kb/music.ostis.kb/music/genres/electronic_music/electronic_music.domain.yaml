@@ -1,0 +1,32 @@
+en: electronic music genre
+ru: жанра электронной музыки
+
+parent: music_genres
+
+max: |
+  electronic_music
+
+concepts: |
+  house
+  techno
+  trance
+  breakbeat
+  jungle
+  drum_and_bass
+  dubstep
+  garage
+  grime
+  ambient
+  downtempo
+  trip_hop
+  synthwave
+  industrial
+  ebm
+  synthpop
+  electro
+  nu_disco
+  idm
+  glitch
+  vaporwave
+  hardstyle
+  

@@ -1,0 +1,16 @@
+ru: идм
+en: idm
+definition:
+  ru:
+    Интеллектуальный дэнс-музыка IDM это жанр электронной музыки, который характеризуется сложными ритмами, нестандартными мелодиями, интеллектуальным подходом к звуковому дизайну и использованием широкого спектра электронных инструментов и обработки звука
+  en:
+    Intelligent dance music IDM is a genre of electronic music that is characterized by complex rhythms, unconventional melodies, an intellectual approach to sound design, and the use of a wide range of electronic instruments and sound processing techniques
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

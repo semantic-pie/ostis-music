@@ -1,0 +1,28 @@
+concept_garage
+=> nrel_main_idtf:
+	[гэридж] (* <- lang_ru;; *);
+	[garage] (* <- lang_en;; *);;
+
+definition -> definition_of_garage (*
+	-> rrel_key_sc_element: concept_garage;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Гэридж это жанр электронной танцевальной музыки, который возник в Великобритании и характеризуется использованием сэмплов и эффектов, а также ускоренными темпами] (* <- lang_ru;; *);;
+		-> [Garage is a genre of electronic dance music that originated in the UK and is characterized by the use of samples and effects, as well as fast tempos] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (гэридж)] (* <- lang_ru;; *);
+		[Def. (garage)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

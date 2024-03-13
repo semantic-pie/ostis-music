@@ -1,0 +1,17 @@
+ru: пиццикато
+en: pizzicato
+definition:
+  ru: Пиццикато это техника игры, которая включает в себя выщипывание струн пальцами
+  en: Pizzicato is a playing technique that involves plucking the strings with your fingers
+  using:
+    concepts: |
+      note
+      guitar
+      violin
+      cello
+      electro_guitar
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

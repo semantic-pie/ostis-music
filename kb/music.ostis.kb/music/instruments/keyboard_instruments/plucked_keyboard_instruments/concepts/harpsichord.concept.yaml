@@ -1,0 +1,15 @@
+ru: клавесин
+en: harpsichord
+
+definition:
+  ru:
+    Клавишный струнный музыкальный инструмент со щипковым способом
+    звукоизвлечения
+
+  en:
+    A keyboard stringed musical instrument with a plucked method of sound
+    extraction
+  using:
+    concepts: |
+      music_instrument
+      string

@@ -1,0 +1,29 @@
+concept_eighth_rest
+=> nrel_main_idtf:
+	[восьмая пауза] (* <- lang_ru;; *);
+	[eighth rest] (* <- lang_en;; *);;
+
+definition -> definition_of_eighth_rest (*
+	-> rrel_key_sc_element: concept_eighth_rest;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Восьмая пауза это символ в нотной грамоте, который обозначает паузу в течение одной восьмой музыкальной доли. Представляет собой перевернутую запятую со стержнем] (* <- lang_ru;; *);;
+		-> [The eighth rest is a symbol in musical notation that denotes a pause for one eighth of a musical measure. Represents an inverted comma with a stem] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (восьмая пауза)] (* <- lang_ru;; *);
+		[Def. (eighth rest)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_notation;
+		nrel_duration
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_music_notation;;
+
+sc_node_norole_relation ->
+	nrel_duration;;

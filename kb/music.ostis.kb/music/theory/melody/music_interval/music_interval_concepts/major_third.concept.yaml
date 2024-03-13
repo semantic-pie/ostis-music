@@ -1,0 +1,11 @@
+ru: большая терция
+en: major third
+definition:
+  ru: Интервал, состоящий из четырех полутонов
+  en: Interval of a major third, consisting of four semitones
+  using:
+    concepts: |
+      music_interval
+    nrels: |
+      used_musical_instruments
+      playing_techniques

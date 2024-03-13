@@ -1,0 +1,25 @@
+concept_teponaztl
+=> nrel_main_idtf:
+	[тепонацтль] (* <- lang_ru;; *);
+	[teponaztl] (* <- lang_en;; *);;
+
+definition -> definition_of_teponaztl (*
+	-> rrel_key_sc_element: concept_teponaztl;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент, представляющий собой выдолбленный из бревна горизонтальный цилиндр с прорезями] (* <- lang_ru;; *);;
+		-> [Percussion musical instrument, which is a horizontal cylinder hollowed out of a log with slots] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (тепонацтль)] (* <- lang_ru;; *);
+		[Def. (teponaztl)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;;

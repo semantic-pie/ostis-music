@@ -1,0 +1,33 @@
+concept_pickup_measure
+=> nrel_main_idtf:
+	[затакт] (* <- lang_ru;; *);
+	[pickup measure] (* <- lang_en;; *);;
+
+definition -> definition_of_pickup_measure (*
+	-> rrel_key_sc_element: concept_pickup_measure;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Неполный такт, предшествующий сильной доле первого полного такта. Поскольку такт не является завершенным, то в конце музыкального произведения должен присутствавать еще один неполный такт] (* <- lang_ru;; *);;
+		-> [An incomplete measure preceding the downbeat of the first full bar. Since the bar is not complete, then at the end of the piece of music there must be another incomplete bar] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (затакт)] (* <- lang_ru;; *);
+		[Def. (pickup measure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		concept_bar;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;
+	concept_bar;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

@@ -1,0 +1,80 @@
+section_subject_domain_of_music_genres
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область музыкальных жанров] (* <- lang_ru;; *);
+	[Section. Subject domain of music genres] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_classic_music;
+	section_subject_domain_of_rock;
+	section_subject_domain_of_jazz;
+	section_subject_domain_of_pop_music;
+	section_subject_domain_of_electronic_music
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_music_genres;
+	concept_music_genre;
+	concept_classic_music;
+	concept_rock;
+	concept_jazz;
+	concept_pop_music;
+	concept_electronic_music;
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;
+
+section_subject_domain_of_music_genres=[*
+	subject_domain_of_music_genres
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область музыкальных жанров] (* <- lang_ru;; *);
+		[Subject Domain of music genres] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_music_genre;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_classic_music;
+		concept_rock;
+		concept_jazz;
+		concept_pop_music;
+		concept_electronic_music;
+
+	-> rrel_explored_relation:
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_classic_music;
+		subject_domain_of_rock;
+		subject_domain_of_jazz;
+		subject_domain_of_pop_music;
+		subject_domain_of_electronic_music;;
+*];;
+
+sc_node_class ->
+	concept_music_genre;
+	concept_classic_music;
+	concept_rock;
+	concept_jazz;
+	concept_pop_music;
+	concept_electronic_music;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;
+	nrel_derivative_form;
+	nrel_used_musical_instruments;;

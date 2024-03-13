@@ -1,0 +1,28 @@
+concept_dance_pop
+=> nrel_main_idtf:
+	[данс-поп] (* <- lang_ru;; *);
+	[dance pop] (* <- lang_en;; *);;
+
+definition -> definition_of_dance_pop (*
+	-> rrel_key_sc_element: concept_dance_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Данс-поп это жанр поп-музыки, который характеризуется ритмичными и танцевальными композициями с использованием электронных музыкальных инструментов, синтезаторов и программного обеспечения] (* <- lang_ru;; *);;
+		-> [Dance pop is a genre of pop music that is characterized by rhythmic and danceable compositions that use electronic musical instruments, synthesizers, and software] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (данс-поп)] (* <- lang_ru;; *);
+		[Def. (dance pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

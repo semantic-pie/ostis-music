@@ -1,0 +1,39 @@
+concept_music
+=> nrel_main_idtf:
+	[музыка] (* <- lang_ru;; *);
+	[music] (* <- lang_en;; *);;
+
+definition -> definition_of_music (*
+	-> rrel_key_sc_element: concept_music;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [искусство, которое выражается через звуковые ритмы, мелодии и гармонии. Она создается и исполняется с помощью музыкальных инструментов или голоса, и обладает способностью вызывать эмоциональные и эстетические впечатления у слушателя] (* <- lang_ru;; *);;
+		-> [упорядоченное сочетание звуков, имеющее определенную структуру и ритм. Она может быть инструментальной или вокальной, и служит средством передачи и выражения идей, настроений и эмоций] (* <- lang_ru;; *);;
+		-> [универсальный язык, понятный и доступный людям разных культур и национальностей. Она имеет способность объединять людей, вызывать сопереживание и передавать истории и традиции народов. Музыка также является формой самовыражения и средством развлечения и разрядки напряжения] (* <- lang_ru;; *);;
+		-> [art that is expressed through sound rhythms, melodies and harmonies. It is created and performed with the help of musical instruments or voice, and has the ability to evoke emotional and aesthetic impressions the listener has] (* <- lang_en;; *);;
+		-> [an ordered combination of sounds that has a certain structure and rhythm. She it can be instrumental or vocal, and serves as a means of transmitting and expressions of ideas, moods and emotions] (* <- lang_en;; *);;
+		-> [an universal language that is understandable and accessible to people of different cultures and nationalities. It has the ability to unite people, to cause empathy and transmit the stories and traditions of peoples. Music also it is a form of self-expression and a means of entertainment and relaxation voltage] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (музыка)] (* <- lang_ru;; *);
+		[Def. (music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		concept_melody;
+		concept_harmony;
+		concept_music_instrument;
+		concept_sound;
+		concept_vocal
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;
+	concept_melody;
+	concept_harmony;
+	concept_music_instrument;
+	concept_sound;
+	concept_vocal;;

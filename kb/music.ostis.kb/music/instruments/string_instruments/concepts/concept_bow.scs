@@ -1,0 +1,25 @@
+concept_bow
+=> nrel_main_idtf:
+	[смычок] (* <- lang_ru;; *);
+	[bow] (* <- lang_en;; *);;
+
+definition -> definition_of_bow (*
+	-> rrel_key_sc_element: concept_bow;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Приспособление для приведения струн смычковых музыкальных инструментов в колебательное движение. В общем виде состоит из упругой деревянной основы, к обоим концам которой присоединяют пучок конских волос, натираемых канифолью для усиления трения со струной] (* <- lang_ru;; *);;
+		-> [A device for bringing strings of bowed musical instruments into oscillatory motion. In general, it consists of an elastic wooden base, to both ends of which a bunch of horse hair rubbed with rosin is attached to increase the friction with the string] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (смычок)] (* <- lang_ru;; *);
+		[Def. (bow)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_string
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_string;;

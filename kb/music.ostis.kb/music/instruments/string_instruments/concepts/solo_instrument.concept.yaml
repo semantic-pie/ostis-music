@@ -1,0 +1,12 @@
+ru: сольный инструмент
+en: solo instrument
+
+definition:
+  ru:
+    Инструмент, играющий соло партию
+
+  en:
+    An instrument playing a solo part
+  using:
+    concepts: |
+      solo

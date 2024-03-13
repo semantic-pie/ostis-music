@@ -1,0 +1,122 @@
+concept_country 
+<- sc_node_class;;
+
+concept_continent
+<- sc_node_class;;
+
+concept_region
+<- sc_node_class;;
+
+russia
+<- concept_country;
+=> nrel_main_idtf:
+    [Россия](* <- lang_ru;; *);    
+	[Russion](* <- lang_en;; *);;
+
+united_states
+<- concept_country;
+=> nrel_main_idtf:
+    [Соединенные Штаты Америки](* <- lang_ru;; *);    
+	[United States of America](* <- lang_en;; *);;
+
+united_kingdom
+<- concept_country;
+=> nrel_main_idtf:
+    [Великобритания](* <- lang_ru;; *);    
+	[Great britain](* <- lang_en;; *);;
+
+canada
+<- concept_country;
+=> nrel_main_idtf:
+    [Канада](* <- lang_ru;; *);    
+	[Canada](* <- lang_en;; *);;
+
+australia
+<- concept_country;
+=> nrel_main_idtf:
+    [Австралия](* <- lang_ru;; *);    
+	[Australia](* <- lang_en;; *);;
+
+japan
+<- concept_country;
+=> nrel_main_idtf:
+    [Япония](* <- lang_ru;; *);    
+	[Japan](* <- lang_en;; *);;
+
+germany
+<- concept_country;
+=> nrel_main_idtf:
+    [Германия](* <- lang_ru;; *);    
+	[Germany](* <- lang_en;; *);;
+
+norway
+<- concept_country;
+=> nrel_main_idtf:
+    [Норвегия](* <- lang_ru;; *);    
+	[Norway](* <- lang_en;; *);;
+
+sweden
+<- concept_country;
+=> nrel_main_idtf:
+    [Швеция](* <- lang_ru;; *);    
+	[Sweden](* <- lang_en;; *);;
+
+europe
+<- concept_continent;
+=> nrel_main_idtf:
+    [Европа](* <- lang_ru;; *);    
+	[Europe](* <- lang_en;; *);;
+
+south_korea
+<- concept_country;
+=> nrel_main_idtf:
+[Южная Корея](* <- lang_ru;; *);
+[South Korea](* <- lang_en;; *);;
+
+china
+<- concept_country;
+=> nrel_main_idtf:
+[Китай](* <- lang_ru;; *);
+[China](* <- lang_en;; *);;
+
+taiwan
+<- concept_country;
+=> nrel_main_idtf:
+[Тайвань](* <- lang_ru;; *);
+[Taiwan](* <- lang_en;; *);;
+
+latin_america
+<- concept_region;
+=> nrel_main_idtf:
+[Латинская Америка](* <- lang_ru;; *);
+[Latin America](* <- lang_en;; *);;
+
+spain
+<- concept_country;
+=> nrel_main_idtf:
+[Испания](* <- lang_ru;; *);
+[Spain](* <- lang_en;; *);;
+
+puerto_rico
+<- concept_country;
+=> nrel_main_idtf:
+[Пуэрто-Рико](* <- lang_ru;; *);
+[Puerto Rico](* <- lang_en;; *);;
+
+africa
+<- concept_continent;
+=> nrel_main_idtf:
+[Африка](* <- lang_ru;; *);
+[Africa](* <- lang_en;; *);;
+
+france
+<- concept_country;
+=> nrel_main_idtf:
+    [Франция](* <- lang_ru;; *);    
+	[France](* <- lang_en;; *);;
+
+cuba
+<- concept_country;
+=> nrel_main_idtf:
+    [Куба](* <- lang_ru;; *);    
+	[Cuba](* <- lang_en;; *);;

@@ -1,0 +1,43 @@
+section_subject_domain_of_rhythm
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область ритмики] (* <- lang_ru;; *);
+	[Section. Subject domain of rhythm] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_rhythm;
+	concept_rhythm;
+	concept_bar;
+	concept_syncopation;
+	concept_pickup_measure;
+	concept_metronome;;
+
+section_subject_domain_of_rhythm=[*
+	subject_domain_of_rhythm
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область ритмики] (* <- lang_ru;; *);
+		[Subject Domain of rhythm] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_rhythm;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_bar;
+		concept_syncopation;
+		concept_pickup_measure;
+		concept_metronome;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_theory;;
+*];;
+
+sc_node_class ->
+	concept_rhythm;
+	concept_bar;
+	concept_syncopation;
+	concept_pickup_measure;
+	concept_metronome;;

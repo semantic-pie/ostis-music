@@ -1,0 +1,16 @@
+ru: индастриал
+en: industrial
+definition:
+  ru:
+    Индастриал это жанр рок-музыки, который характеризуется использованием промышленных звуков, грязных гитарных риффов, машинных ритмов и дисторшн-эффектов, создающих агрессивную и депрессивную атмосферу
+  en:
+    Industrial is a genre of rock music that is characterized by the use of industrial sounds, dirty guitar riffs, machine rhythms, and distortion effects, creating an aggressive and depressive atmosphere
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

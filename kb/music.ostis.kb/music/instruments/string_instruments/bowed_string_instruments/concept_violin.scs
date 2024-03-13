@@ -1,0 +1,29 @@
+concept_violin
+=> nrel_main_idtf:
+	[скрипка] (* <- lang_ru;; *);
+	[violin] (* <- lang_en;; *);;
+
+definition -> definition_of_violin (*
+	-> rrel_key_sc_element: concept_violin;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Смычковый музыкальный инструмент с 4-мя струнами. Самая высокая по тону среди альта, виолончели и контрабаса] (* <- lang_ru;; *);;
+		-> [A bowed musical instrument with 4 strings. The highest in tone among viola, cello and double bass] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (скрипка)] (* <- lang_ru;; *);
+		[Def. (violin)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_viola;
+		concept_cello;
+		concept_double_bass
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_viola;
+	concept_cello;
+	concept_double_bass;;

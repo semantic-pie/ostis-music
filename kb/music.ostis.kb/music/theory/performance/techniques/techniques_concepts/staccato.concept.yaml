@@ -1,0 +1,15 @@
+ru: стаккато
+en: staccato
+definition:
+  ru: Стаккато это техника исполнения, которая предполагает отрывистое звучание ноты. На скрипке стаккато интерпретируется как укороченные, отстраненные ноты с небольшим акцентом в начале смычка
+  en: Staccato is a playing technique that involves the abrupt sound of a note. On the violin, staccato is interpreted as shortened, distant notes with a slight accent at the beginning of the bow
+  using:
+    concepts: |
+      note
+      violin
+      cello
+      techniques
+
+    nrels: |
+      used_musical_instruments
+      playing_techniques

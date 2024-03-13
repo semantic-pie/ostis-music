@@ -1,0 +1,27 @@
+concept_rainstick
+=> nrel_main_idtf:
+	[рейнстик] (* <- lang_ru;; *);
+	[rainstick] (* <- lang_en;; *);;
+
+definition -> definition_of_rainstick (*
+	-> rrel_key_sc_element: concept_rainstick;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Ударный музыкальный инструмент, представляющий собой длинную полую глухо закрытую на торцах трубу с расположенными по всей длине внутренними перегородками, частично заполненную мелким сыпучим наполнителем] (* <- lang_ru;; *);;
+		-> [Percussion musical instrument, which is a long hollow hollow a pipe closed at the ends with internal pipes located along the entire length partitions partially filled with fine bulk filler] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (рейнстик)] (* <- lang_ru;; *);
+		[Def. (rainstick)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_percussion_instrument;
+		concept_pipe
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_percussion_instrument;
+	concept_pipe;;

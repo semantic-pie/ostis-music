@@ -1,0 +1,28 @@
+concept_ambient
+=> nrel_main_idtf:
+	[амбиент] (* <- lang_ru;; *);
+	[ambient] (* <- lang_en;; *);;
+
+definition -> definition_of_ambient (*
+	-> rrel_key_sc_element: concept_ambient;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Амбиент это жанр электронной музыки, который характеризуется мягкими звуками, медленным темпом и атмосферностью, часто используется как фоновая музыка для создания настроения] (* <- lang_ru;; *);;
+		-> [Ambient is a genre of electronic music that is characterized by soft sounds, slow tempo, and atmospheric soundscapes, often used as background music to create a mood] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (амбиент)] (* <- lang_ru;; *);
+		[Def. (ambient)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,37 @@
+section_subject_domain_of_drums
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область барабанов] (* <- lang_ru;; *);
+	[Section. Subject domain of drums] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_drums;
+	concept_drum;
+	concept_electro_drums;
+	concept_drums;;
+
+section_subject_domain_of_drums=[*
+	subject_domain_of_drums
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область барабанов] (* <- lang_ru;; *);
+		[Subject Domain of drums] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_drum;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_electro_drums;
+		concept_drums;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_membranophones;;
+*];;
+
+sc_node_class ->
+	concept_drum;
+	concept_electro_drums;
+	concept_drums;;

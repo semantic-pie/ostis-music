@@ -1,0 +1,28 @@
+concept_pop_music
+=> nrel_main_idtf:
+	[популярная музыка] (* <- lang_ru;; *);
+	[popular music] (* <- lang_en;; *);;
+
+definition -> definition_of_pop_music (*
+	-> rrel_key_sc_element: concept_pop_music;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Популярная музыка это широкий жанр музыки, который охватывает множество стилей и направлений, созданных для широкой аудитории. Она часто характеризуется простыми мелодия, легко запоминающимися припевами и простыми текстами, которые легко запоминаются и поются] (* <- lang_ru;; *);;
+		-> [Popular music is a broad genre music that encompasses many styles and directions created for a wide audience. It is often characterized by simple melodies, easily memorable choruses, and simple lyrics that are easy to remember and sing along to] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (популярная музыка)] (* <- lang_ru;; *);
+		[Def. (popular music)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

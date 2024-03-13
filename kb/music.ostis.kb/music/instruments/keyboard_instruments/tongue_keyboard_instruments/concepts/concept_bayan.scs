@@ -1,0 +1,27 @@
+concept_bayan
+=> nrel_main_idtf:
+	[баян] (* <- lang_ru;; *);
+	[bayan] (* <- lang_en;; *);;
+
+definition -> definition_of_bayan (*
+	-> rrel_key_sc_element: concept_bayan;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [клавишный музыкальный инструмент, отличающийся от аккордеона использованием кнопочной клавиатуры вместо механических клавиш] (* <- lang_ru;; *);;
+		-> [a keyboard musical instrument that differs from an accordion by using a push-button keyboard instead of mechanical keys] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (баян)] (* <- lang_ru;; *);
+		[Def. (bayan)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_keyboard;
+		concept_music_instrument
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_keyboard;
+	concept_music_instrument;;

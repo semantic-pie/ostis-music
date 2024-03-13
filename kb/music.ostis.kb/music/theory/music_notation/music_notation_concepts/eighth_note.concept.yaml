@@ -1,0 +1,11 @@
+ru: восьмая нота
+en: eighth note
+definition:
+  ru: Восьмая нота это музыкальный символ, играемая в течении одной восьмой от продолжительности целой доли. Нота представляет собой вытянутый закрашеный овал, с добавленным стержнем, направленным вниз или верх и одним флажком на конце стержня
+  en: An eighth note is a musical note played for one eighth of the duration of a whole note. It looks like an elongated, filled-in oval with a stem pointing up or down and one flag on the end of the stem
+  using:
+    concepts: | 
+      music_notation
+    nrels: |
+      note_name
+      duration

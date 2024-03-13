@@ -1,0 +1,16 @@
+ru: оркестровая музыка
+en: orchestral music
+definition:
+  ru:
+    Оркестровая музыка это музыкальный жанр, в котором оркестр играет главную роль. Оркестр состоит из множества музыкальных инструментов, которые могут играть сольно или вместе. Оркестровая музыка может быть в разных стилях и жанрах
+  en:
+    Orchestral music is a musical genre in which the orchestra plays the main role. The orchestra consists of many musical instruments that can play solo or together. Orchestral music can be in different styles and genres
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

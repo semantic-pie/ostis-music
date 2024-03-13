@@ -1,0 +1,16 @@
+ru: вейпорвейв
+en: vaporwave
+definition:
+  ru:
+    Вейпорвейв это жанр электронной музыки, который характеризуется использованием сэмплов поп-культуры восьмидесятых, а также обработкой их звуковых материалов с помощью различных эффектов и техник
+  en:
+    Vaporwave is a genre of electronic music that is characterized by the use of samples pop culture, as well as the processing of their sound materials using various effects and techniques
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

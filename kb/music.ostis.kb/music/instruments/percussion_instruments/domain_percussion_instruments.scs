@@ -1,0 +1,59 @@
+section_subject_domain_of_percussion_instruments
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область ударных инструментов] (* <- lang_ru;; *);
+	[Section. Subject domain of percussion instrument] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_membranophones;
+	section_subject_domain_of_idiophones
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_percussion_instruments;
+	concept_percussion_instrument;
+	concept_membranophones;
+	concept_idiophones;
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;;
+
+section_subject_domain_of_percussion_instruments=[*
+	subject_domain_of_percussion_instruments
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область ударных инструментов] (* <- lang_ru;; *);
+		[Subject Domain of percussion instrument] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_percussion_instrument;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_membranophones;
+		concept_idiophones;
+
+	-> rrel_explored_relation:
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_instruments;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_membranophones;
+		subject_domain_of_idiophones;;
+*];;
+
+sc_node_class ->
+	concept_percussion_instrument;
+	concept_membranophones;
+	concept_idiophones;;
+
+sc_node_norole_relation ->
+	nrel_stylistic_origin;
+	nrel_place_of_origin;
+	nrel_year_of_origin;;

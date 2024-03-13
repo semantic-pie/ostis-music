@@ -1,0 +1,26 @@
+concept_thrash_metal
+=> nrel_main_idtf:
+	[трэш-метал] (* <- lang_ru;; *);
+	[thrash metal] (* <- lang_en;; *);;
+
+definition -> definition_of_thrash_metal (*
+	-> rrel_key_sc_element: concept_thrash_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Трэш-метал это жанр экстремальной музыки, который характеризуется быстрыми темпами, сложными гитарными рифами, агрессивным вокалом и иногда использованием электронных эффектов] (* <- lang_ru;; *);;
+		-> [Thrash metal is a genre of extreme music that is characterized by fast tempos, complex guitar riffs, aggressive vocals, and sometimes the use of electronic effects] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (трэш-метал)] (* <- lang_ru;; *);
+		[Def. (thrash metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

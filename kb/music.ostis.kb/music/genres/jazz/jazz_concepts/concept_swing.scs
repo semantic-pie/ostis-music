@@ -1,0 +1,28 @@
+concept_swing
+=> nrel_main_idtf:
+	[свинг] (* <- lang_ru;; *);
+	[swing] (* <- lang_en;; *);;
+
+definition -> definition_of_swing (*
+	-> rrel_key_sc_element: concept_swing;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Свинг жанр джазовой музыки, возникший в США. Он характеризуется ритмом насыщенным подчеркиванием втрой и четвёртой долей, а также синкопированием. Свинг также известен своей танцевальной составляющей] (* <- lang_ru;; *);;
+		-> [Swing is a genre of jazz music that originated in the United States. It is characterized by a rhythm with a strong emphasis on beats two and four, as well as syncopation. Swing is also known for its danceable quality] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (свинг)] (* <- lang_ru;; *);
+		[Def. (swing)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

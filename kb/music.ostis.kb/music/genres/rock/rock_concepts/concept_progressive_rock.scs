@@ -1,0 +1,28 @@
+concept_progressive_rock
+=> nrel_main_idtf:
+	[прогрессивный рок] (* <- lang_ru;; *);
+	[progressive rock] (* <- lang_en;; *);;
+
+definition -> definition_of_progressive_rock (*
+	-> rrel_key_sc_element: concept_progressive_rock;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Прогрессивный рок это жанр рок-музыки, который характеризуется использованием сложных музыкальных структур, нестандартными ритмами, инструментальными виртуозными сольными партиями и экспериментами со звуком] (* <- lang_ru;; *);;
+		-> [Progressive rock is a genre of rock music that is characterized by the use of complex musical structures, unconventional rhythms, virtuosic instrumental solos, and sound experimentation] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (прогрессивный рок)] (* <- lang_ru;; *);
+		[Def. (progressive rock)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

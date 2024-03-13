@@ -1,0 +1,14 @@
+ru: джангл
+en: jungle
+definition:
+  ru: Джангл жанр электронной танцевальной музыки, который развился в Англии на основе брейкбита, сэмплирования регги, даба и других жанров. Основные элементы джангла это скоростные ритмы, брейки и бас
+  en: Jungle is a genre of electronic dance music that developed in England, based on breakbeat, sampling of reggae, dub and other genres. The main elements of jungle are fast rhythms, breaks, and bass
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

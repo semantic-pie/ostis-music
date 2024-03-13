@@ -1,0 +1,26 @@
+concept_shoegaze
+=> nrel_main_idtf:
+	[шугейз] (* <- lang_ru;; *);
+	[shoegaze] (* <- lang_en;; *);;
+
+definition -> definition_of_shoegaze (*
+	-> rrel_key_sc_element: concept_shoegaze;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Шугейз это жанр альтернативной рок-музыки, который возник в Великобритании в конце 1980-х годов. Характеризуется гитарными педалями эффектов, плотными звуковыми текстурами, мелодичными вокалами и эмоциональными текстами песен] (* <- lang_ru;; *);;
+		-> [Shoegaze is a genre of alternative rock music that originated in the United Kingdom in the late 1980s. It is characterized by the use of guitar effects pedals, dense sound textures, melodic vocals, and emotional song lyrics] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (шугейз)] (* <- lang_ru;; *);
+		[Def. (shoegaze)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;

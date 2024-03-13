@@ -1,0 +1,11 @@
+ru: музыкальный инструмент
+en: musical instrument
+
+definition:
+  ru:
+    предмет, способный издавать звук, эстетически воспринимаемый как музыкальный
+
+  en: an object capable of producing sound, aesthetically perceived as musical
+  using:
+    concepts: |
+      music

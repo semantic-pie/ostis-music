@@ -1,0 +1,100 @@
+section_subject_domain_of_music_theory
+
+<- non_atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область музыкальной теории] (* <- lang_ru;; *);
+	[Section. Subject domain of music theory] (* <- lang_en;; *);
+
+<= nrel_section_decomposition: {
+	section_subject_domain_of_harmony;
+	section_subject_domain_of_melody;
+	section_subject_domain_of_rhythm;
+	section_subject_domain_of_performance;
+	section_subject_domain_of_analysis;
+	section_subject_domain_of_music_notation
+};
+
+<- rrel_key_sc_element:
+	subject_domain_of_music_theory;
+	concept_music_theory;
+	concept_harmony;
+	concept_melody;
+	concept_rhythm;
+	concept_performance;
+	concept_analysis;
+	concept_music_notation;
+	concept_music_interval;
+	concept_chord;
+	concept_musical_symbols;
+	concept_tonality;
+	concept_triad;
+	nrel_musical_size;
+	nrel_playing_solo;
+	nrel_dinamics;
+	nrel_mode;
+	nrel_playing_in_unison;;
+
+section_subject_domain_of_music_theory=[*
+	subject_domain_of_music_theory
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область музыкальной теории] (* <- lang_ru;; *);
+		[Subject Domain of music theory] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_music_theory;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_harmony;
+		concept_melody;
+		concept_rhythm;
+		concept_performance;
+		concept_analysis;
+		concept_music_notation;
+		concept_music_interval;
+		concept_chord;
+		concept_musical_symbols;
+		concept_tonality;
+		concept_triad;
+
+	-> rrel_explored_relation:
+		nrel_musical_size;
+		nrel_playing_solo;
+		nrel_dinamics;
+		nrel_mode;
+		nrel_playing_in_unison;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music;
+
+	=> nrel_private_subject_domain:
+		subject_domain_of_harmony;
+		subject_domain_of_melody;
+		subject_domain_of_rhythm;
+		subject_domain_of_performance;
+		subject_domain_of_analysis;
+		subject_domain_of_music_notation;;
+*];;
+
+sc_node_class ->
+	concept_music_theory;
+	concept_harmony;
+	concept_melody;
+	concept_rhythm;
+	concept_performance;
+	concept_analysis;
+	concept_music_notation;
+	concept_music_interval;
+	concept_chord;
+	concept_musical_symbols;
+	concept_tonality;
+	concept_triad;;
+
+sc_node_norole_relation ->
+	nrel_musical_size;
+	nrel_playing_solo;
+	nrel_dinamics;
+	nrel_mode;
+	nrel_playing_in_unison;;

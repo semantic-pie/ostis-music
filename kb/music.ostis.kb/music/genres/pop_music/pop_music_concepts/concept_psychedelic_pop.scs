@@ -1,0 +1,28 @@
+concept_psychedelic_pop
+=> nrel_main_idtf:
+	[психоделик поп] (* <- lang_ru;; *);
+	[psychedelic pop] (* <- lang_en;; *);;
+
+definition -> definition_of_psychedelic_pop (*
+	-> rrel_key_sc_element: concept_psychedelic_pop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Психоделик-поп это жанр популярной музыки, который объединяет в себе элементы психоделической музыки и поп-музыки. Характеризуется использованием эффектов задержки, фазирования, ограничения и реверберации, а также использованием нестандартных звуков и инструментов] (* <- lang_ru;; *);;
+		-> [Psychedelic pop is a genre of popular music that combines elements of psychedelic music and pop music. It is characterized by the use of delay, phasing, limiting, and reverb effects, as well as the use of unconventional sounds and instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (психоделик поп)] (* <- lang_ru;; *);
+		[Def. (psychedelic pop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

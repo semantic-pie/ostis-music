@@ -1,0 +1,10 @@
+ru: половинная пауза
+en: half rest
+definition:
+  ru: Половинная пауза это символ в нотной грамоте, который обозначает паузу в течение половины музыкальной доли. Представляет собой закрашенный прямоугольник, который располагается над третьей линейкой нотного стана
+  en: A half rest is a symbol in musical notation that indicates a pause lasting for one half of a musical measure. The half rest looks like a vertical line intersected by a horizontal line located on the middle line of the staff, where the note G typically appears on the treble clef
+  using:
+    concepts: |
+      music_notation
+    nrels: |
+      duration

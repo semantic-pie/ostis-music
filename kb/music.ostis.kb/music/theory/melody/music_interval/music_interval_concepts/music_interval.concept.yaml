@@ -1,0 +1,11 @@
+ru: музыкальный интервал
+en: music interval
+definition:
+  ru: Соотношение двух музыкальных звуков по их высоте
+  en: Ratio of two musical sounds according to their pitch
+  using:
+    concepts: |
+      octave
+    nrels: |
+      used_musical_instruments
+      playing_techniques

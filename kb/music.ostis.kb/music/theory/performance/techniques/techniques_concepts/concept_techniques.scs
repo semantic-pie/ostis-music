@@ -1,0 +1,41 @@
+concept_techniques
+=> nrel_main_idtf:
+	[техники исполнения] (* <- lang_ru;; *);
+	[techniques] (* <- lang_en;; *);;
+
+definition -> definition_of_techniques (*
+	-> rrel_key_sc_element: concept_techniques;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Техники исполнения это различные методы, которые музыканты применяют для извлечения звуков на своих инструментах. Они помогают музыкантам создавать разнообразные эффекты, выразительность и техническую сложность в своём исполнении] (* <- lang_ru;; *);;
+		-> [Performance techniques are the various methods that musicians use to produce sounds on their instruments. They help musicians create a variety of effects, expressiveness and technical complexity in their performance] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (техники исполнения)] (* <- lang_ru;; *);
+		[Def. (techniques)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_note;
+		concept_violin;
+		concept_cello;
+		concept_guitar;
+		concept_electro_guitar;
+		concept_string_instruments;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_note;
+	concept_violin;
+	concept_cello;
+	concept_guitar;
+	concept_electro_guitar;
+	concept_string_instruments;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

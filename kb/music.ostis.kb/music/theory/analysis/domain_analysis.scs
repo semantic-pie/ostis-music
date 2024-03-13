@@ -1,0 +1,46 @@
+section_subject_domain_of_analysis
+
+<- atomic_section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область анализа] (* <- lang_ru;; *);
+	[Section. Subject domain of analysis] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	subject_domain_of_analysis;
+	concept_analysis;
+	concept_modulation;
+	concept_structure;
+	concept_rhetoric;
+	concept_transposition;
+	concept_rhythmic_figures;;
+
+section_subject_domain_of_analysis=[*
+	subject_domain_of_analysis
+	<- sc_node_struct;
+	<- subject_domain;
+	=> nrel_main_idtf:
+		[Предметная область анализа] (* <- lang_ru;; *);
+		[Subject Domain of analysis] (* <- lang_en;; *);
+
+	-> rrel_maximum_studied_object_class:
+		concept_analysis;
+
+	-> rrel_not_maximum_studied_object_class:
+		concept_modulation;
+		concept_structure;
+		concept_rhetoric;
+		concept_transposition;
+		concept_rhythmic_figures;
+
+	<= nrel_private_subject_domain:
+		subject_domain_of_music_theory;;
+*];;
+
+sc_node_class ->
+	concept_analysis;
+	concept_modulation;
+	concept_structure;
+	concept_rhetoric;
+	concept_transposition;
+	concept_rhythmic_figures;;

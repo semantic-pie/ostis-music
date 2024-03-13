@@ -1,0 +1,31 @@
+concept_bar
+=> nrel_main_idtf:
+	[такт] (* <- lang_ru;; *);
+	[bar] (* <- lang_en;; *);;
+
+definition -> definition_of_bar (*
+	-> rrel_key_sc_element: concept_bar;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Часть музыки, ограниченная вертикальными линиями, известными как тактовые линии, обычно обозначающие один или несколько повторяющихся ударов] (* <- lang_ru;; *);;
+		-> [A segment of music bounded by vertical lines, known as bar lines, usually indicating one of more recurring beats] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (такт)] (* <- lang_ru;; *);
+		[Def. (bar)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_rhythm;
+		nrel_used_musical_instruments;
+		nrel_playing_techniques
+	};;
+*);;
+
+
+sc_node_class ->
+	concept_rhythm;;
+
+sc_node_norole_relation ->
+	nrel_used_musical_instruments;
+	nrel_playing_techniques;;

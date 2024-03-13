@@ -1,0 +1,28 @@
+concept_high_classics
+=> nrel_main_idtf:
+	[высокая классика] (* <- lang_ru;; *);
+	[high classics] (* <- lang_en;; *);;
+
+definition -> definition_of_high_classics (*
+	-> rrel_key_sc_element: concept_high_classics;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Высокая классика это музыкальный жанр, который характеризуется высокой сложностью композиций, сильным эмоциональным воздействием и высоким уровнем виртуозности исполнения. Он включает в себя музыку от Баха и до современных композиторов] (* <- lang_ru;; *);;
+		-> [High classics is a musical genre that is characterized by highly complex compositions, strong emotional impact, and a high level of virtuosity in performance. It includes music from Bach to contemporary composers] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (высокая классика)] (* <- lang_ru;; *);
+		[Def. (high classics)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

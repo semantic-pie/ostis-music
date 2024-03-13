@@ -1,0 +1,15 @@
+ru: бас гитара
+en: bass guitar
+
+definition:
+  ru:
+    Разновидность электрогитары с низким звучанием, обычно с четырьмя струнами,
+    предназначенная для создания ритмической и гармонической основы в музыке
+
+  en:
+    A kind of low-sounding electroguitar, usually with four strings, designed to
+    create a rhythmic and harmonic basis in music
+  using:
+    concepts: |
+      electroguitar
+      string

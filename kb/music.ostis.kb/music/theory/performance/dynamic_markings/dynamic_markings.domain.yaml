@@ -1,0 +1,11 @@
+en: dynamic markings
+ru: динамика
+
+parent: performance
+
+max: |
+  dynamic_markings
+
+concepts: |
+  forte
+  mezzo_piano

@@ -1,0 +1,28 @@
+concept_post_metal
+=> nrel_main_idtf:
+	[пост-метал] (* <- lang_ru;; *);
+	[post-metal] (* <- lang_en;; *);;
+
+definition -> definition_of_post_metal (*
+	-> rrel_key_sc_element: concept_post_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Пост-метал это жанр экстремальной рок-музыки, который характеризуется использованием элементов пост-рока, шумов и атмосферных звуков, а также характерными для метала громкими гитарными риффами, гроулингом и скримом] (* <- lang_ru;; *);;
+		-> [Post-metal is a genre of extreme rock music that is characterized by the use of elements of post-rock, noise and atmospheric sounds, as well as the loud guitar riffs, growling, and screaming characteristic of metal] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (пост-метал)] (* <- lang_ru;; *);
+		[Def. (post-metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

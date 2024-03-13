@@ -1,0 +1,12 @@
+ru: метроном
+en: metronome
+definition:
+  ru: Прибор, отмечающий короткие промежутки времени равномерными ударами. В основном используется музыкантами как точный ориентир темпа при исполнении музыкального произведения
+  en: A device that marks short intervals of time with uniform strokes. Mainly used by musicians as an accurate tempo guide when performing a piece of music
+  using:
+    concepts: |
+      rhythm
+      bar
+    nrels: |
+      used_musical_instruments
+      playing_techniques

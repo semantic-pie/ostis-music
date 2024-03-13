@@ -1,0 +1,20 @@
+ru: глюкофон
+en: glucophone
+
+definition:
+  ru:
+    Ударный музыкальный инструмент, состоящий из двух чаш, на одной из которых
+    расположены лепестки (язычки барабана), а на другой резонирующее отверстие.
+    Каждая чаша настраивается нужным образом для придания необходимого чистого и
+    богатого обертонами звучания
+
+  en:
+    A percussive musical instrument consisting of two bowls, on one of which the
+    petals (tabs of the drum) are located, and on the other a resonating hole.
+    Each bowl is adjusted in the right way to give the necessary pure and rich
+    overtones of sound
+  using:
+    concepts: |
+      percussion_instrument
+      drum
+      resonating_hole

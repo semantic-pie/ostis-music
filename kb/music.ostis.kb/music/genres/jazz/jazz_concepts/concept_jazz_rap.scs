@@ -1,0 +1,28 @@
+concept_jazz_rap
+=> nrel_main_idtf:
+	[джаз-рэп] (* <- lang_ru;; *);
+	[jazz rap] (* <- lang_en;; *);;
+
+definition -> definition_of_jazz_rap (*
+	-> rrel_key_sc_element: concept_jazz_rap;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Джаз-рэп это жанр, объединяющий элементы джаза и хип-хопа, в котором исполнители рифмуют на джазовых инструментах] (* <- lang_ru;; *);;
+		-> [Jazz rap is a genre that combines elements of jazz and hip hop, in which performers rhyme over jazz instruments] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (джаз-рэп)] (* <- lang_ru;; *);
+		[Def. (jazz rap)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,46 @@
+concept_zurna
+=> nrel_main_idtf:
+	[зурна] (* <- lang_ru;; *);
+	[zurna] (* <- lang_en;; *);;
+
+definition -> definition_of_zurna (*
+	-> rrel_key_sc_element: concept_zurna;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Музыкальный инструмент] (* <- lang_ru;; *);;
+		-> [A musical instrument] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (зурна)] (* <- lang_ru;; *);
+		[Def. (zurna)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_wood_wind_instrument;
+		concept_music_instrument
+	};;
+*);;
+
+statement -> statement_of_oboe_structure (*
+	-> rrel_key_sc_element: concept_zurna;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [представляет собой деревянную трубку с раструбом и несколькими отверстиями] (* <- lang_ru;; *);;
+		-> [it is a wooden tube with a bell and several holes] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Утв. (структура зурны)] (* <- lang_ru;; *);
+		[Stat. (zurna structure)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_tube;
+		concept_hole
+	};;
+*);;
+
+sc_node_class ->
+	concept_wood_wind_instrument;
+	concept_music_instrument;
+	concept_tube;
+	concept_hole;;

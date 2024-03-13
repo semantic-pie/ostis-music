@@ -1,0 +1,28 @@
+concept_black_metal
+=> nrel_main_idtf:
+	[блэк-метал] (* <- lang_ru;; *);
+	[black metal] (* <- lang_en;; *);;
+
+definition -> definition_of_black_metal (*
+	-> rrel_key_sc_element: concept_black_metal;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Блэк-метал это жанр экстремальной музыки, который характеризуется быстрыми темпами, громкими гитарными рифами, резкими переходами и характерным вокалом с использованием скриминга и шрайка] (* <- lang_ru;; *);;
+		-> [Black metal is a genre of extreme music that is characterized by fast tempos, loud guitar riffs, abrupt transitions, and distinctive vocals using screaming and shrieking techniques] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (блэк-метал)] (* <- lang_ru;; *);
+		[Def. (black metal)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

@@ -1,0 +1,16 @@
+ru: синтпоп
+en: synthpop
+definition:
+  ru:
+    Синтпоп это жанр поп-музыки, который характеризуется использованием синтезаторов, электронных ударных и других электронных инструментов, создающих легкие мелодии и ритмы
+  en:
+    Synthpop is a genre of pop music that is characterized by the use of synthesizers, electronic drums, and other electronic instruments to create light melodies and rhythms
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments

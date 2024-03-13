@@ -1,0 +1,28 @@
+concept_latin_jazz
+=> nrel_main_idtf:
+	[латин-джаз] (* <- lang_ru;; *);
+	[latin jazz] (* <- lang_en;; *);;
+
+definition -> definition_of_latin_jazz (*
+	-> rrel_key_sc_element: concept_latin_jazz;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Латин-джаз это жанр джазовой музыки, который включает элементы латиноамериканской музыки, такие как сальса, мамбо, босса-нова и другие. Этот жанр характеризуется использованием латиноамериканских ритмов, инструментов и мелодий в джазовых композициях] (* <- lang_ru;; *);;
+		-> [Latin jazz is a genre of jazz music that incorporates elements of Latin American music such as salsa, mambo, bossa nova, and others. This genre is characterized by the use of Latin American rhythms, instruments, and melodies in jazz compositions] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (латин-джаз)] (* <- lang_ru;; *);
+		[Def. (latin jazz)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

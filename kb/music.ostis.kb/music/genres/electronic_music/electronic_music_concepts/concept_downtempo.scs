@@ -1,0 +1,28 @@
+concept_downtempo
+=> nrel_main_idtf:
+	[даунтемпо] (* <- lang_ru;; *);
+	[downtempo] (* <- lang_en;; *);;
+
+definition -> definition_of_downtempo (*
+	-> rrel_key_sc_element: concept_downtempo;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Даунтемпо это жанр электронной музыки, который характеризуется медленным темпом и расслабленной атмосферой, сочетает в себе элементы джаза, фанка, соула, хип-хопа и других жанров] (* <- lang_ru;; *);;
+		-> [Downtempo is a genre of electronic music that is characterized by a slow tempo and relaxed atmosphere, combining elements of jazz, funk, soul, hip-hop, and other genres] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (даунтемпо)] (* <- lang_ru;; *);
+		[Def. (downtempo)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

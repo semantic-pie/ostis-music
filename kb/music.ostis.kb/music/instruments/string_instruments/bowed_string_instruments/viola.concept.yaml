@@ -1,0 +1,36 @@
+ru: альт
+en: viola
+
+definition:
+  ru:
+    Смычковый музыкальный инструмент с 4-мя струнами
+    По высоте звучания занимает промежуточное положение между высокой скрипкой и более низкой виолончелью
+
+  en:
+    An instrument playing an accompanying part
+  using:
+    concepts: |
+      accompanying
+
+statement: 
+  alt_key:
+    title:
+      ru: Строй альта
+      en: The key of the viola
+    ru: Обычно альт настроен по квинтам Cm Gm D1 A1
+    en: Usually the viola is tuned in fifth Cm Gm D1 A1
+    using:
+      concepts: |
+        fifth
+      
+  alt_sound_height:
+    title:
+      ru: Высота звука альта
+      en: Viola sound height
+    ru: По высоте звучания занимает промежуточное положение между высокой скрипкой и более низкой виолончелью
+    en: In terms of pitch, alt occupies an intermediate position between a high violin and a lower cello
+    using:
+      concepts: |
+        cello
+        violin
+        pitch

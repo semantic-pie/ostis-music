@@ -1,0 +1,28 @@
+concept_hard_bop
+=> nrel_main_idtf:
+	[хард-боп] (* <- lang_ru;; *);
+	[hard bop] (* <- lang_en;; *);;
+
+definition -> definition_of_hard_bop (*
+	-> rrel_key_sc_element: concept_hard_bop;;
+
+	<= nrel_sc_text_translation: ... (*
+		-> [Хард-боп жанр джазовой музыки, возникший в США. Он является эволюцией бибопа, но отличается более тяжелым звучанием, громкими ритмическими секциями и более экспрессивной импровизацией. Хард-боп был одним из первых жанров, в котором использовались фанк-ритмы и соул] (* <- lang_ru;; *);;
+		-> [Hard bop is a genre of jazz music that originated in the United States. It is an evolution of bebop, but is characterized by a heavier sound, loud rhythmic sections, and more expressive improvisation. Hard bop was one of the first genres to incorporate funk rhythms and soul into jazz] (* <- lang_en;; *);;
+	*);;
+
+	=> nrel_main_idtf:
+		[Опр. (хард-боп)] (* <- lang_ru;; *);
+		[Def. (hard bop)] (* <- lang_en;; *);;
+
+	=> nrel_using_constants: {
+		concept_music_genre;
+		nrel_stylistic_origin;
+		nrel_place_of_origin;
+		nrel_year_of_origin;
+		nrel_derivative_form;
+		nrel_used_musical_instruments
+	};;
+*);;
+
+

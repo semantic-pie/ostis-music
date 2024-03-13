@@ -1,0 +1,28 @@
+ru: электронная музыка
+en: electronic music
+definition:
+  ru:
+    Музыка, созданная с использованием электромузыкальных инструментов и электронных технологий
+  en:
+    Music created using electric musical instruments and electronic technologies
+  using:
+    concepts: |
+      music_genre
+    nrels: |
+      stylistic_origin
+      place_of_origin
+      year_of_origin
+      derivative_form
+      used_musical_instruments
+
+statement: 
+  statement_title:
+    title:
+      ru: Особенности электронной музыки
+      en: Features of electronic music
+    ru: Электронная музыка оперирует звуками, которые способны издавать электронные и электромеханические музыкальные инструменты, а также звуками, возникающими при помощи электрических электронных устройств и различного рода преобразователей таких как магнитофоны, генераторы, компьютерные звуковые карты, звукосниматели и тому подобные, которые в строгом смысле не являются музыкальными инструментами
+    en: Electronic music operates with sounds that are capable of producing electronic and electromechanical musical instruments, as well as sounds that arise with the help of electrical electronic devices and various kinds of converters such as tape recorders, generators, computer sound cards, pickups and the like, which in the strict sense are not musical instruments
+    using:
+      concepts: |
+        music_instrument
+
