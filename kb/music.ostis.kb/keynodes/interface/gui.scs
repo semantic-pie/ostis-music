@@ -1,0 +1,11 @@
+file_load_form
+<- music_controls;
+=> nrel_main_idtf:
+	[загрузчик файлов] (* <- lang_ru;; *);
+	[file loader] (* <- lang_en;; *);
+-> rrel_input_form:
+"file://loadform.html"
+(*
+	<- lang_ru;;
+	=> nrel_format: format_html;;
+*);;
