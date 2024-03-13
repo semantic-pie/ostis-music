@@ -2,13 +2,8 @@
 **/.AppleDouble
 **/.LSOverride
 **/__pycache__
-**/postgres-data
 
 .vscode
 
-sc-machine
-sc-web
-
-repo.path
-ims.ostis.kb
+kb-binary
 

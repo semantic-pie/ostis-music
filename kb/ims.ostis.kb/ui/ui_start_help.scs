@@ -1,0 +1,4 @@
+"file://ui_start_help/text.html"
+  <- lang_ru;
+  => nrel_system_identifier: [ui_start_help];
+  => nrel_format: format_html;;
