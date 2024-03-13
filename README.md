@@ -1,123 +1,77 @@
-# Lightest Ostis Pancake
+# OSTIS music
 
-## Installation
+## How to install
 
-Clone repository:
-
-```sh
-git clone https://github.com/semantic-pie/lightest-ostis-pancake
-```
-
-To install the necessary components (sc-web, sc-machine, kb), run the following command:
+Open the terminal (command prompt) on your computer. Clone the repository containing our `control` script by executing the following command:
 
 ```bash
-./pancake.sh install
+git clone https://github.com/semantic-pie/ostis-music
 ```
 
-This will clone (or pull updates) the necessary components (sc-web, sc-machine) and clone all specified knowledge bases.
-
-<br/>
-
-## Adding a Local Knowledge Base
-
-To add a knowledge base from a local directory, run the following command:
+Navigate to the directory of our application:
 
 ```bash
-./pancake.sh add repo_name
+cd ostis-music
 ```
 
-Replace repo_name with the name of your local knowledge base directory. (in root dir)
+## Launching app
 
-<br/>
+> [!IMPORTANT]  
+> A [docker](https://www.docker.com/) is required to successfully launch the application.
 
-## Adding a Remote Knowledge Base
-
-To add a knowledge base from a remote git repository, run the following command:
-
-```bash
-./pancake.sh add -u github_username/repo_name
-```
-
-Replace github_username/repo_name with the GitHub username and repository name of the knowledge base.
-
-You can use the following:
+To run app, use following command:
 
 ```bash
-./pancake.sh add -u <repo_url>:<repo_name> 
-```
-
-Replace <repo_url> with the URL of the git repository and <repo_name> with the desired name for the repository. If <repo_name> is not provided, it will default to the repository's base name.
-
-<br/>
-
-## Running OSTIS
-
-To run ostis, use following command:
-
-```bash
-./pancake.sh run
+docker compose up
 ```
 
 Run in the background:
 
 ```bash
-./pancake.sh run -d
+docker compose up -d
 ```
 
 Stop:
 
 ```bash
-./pancake.sh stop
+docker compose down
 ```
 
-You can also:
+## Track uploading
 
-```bash
-./pancake.sh restart
-```
+After the command `docker compose up` URLs will be accepted:
 
-<br/>
+- `http://localhost:3000` - test-interface
+- `http://localhost:8000` - sc-web
 
-## Unplug Knowledge Base
+To add tracks to the knowledge base, go to the url `http://localhost:8000` (sc-web) and in the search field find a node named `file loader`. A track loader form will appear, select the tracks in mp3 format `Choose Files` and click `Upload`. After uploading, the tracks will be available in the test-interface (`http://localhost:3000`).
 
-To unplug a knowledge base, use following command:
+## "Usage"
 
-```bash
-./pancake.sh unplug knowledge_base_name
-```
+Basically, all controls should be intuitive, but here are the basic interface functionality available now:
 
-Replace knowledge_base_name with the name of the knowledge base you want to unplug.
+### Authorization (Optinal)
 
-<br/>
+Authorization allows you to like tracks and generate a personalized playlist. But you can view and listen to music without authorization.
+Authorization is as simple as possible, in the `test-interface` (<http://localhost:3000> ):
+`SignUp` -> enter username, password + select your preferred genres (the list of genres is formed based on the genres of uploaded tracks) -> tap `SignUp`. If `Hi, {username}` appears, then everything is ok.
 
-## Cleaning Knowledge Bases
+### Listening to tracks
 
-To remove all installed knowledge base folders, execute the following command:
+Click and listen...
 
-```bash
-./pancake.sh clean
-```
+### Like tracks
 
-(it doesn't remove git repos urls from config)
+Click like button...
 
-<br/>
+### Generating a playlist based on preferences
 
-## Displaying Knowledge Bases
+Click `Generate playlist` button
 
-To display information about the knowledge bases in use, run the following command:
+### Open genreated playlist
 
-```bash
-./pancake.sh info
-```
+Click `Open playlist` button
 
-This will show the list of local knowledge bases and synchronized git repositories.
+### Open liked tracks playlist
 
-<br/>
-
-## Help
-
-To display the usage information and available options, run the following command:
-
-```bash
-./pancake.sh --help
-```
+Click `Liked` button

@@ -1,13 +1,75 @@
+version: "3"
 services:
+  test-interface:
+    container_name: test-interface
+    image: semanticpie/test-interface:latest
+    build:
+      context: ./test-interface
+    ports:
+      - 3000:3000
+    environment:
+      - VITE_HOST_ADDRESS=localhost
+    depends_on:
+      - derezhor
+  orchestrator:
+    container_name: orchestrator
+    image: semanticpie/orchestrator:latest
+    build:
+      context: ./orchestrator
+    network_mode: "host"
+    ports:
+      - 8070:8070
+    volumes:
+      - ./orchestrator:/app
+    depends_on:
+      machine:
+        condition: service_healthy
+        required: true
+      minio:
+        condition: service_started
+        required: true
+    command: "gradle bootRun"
+
+  derezhor:
+    container_name: derezhor
+    image: semanticpie/derezhor:latest
+    build:
+      context: ./derezhor
+    network_mode: "host"
+    ports:
+      - 8080:8080
+    volumes:
+      - ./derezhor:/app
+    depends_on:
+      machine:
+        condition: service_healthy
+        required: true
+      minio:
+        condition: service_started
+        required: true
+    command: "gradle bootRun"
+  minio:
+    image: minio/minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+    network_mode: "host"
+    environment:
+      - MINIO_ACCESS_KEY=minio1234567890
+      - MINIO_SECRET_KEY=minio1234567890
+    volumes:
+      - ./storage:/data
+    command: server --console-address ":9001" /data
+
   machine:
     container_name: sc-machine
-    image: semanticpie/sc-machine:0.8.0
+    image: ostis/sc-machine:latest
     volumes:
       - ./kb:/kb
       - ./sc-machine.ini:/sc-machine/sc-machine.ini
-      - kb-binary:/kb.bin
+      - ./kb-binary:/kb.bin
     networks:
-      - semantic-pie-network
+      - ostis-music-network
     ports:
       - "8090:8090"
     healthcheck:
@@ -26,24 +88,19 @@ services:
 
   web:
     container_name: sc-web
-    image: semanticpie/sc-web:0.8.0
-    build:
-      context: ./sc-web
+    image: ostis/sc-web:latest
     restart: unless-stopped
     ports:
-      - "80:8000"
+      - "8000:8000"
     networks:
-      - semantic-pie-network
+      - ostis-music-network
     command:
       - "--server-host=machine"
       - "--public-url=ws://localhost:8090/ws_json"
     depends_on:
       machine:
-        condition: service_healthy  
-
-volumes:
-  kb-binary:
-    name: "pieTunes-kb-binary"
+        condition: service_healthy
 
 networks:
-  semantic-pie-network: {}
+  ostis-music-network:
+    name: ostis-music-network
